@@ -1,0 +1,305 @@
+TID: [-1] [] [2023-01-13 02:33:36,965] ERROR {org.wso2.andes.transport.network.mina.MinaNetworkHandler} - Exception caught by Mina java.io.IOException: Connection reset by peer
+	at java.base/sun.nio.ch.FileDispatcherImpl.read0(Native Method)
+	at java.base/sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:39)
+	at java.base/sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:276)
+	at java.base/sun.nio.ch.IOUtil.read(IOUtil.java:245)
+	at java.base/sun.nio.ch.IOUtil.read(IOUtil.java:223)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:356)
+	at org.wso2.org.apache.mina.transport.socket.nio.SocketIoProcessor.read(SocketIoProcessor.java:218)
+	at org.wso2.org.apache.mina.transport.socket.nio.SocketIoProcessor.process(SocketIoProcessor.java:198)
+	at org.wso2.org.apache.mina.transport.socket.nio.SocketIoProcessor.access$400(SocketIoProcessor.java:45)
+	at org.wso2.org.apache.mina.transport.socket.nio.SocketIoProcessor$Worker.run(SocketIoProcessor.java:485)
+	at org.wso2.org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:51)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+TID: [-1] [] [2023-01-13 02:33:36,994] ERROR {org.wso2.andes.server.protocol.MultiVersionProtocolEngine} - Error establishing session java.io.IOException: Connection reset by peer
+	at java.base/sun.nio.ch.FileDispatcherImpl.read0(Native Method)
+	at java.base/sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:39)
+	at java.base/sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:276)
+	at java.base/sun.nio.ch.IOUtil.read(IOUtil.java:245)
+	at java.base/sun.nio.ch.IOUtil.read(IOUtil.java:223)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:356)
+	at org.wso2.org.apache.mina.transport.socket.nio.SocketIoProcessor.read(SocketIoProcessor.java:218)
+	at org.wso2.org.apache.mina.transport.socket.nio.SocketIoProcessor.process(SocketIoProcessor.java:198)
+	at org.wso2.org.apache.mina.transport.socket.nio.SocketIoProcessor.access$400(SocketIoProcessor.java:45)
+	at org.wso2.org.apache.mina.transport.socket.nio.SocketIoProcessor$Worker.run(SocketIoProcessor.java:485)
+	at org.wso2.org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:51)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+TID: [-1] [] [2023-01-13 04:16:45,200] ERROR {org.wso2.carbon.inbound.endpoint.protocol.websocket.InboundWebsocketSourceHandler} - Endpoint not found for port : 8099 tenant domain : null
+TID: [-1] [] [2023-01-13 04:16:55,397] ERROR {org.wso2.carbon.inbound.endpoint.protocol.websocket.InboundWebsocketSourceHandler} - Endpoint not found for port : 8099 tenant domain : null
+TID: [-1234] [] [2023-01-13 04:16:56,317] ERROR {org.wso2.carbon.apimgt.gateway.handlers.WebsocketInboundHandler} - No Authorization Header or access_token query parameter present
+TID: [-1] [] [2023-01-13 04:16:56,332] ERROR {org.wso2.carbon.inbound.endpoint.protocol.websocket.InboundWebsocketSourceHandler} - Endpoint not found for port : 8099 tenant domain : null
+TID: [-1] [] [2023-01-13 04:17:07,245] ERROR {org.wso2.carbon.inbound.endpoint.protocol.websocket.InboundWebsocketSourceHandler} - Endpoint not found for port : 8099 tenant domain : null
+TID: [-1234] [] [2023-01-13 04:17:07,910] ERROR {org.wso2.carbon.apimgt.gateway.handlers.WebsocketInboundHandler} - No Authorization Header or access_token query parameter present
+TID: [-1] [] [2023-01-13 04:17:07,912] ERROR {org.wso2.carbon.inbound.endpoint.protocol.websocket.InboundWebsocketSourceHandler} - Endpoint not found for port : 8099 tenant domain : null
+TID: [-1] [] [2023-01-13 04:17:08,623] ERROR {org.wso2.carbon.inbound.endpoint.protocol.websocket.InboundWebsocketSourceHandler} - Endpoint not found for port : 8099 tenant domain : null
+TID: [-1] [] [2023-01-13 04:17:09,590] ERROR {org.wso2.carbon.inbound.endpoint.protocol.websocket.InboundWebsocketSourceHandler} - Endpoint not found for port : 8099 tenant domain : null
+TID: [-1] [] [2023-01-13 04:17:10,048] ERROR {org.wso2.carbon.inbound.endpoint.protocol.websocket.InboundWebsocketSourceHandler} - Endpoint not found for port : 8099 tenant domain : null
+TID: [-1] [] [2023-01-13 04:17:10,972] ERROR {org.wso2.carbon.inbound.endpoint.protocol.websocket.InboundWebsocketSourceHandler} - Endpoint not found for port : 8099 tenant domain : null
+TID: [-1] [] [2023-01-13 04:17:11,958] ERROR {org.wso2.carbon.inbound.endpoint.protocol.websocket.InboundWebsocketSourceHandler} - Endpoint not found for port : 8099 tenant domain : null
+TID: [-1] [] [2023-01-13 04:17:12,217] ERROR {org.wso2.carbon.inbound.endpoint.protocol.websocket.InboundWebsocketSourceHandler} - Endpoint not found for port : 8099 tenant domain : null
+TID: [-1] [] [2023-01-13 04:17:12,885] ERROR {org.wso2.carbon.inbound.endpoint.protocol.websocket.InboundWebsocketSourceHandler} - Endpoint not found for port : 8099 tenant domain : null
+TID: [-1] [] [2023-01-13 04:17:13,825] ERROR {org.wso2.carbon.inbound.endpoint.protocol.websocket.InboundWebsocketSourceHandler} - Endpoint not found for port : 8099 tenant domain : null
+TID: [-1] [] [2023-01-13 04:17:14,287] ERROR {org.wso2.carbon.inbound.endpoint.protocol.websocket.InboundWebsocketSourceHandler} - Endpoint not found for port : 8099 tenant domain : null
+TID: [-1] [] [2023-01-13 04:17:15,240] ERROR {org.wso2.carbon.inbound.endpoint.protocol.websocket.InboundWebsocketSourceHandler} - Endpoint not found for port : 8099 tenant domain : null
+TID: [-1] [] [2023-01-13 05:14:28,124] ERROR {org.wso2.carbon.inbound.endpoint.protocol.websocket.InboundWebsocketSourceHandler} - Endpoint not found for port : 8099 tenant domain : null
+TID: [-1234] [] [2023-01-13 05:14:28,871] ERROR {org.wso2.carbon.apimgt.gateway.handlers.WebsocketInboundHandler} - No Authorization Header or access_token query parameter present
+TID: [-1] [] [2023-01-13 05:14:28,873] ERROR {org.wso2.carbon.inbound.endpoint.protocol.websocket.InboundWebsocketSourceHandler} - Endpoint not found for port : 8099 tenant domain : null
+TID: [-1] [] [2023-01-13 05:14:29,573] ERROR {org.wso2.carbon.inbound.endpoint.protocol.websocket.InboundWebsocketSourceHandler} - Endpoint not found for port : 8099 tenant domain : null
+TID: [-1] [] [2023-01-13 05:14:31,611] ERROR {org.wso2.carbon.inbound.endpoint.protocol.websocket.InboundWebsocketSourceHandler} - Endpoint not found for port : 8099 tenant domain : null
+TID: [-1] [] [2023-01-13 05:14:33,650] ERROR {org.wso2.carbon.inbound.endpoint.protocol.websocket.InboundWebsocketSourceHandler} - Endpoint not found for port : 8099 tenant domain : null
+TID: [-1] [] [2023-01-13 05:14:35,701] ERROR {org.wso2.carbon.inbound.endpoint.protocol.websocket.InboundWebsocketSourceHandler} - Endpoint not found for port : 8099 tenant domain : null
+TID: [-1] [] [2023-01-13 05:14:37,755] ERROR {org.wso2.carbon.inbound.endpoint.protocol.websocket.InboundWebsocketSourceHandler} - Endpoint not found for port : 8099 tenant domain : null
+TID: [-1] [] [2023-01-13 05:14:39,772] ERROR {org.wso2.carbon.inbound.endpoint.protocol.websocket.InboundWebsocketSourceHandler} - Endpoint not found for port : 8099 tenant domain : null
+TID: [-1] [] [2023-01-13 05:14:41,824] ERROR {org.wso2.carbon.inbound.endpoint.protocol.websocket.InboundWebsocketSourceHandler} - Endpoint not found for port : 8099 tenant domain : null
+TID: [-1] [] [2023-01-13 05:14:43,264] ERROR {org.wso2.carbon.inbound.endpoint.protocol.websocket.InboundWebsocketSourceHandler} - Endpoint not found for port : 8099 tenant domain : null
+TID: [-1] [] [2023-01-13 05:14:43,868] ERROR {org.wso2.carbon.inbound.endpoint.protocol.websocket.InboundWebsocketSourceHandler} - Endpoint not found for port : 8099 tenant domain : null
+TID: [-1] [] [2023-01-13 05:14:44,057] ERROR {org.wso2.carbon.inbound.endpoint.protocol.websocket.InboundWebsocketSourceHandler} - Endpoint not found for port : 8099 tenant domain : null
+TID: [-1234] [] [2023-01-13 05:14:45,369] ERROR {org.wso2.carbon.apimgt.gateway.handlers.WebsocketInboundHandler} - No Authorization Header or access_token query parameter present
+TID: [-1] [] [2023-01-13 05:14:45,371] ERROR {org.wso2.carbon.inbound.endpoint.protocol.websocket.InboundWebsocketSourceHandler} - Endpoint not found for port : 8099 tenant domain : null
+TID: [-1] [] [2023-01-13 05:14:45,907] ERROR {org.wso2.carbon.inbound.endpoint.protocol.websocket.InboundWebsocketSourceHandler} - Endpoint not found for port : 8099 tenant domain : null
+TID: [-1] [] [2023-01-13 05:14:47,681] ERROR {org.wso2.carbon.inbound.endpoint.protocol.websocket.InboundWebsocketSourceHandler} - Endpoint not found for port : 8099 tenant domain : null
+TID: [-1] [] [2023-01-13 05:14:47,951] ERROR {org.wso2.carbon.inbound.endpoint.protocol.websocket.InboundWebsocketSourceHandler} - Endpoint not found for port : 8099 tenant domain : null
+TID: [-1] [] [2023-01-13 05:14:58,553] ERROR {org.wso2.carbon.inbound.endpoint.protocol.websocket.InboundWebsocketSourceHandler} - Endpoint not found for port : 8099 tenant domain : null
+TID: [-1234] [] [2023-01-13 05:15:08,991] ERROR {org.wso2.carbon.apimgt.gateway.handlers.WebsocketInboundHandler} - No Authorization Header or access_token query parameter present
+TID: [-1] [] [2023-01-13 05:15:08,993] ERROR {org.wso2.carbon.inbound.endpoint.protocol.websocket.InboundWebsocketSourceHandler} - Endpoint not found for port : 8099 tenant domain : null
+TID: [-1] [] [2023-01-13 10:34:31,367] ERROR {org.wso2.carbon.inbound.endpoint.protocol.websocket.InboundWebsocketSourceHandler} - Endpoint not found for port : 8099 tenant domain : null
+TID: [-1234] [api/am/store] [2023-01-13 10:38:27,635] ERROR {org.wso2.carbon.apimgt.rest.api.util.interceptors.PostAuthenticationInterceptor} - Authentication failed: Bearer/Basic authentication header is missing
+TID: [-1234] [api/am/store] [2023-01-13 10:38:27,638] ERROR {org.wso2.carbon.apimgt.rest.api.util.interceptors.PostAuthenticationInterceptor} - Authentication failed: Bearer/Basic authentication header is missing
+TID: [-1234] [api/am/store] [2023-01-13 10:38:28,040] ERROR {org.wso2.carbon.apimgt.rest.api.util.interceptors.PostAuthenticationInterceptor} - Authentication failed: Bearer/Basic authentication header is missing
+TID: [1] [] [2023-01-13 10:38:45,212]  INFO {org.wso2.carbon.identity.tenant.resource.manager.TenantAwareAxis2ConfigurationContextObserver} - Loading configuration context for tenant domain: ashwinpro.com
+TID: [1] [] [2023-01-13 10:38:45,215]  WARN {org.wso2.carbon.identity.tenant.resource.manager.TenantAwareAxis2ConfigurationContextObserver} - Configuration store is disabled. Super tenant configuration will be used for the tenant domain: ashwinpro.com
+TID: [1] [] [2023-01-13 10:38:45,216]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - WSO2EventConsumer added to the junction. Stream:id_gov_notify_stream:1.0.0
+TID: [1] [] [2023-01-13 10:38:45,216]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - WSO2EventConsumer added to the junction. Stream:org.wso2.throttle.globalThrottle.stream:1.1.0
+TID: [1] [] [2023-01-13 10:38:45,217]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - WSO2EventConsumer added to the junction. Stream:org.wso2.apimgt.keymgt.stream:1.0.0
+TID: [1] [] [2023-01-13 10:38:45,217]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - WSO2EventConsumer added to the junction. Stream:org.wso2.throttle.globalThrottle.stream:1.0.0
+TID: [1] [] [2023-01-13 10:38:45,217]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - WSO2EventConsumer added to the junction. Stream:org.wso2.apimgt.cache.invalidation.stream:1.0.0
+TID: [1] [] [2023-01-13 10:38:45,218]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - WSO2EventConsumer added to the junction. Stream:org.wso2.apimgt.recommendation.event.stream:1.0.0
+TID: [1] [] [2023-01-13 10:38:45,218]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - WSO2EventConsumer added to the junction. Stream:org.wso2.blocking.request.stream:1.0.0
+TID: [1] [] [2023-01-13 10:38:45,218]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - WSO2EventConsumer added to the junction. Stream:org.wso2.apimgt.token.revocation.stream:1.0.0
+TID: [1] [] [2023-01-13 10:38:45,218]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - WSO2EventConsumer added to the junction. Stream:org.wso2.throttle.globalThrottle.stream:1.1.0
+TID: [1] [] [2023-01-13 10:38:45,219]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - WSO2EventConsumer added to the junction. Stream:org.wso2.apimgt.notification.stream:1.0.0
+TID: [1] [] [2023-01-13 10:38:45,219]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - WSO2EventConsumer added to the junction. Stream:org.wso2.throttle.globalThrottle.stream:1.0.0
+TID: [1] [] [2023-01-13 10:38:45,219]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - WSO2EventConsumer added to the junction. Stream:org.wso2.keytemplate.request.stream:1.0.0
+TID: [1] [] [2023-01-13 10:38:45,220]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - WSO2EventConsumer added to the junction. Stream:org.wso2.apimgt.token.revocation.stream:1.0.0
+TID: [1] [] [2023-01-13 10:38:45,220]  INFO {org.wso2.carbon.core.multitenancy.TenantAxisConfigurator} - Creating tenant AxisConfiguration for tenant: ashwinpro.com[1]
+TID: [1] [] [2023-01-13 10:38:45,490]  INFO {org.wso2.carbon.identity.user.store.configuration.deployer.UserStoreConfigurationDeployer} - User Store Configuration Deployer initiated.
+TID: [1] [] [2023-01-13 10:38:45,491]  INFO {org.wso2.carbon.identity.user.store.configuration.deployer.UserStoreConfigurationDeployer} - User Store Configuration Deployer initiated.
+TID: [-1234] [AuthenticationAdmin] [2023-01-13 10:38:46,288]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} - 'admin@carbon.super [-1234]' logged in at [2023-01-13 10:38:46,288+0000]
+TID: [1] [] [2023-01-13 10:38:46,353]  INFO {org.wso2.carbon.apimgt.gateway.internal.TenantServiceCreator} - Initializing APIM TenantServiceCreator for the tenant domain : ashwinpro.com
+TID: [1] [] [2023-01-13 10:38:46,466]  INFO {org.wso2.carbon.core.internal.permission.update.PermissionUpdater} - Permission cache updated for tenant 1
+TID: [-1234] [EventProcessorAdminService] [2023-01-13 10:38:46,478]  INFO {org.wso2.carbon.event.processor.core.internal.util.EventProcessorConfigurationFilesystemInvoker} - Execution plan: ashwinpro.com_app_50PerMin saved in the filesystem
+TID: [1] [] [2023-01-13 10:38:46,530]  INFO {org.wso2.carbon.apimgt.keymgt.listeners.ServerStartupListener} - Initializing ServerStartupListener for SubscriptionStore for the tenant domain : ashwinpro.com
+TID: [-1234] [EventProcessorAdminService] [2023-01-13 10:38:46,790]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - Producer added to the junction. Stream:org.wso2.throttle.globalThrottle.stream:1.0.0
+TID: [-1234] [EventProcessorAdminService] [2023-01-13 10:38:46,791]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - Consumer added to the junction. Stream:org.wso2.throttle.processed.request.stream:1.0.0
+TID: [-1234] [EventProcessorAdminService] [2023-01-13 10:38:46,791]  INFO {org.wso2.carbon.event.processor.core.EventProcessorDeployer} - Execution plan is deployed successfully and in active state  : ashwinpro.com_app_50PerMin
+TID: [-1234] [AuthenticationAdmin] [2023-01-13 10:38:46,884]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} - 'admin@carbon.super [-1234]' logged in at [2023-01-13 10:38:46,884+0000]
+TID: [-1234] [EventProcessorAdminService] [2023-01-13 10:38:46,923]  INFO {org.wso2.carbon.event.processor.core.internal.util.EventProcessorConfigurationFilesystemInvoker} - Execution plan: ashwinpro.com_app_20PerMin saved in the filesystem
+TID: [-1234] [EventProcessorAdminService] [2023-01-13 10:38:46,985]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - Producer added to the junction. Stream:org.wso2.throttle.globalThrottle.stream:1.0.0
+TID: [-1234] [EventProcessorAdminService] [2023-01-13 10:38:46,993]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - Consumer added to the junction. Stream:org.wso2.throttle.processed.request.stream:1.0.0
+TID: [-1234] [EventProcessorAdminService] [2023-01-13 10:38:46,993]  INFO {org.wso2.carbon.event.processor.core.EventProcessorDeployer} - Execution plan is deployed successfully and in active state  : ashwinpro.com_app_20PerMin
+TID: [-1234] [AuthenticationAdmin] [2023-01-13 10:38:47,034]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} - 'admin@carbon.super [-1234]' logged in at [2023-01-13 10:38:47,033+0000]
+TID: [-1234] [EventProcessorAdminService] [2023-01-13 10:38:47,113]  INFO {org.wso2.carbon.event.processor.core.internal.util.EventProcessorConfigurationFilesystemInvoker} - Execution plan: ashwinpro.com_app_10PerMin saved in the filesystem
+TID: [-1234] [EventProcessorAdminService] [2023-01-13 10:38:47,244]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - Producer added to the junction. Stream:org.wso2.throttle.globalThrottle.stream:1.0.0
+TID: [-1234] [EventProcessorAdminService] [2023-01-13 10:38:47,250]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - Consumer added to the junction. Stream:org.wso2.throttle.processed.request.stream:1.0.0
+TID: [-1234] [EventProcessorAdminService] [2023-01-13 10:38:47,262]  INFO {org.wso2.carbon.event.processor.core.EventProcessorDeployer} - Execution plan is deployed successfully and in active state  : ashwinpro.com_app_10PerMin
+TID: [-1234] [AuthenticationAdmin] [2023-01-13 10:38:47,593]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} - 'admin@carbon.super [-1234]' logged in at [2023-01-13 10:38:47,593+0000]
+TID: [-1234] [EventProcessorAdminService] [2023-01-13 10:38:47,787]  INFO {org.wso2.carbon.event.processor.core.internal.util.EventProcessorConfigurationFilesystemInvoker} - Execution plan: ashwinpro.com_sub_Gold saved in the filesystem
+TID: [-1234] [EventProcessorAdminService] [2023-01-13 10:38:47,914]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - Producer added to the junction. Stream:org.wso2.throttle.globalThrottle.stream:1.0.0
+TID: [-1234] [EventProcessorAdminService] [2023-01-13 10:38:47,916]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - Consumer added to the junction. Stream:org.wso2.throttle.processed.request.stream:1.0.0
+TID: [-1234] [EventProcessorAdminService] [2023-01-13 10:38:47,916]  INFO {org.wso2.carbon.event.processor.core.EventProcessorDeployer} - Execution plan is deployed successfully and in active state  : ashwinpro.com_sub_Gold
+TID: [-1234] [AuthenticationAdmin] [2023-01-13 10:38:47,962]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} - 'admin@carbon.super [-1234]' logged in at [2023-01-13 10:38:47,962+0000]
+TID: [1] [] [2023-01-13 10:38:48,016]  INFO {org.wso2.carbon.mediation.initializer.multitenancy.TenantServiceBusInitializer} - Initializing the ESB Configuration for the tenant domain : ashwinpro.com
+TID: [1] [] [2023-01-13 10:38:48,018]  INFO {org.wso2.carbon.mediation.dependency.mgt.DependencyTracker} - Sequence : main was added to the Synapse configuration successfully
+TID: [1] [] [2023-01-13 10:38:48,019]  INFO {org.wso2.carbon.mediation.dependency.mgt.DependencyTracker} - Sequence : fault was added to the Synapse configuration successfully
+TID: [-1234] [EventProcessorAdminService] [2023-01-13 10:38:48,034]  INFO {org.wso2.carbon.event.processor.core.internal.util.EventProcessorConfigurationFilesystemInvoker} - Execution plan: ashwinpro.com_sub_Silver saved in the filesystem
+TID: [1] [] [2023-01-13 10:38:48,068]  INFO {org.apache.synapse.SynapseControllerFactory} - Using Synapse home : /home/ubuntu/wso2am-3.2.0/repository/tenants/1
+TID: [1] [] [2023-01-13 10:38:48,069]  INFO {org.apache.synapse.SynapseControllerFactory} - Using synapse.xml location : /home/ubuntu/wso2am-3.2.0/repository/tenants/1/synapse-configs/default
+TID: [1] [] [2023-01-13 10:38:48,076]  INFO {org.apache.synapse.SynapseControllerFactory} - Using server name : synapse.ashwinpro.com
+TID: [1] [] [2023-01-13 10:38:48,076]  INFO {org.apache.synapse.SynapseControllerFactory} - The timeout handler will run every : 15s
+TID: [1] [] [2023-01-13 10:38:48,077]  INFO {org.apache.synapse.Axis2SynapseController} - Initializing Synapse at : Fri Jan 13 10:38:48 UTC 2023
+TID: [1] [] [2023-01-13 10:38:48,089]  INFO {org.wso2.carbon.mediation.initializer.CarbonSynapseController} - Loading the mediation configuration from the file system
+TID: [1] [] [2023-01-13 10:38:48,089]  INFO {org.apache.synapse.config.xml.MultiXMLConfigurationBuilder} - Building synapse configuration from the synapse artifact repository at : /home/ubuntu/wso2am-3.2.0/repository/tenants/1/synapse-configs/default
+TID: [1] [] [2023-01-13 10:38:48,090]  INFO {org.apache.synapse.config.xml.XMLConfigurationBuilder} - Generating the Synapse configuration model by parsing the XML configuration
+TID: [-1234] [EventProcessorAdminService] [2023-01-13 10:38:48,114]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - Producer added to the junction. Stream:org.wso2.throttle.globalThrottle.stream:1.0.0
+TID: [-1234] [EventProcessorAdminService] [2023-01-13 10:38:48,115]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - Consumer added to the junction. Stream:org.wso2.throttle.processed.request.stream:1.0.0
+TID: [-1234] [EventProcessorAdminService] [2023-01-13 10:38:48,116]  INFO {org.wso2.carbon.event.processor.core.EventProcessorDeployer} - Execution plan is deployed successfully and in active state  : ashwinpro.com_sub_Silver
+TID: [1] [] [2023-01-13 10:38:48,152]  INFO {org.wso2.carbon.mediation.ntask.NTaskTaskManager} - Initialized task manager. Tenant [1]
+TID: [1] [] [2023-01-13 10:38:48,153]  INFO {org.wso2.carbon.mediation.dependency.mgt.DependencyTracker} - Sequence : fault was added to the Synapse configuration successfully
+TID: [1] [] [2023-01-13 10:38:48,154]  INFO {org.wso2.carbon.mediation.dependency.mgt.DependencyTracker} - Sequence : main was added to the Synapse configuration successfully
+TID: [1] [] [2023-01-13 10:38:48,161]  INFO {org.wso2.carbon.mediation.dependency.mgt.DependencyTracker} - Sequence : _threat_fault_ was added to the Synapse configuration successfully
+TID: [1] [] [2023-01-13 10:38:48,162]  INFO {org.wso2.carbon.mediation.dependency.mgt.DependencyTracker} - Sequence : _production_key_error_ was added to the Synapse configuration successfully
+TID: [1] [] [2023-01-13 10:38:48,163]  INFO {org.wso2.carbon.mediation.dependency.mgt.DependencyTracker} - Sequence : _sandbox_key_error_ was added to the Synapse configuration successfully
+TID: [1] [] [2023-01-13 10:38:48,170]  INFO {org.wso2.carbon.mediation.dependency.mgt.DependencyTracker} - Sequence : fault was added to the Synapse configuration successfully
+TID: [-1234] [AuthenticationAdmin] [2023-01-13 10:38:48,181]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} - 'admin@carbon.super [-1234]' logged in at [2023-01-13 10:38:48,181+0000]
+TID: [1] [] [2023-01-13 10:38:48,189]  INFO {org.wso2.carbon.mediation.dependency.mgt.DependencyTracker} - Sequence : _cors_request_handler_ was added to the Synapse configuration successfully
+TID: [1] [] [2023-01-13 10:38:48,190]  INFO {org.wso2.carbon.mediation.dependency.mgt.DependencyTracker} - Sequence : _resource_mismatch_handler_ was added to the Synapse configuration successfully
+TID: [1] [] [2023-01-13 10:38:48,200]  INFO {org.wso2.carbon.mediation.dependency.mgt.DependencyTracker} - Sequence : main was added to the Synapse configuration successfully
+TID: [1] [] [2023-01-13 10:38:48,201]  INFO {org.wso2.carbon.mediation.dependency.mgt.DependencyTracker} - Sequence : _auth_failure_handler_ was added to the Synapse configuration successfully
+TID: [1] [] [2023-01-13 10:38:48,202]  INFO {org.wso2.carbon.mediation.dependency.mgt.DependencyTracker} - Sequence : _graphql_failure_handler was added to the Synapse configuration successfully
+TID: [1] [] [2023-01-13 10:38:48,203]  INFO {org.wso2.carbon.mediation.dependency.mgt.DependencyTracker} - Sequence : _throttle_out_handler_ was added to the Synapse configuration successfully
+TID: [1] [] [2023-01-13 10:38:48,203]  INFO {org.apache.synapse.config.SynapseConfigurationBuilder} - Loaded Synapse configuration from the artifact repository at : /home/ubuntu/wso2am-3.2.0/repository/tenants/1/synapse-configs/default
+TID: [1] [] [2023-01-13 10:38:48,204]  INFO {org.wso2.carbon.mediation.dependency.mgt.DependencyTracker} - Local entry : SERVER_HOST was added to the Synapse configuration successfully
+TID: [1] [] [2023-01-13 10:38:48,204]  INFO {org.wso2.carbon.mediation.dependency.mgt.DependencyTracker} - Local entry : SERVER_IP was added to the Synapse configuration successfully
+TID: [1] [] [2023-01-13 10:38:48,205]  INFO {org.apache.synapse.Axis2SynapseController} - Loading mediator extensions...
+TID: [1] [] [2023-01-13 10:38:48,206]  INFO {org.apache.synapse.Axis2SynapseController} - Deploying the Synapse service...
+TID: [1] [] [2023-01-13 10:38:48,207]  INFO {org.apache.synapse.Axis2SynapseController} - Deploying Proxy services...
+TID: [1] [] [2023-01-13 10:38:48,207]  INFO {org.apache.synapse.Axis2SynapseController} - Deploying EventSources...
+TID: [1] [] [2023-01-13 10:38:48,208]  INFO {org.apache.synapse.ServerManager} - Server ready for processing...
+TID: [-1234] [EventProcessorAdminService] [2023-01-13 10:38:48,229]  INFO {org.wso2.carbon.event.processor.core.internal.util.EventProcessorConfigurationFilesystemInvoker} - Execution plan: ashwinpro.com_sub_Bronze saved in the filesystem
+TID: [-1234] [EventProcessorAdminService] [2023-01-13 10:38:48,291]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - Producer added to the junction. Stream:org.wso2.throttle.globalThrottle.stream:1.0.0
+TID: [-1234] [EventProcessorAdminService] [2023-01-13 10:38:48,293]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - Consumer added to the junction. Stream:org.wso2.throttle.processed.request.stream:1.0.0
+TID: [-1234] [EventProcessorAdminService] [2023-01-13 10:38:48,293]  INFO {org.wso2.carbon.event.processor.core.EventProcessorDeployer} - Execution plan is deployed successfully and in active state  : ashwinpro.com_sub_Bronze
+TID: [-1234] [AuthenticationAdmin] [2023-01-13 10:38:48,420]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} - 'admin@carbon.super [-1234]' logged in at [2023-01-13 10:38:48,420+0000]
+TID: [-1234] [EventProcessorAdminService] [2023-01-13 10:38:48,457]  INFO {org.wso2.carbon.event.processor.core.internal.util.EventProcessorConfigurationFilesystemInvoker} - Execution plan: ashwinpro.com_sub_Unauthenticated saved in the filesystem
+TID: [-1234] [EventProcessorAdminService] [2023-01-13 10:38:48,509]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - Producer added to the junction. Stream:org.wso2.throttle.globalThrottle.stream:1.0.0
+TID: [-1234] [EventProcessorAdminService] [2023-01-13 10:38:48,512]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - Consumer added to the junction. Stream:org.wso2.throttle.processed.request.stream:1.0.0
+TID: [-1234] [EventProcessorAdminService] [2023-01-13 10:38:48,514]  INFO {org.wso2.carbon.event.processor.core.EventProcessorDeployer} - Execution plan is deployed successfully and in active state  : ashwinpro.com_sub_Unauthenticated
+TID: [-1234] [AuthenticationAdmin] [2023-01-13 10:38:48,558]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} - 'admin@carbon.super [-1234]' logged in at [2023-01-13 10:38:48,558+0000]
+TID: [-1234] [EventProcessorAdminService] [2023-01-13 10:38:48,621]  INFO {org.wso2.carbon.event.processor.core.internal.util.EventProcessorConfigurationFilesystemInvoker} - Execution plan: ashwinpro.com_resource_50KPerMin_default saved in the filesystem
+TID: [-1234] [EventProcessorAdminService] [2023-01-13 10:38:48,685]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - Producer added to the junction. Stream:org.wso2.throttle.globalThrottle.stream:1.1.0
+TID: [-1234] [EventProcessorAdminService] [2023-01-13 10:38:48,692]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - Consumer added to the junction. Stream:org.wso2.throttle.processed.request.stream:1.0.0
+TID: [-1234] [EventProcessorAdminService] [2023-01-13 10:38:48,700]  INFO {org.wso2.carbon.event.processor.core.EventProcessorDeployer} - Execution plan is deployed successfully and in active state  : ashwinpro.com_resource_50KPerMin_default
+TID: [-1234] [AuthenticationAdmin] [2023-01-13 10:38:48,756]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} - 'admin@carbon.super [-1234]' logged in at [2023-01-13 10:38:48,756+0000]
+TID: [-1234] [EventProcessorAdminService] [2023-01-13 10:38:48,799]  INFO {org.wso2.carbon.event.processor.core.internal.util.EventProcessorConfigurationFilesystemInvoker} - Execution plan: ashwinpro.com_resource_20KPerMin_default saved in the filesystem
+TID: [-1234] [EventProcessorAdminService] [2023-01-13 10:38:48,826]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - Producer added to the junction. Stream:org.wso2.throttle.globalThrottle.stream:1.1.0
+TID: [-1234] [EventProcessorAdminService] [2023-01-13 10:38:48,867]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - Consumer added to the junction. Stream:org.wso2.throttle.processed.request.stream:1.0.0
+TID: [-1234] [EventProcessorAdminService] [2023-01-13 10:38:48,867]  INFO {org.wso2.carbon.event.processor.core.EventProcessorDeployer} - Execution plan is deployed successfully and in active state  : ashwinpro.com_resource_20KPerMin_default
+TID: [-1234] [AuthenticationAdmin] [2023-01-13 10:38:48,955]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} - 'admin@carbon.super [-1234]' logged in at [2023-01-13 10:38:48,955+0000]
+TID: [-1234] [EventProcessorAdminService] [2023-01-13 10:38:49,031]  INFO {org.wso2.carbon.event.processor.core.internal.util.EventProcessorConfigurationFilesystemInvoker} - Execution plan: ashwinpro.com_resource_10KPerMin_default saved in the filesystem
+TID: [-1234] [EventProcessorAdminService] [2023-01-13 10:38:49,137]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - Producer added to the junction. Stream:org.wso2.throttle.globalThrottle.stream:1.1.0
+TID: [-1234] [EventProcessorAdminService] [2023-01-13 10:38:49,138]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - Consumer added to the junction. Stream:org.wso2.throttle.processed.request.stream:1.0.0
+TID: [-1234] [EventProcessorAdminService] [2023-01-13 10:38:49,138]  INFO {org.wso2.carbon.event.processor.core.EventProcessorDeployer} - Execution plan is deployed successfully and in active state  : ashwinpro.com_resource_10KPerMin_default
+TID: [1] [] [2023-01-13 10:38:49,171]  INFO {org.wso2.carbon.core.multitenancy.utils.TenantAxisUtils} - Loaded tenant ashwinpro.com in 3980 ms
+TID: [1] [] [2023-01-13 11:09:09,049]  INFO {org.wso2.carbon.core.multitenancy.utils.TenantAxisUtils} - Starting to clean tenant : ashwinpro.com
+TID: [1] [] [2023-01-13 11:09:09,066]  INFO {org.wso2.carbon.mediation.initializer.multitenancy.TenantServiceBusInitializer} - Shutting down the persistence manager for the tenant: ashwinpro.com
+TID: [1] [] [2023-01-13 11:09:09,111]  INFO {org.wso2.carbon.core.multitenancy.utils.TenantAxisUtils} - Cleaned up tenant ashwinpro.com
+TID: [-1234] [] [2023-01-13 12:52:21,855]  INFO {org.wso2.carbon.event.output.adapter.jms.internal.util.JMSConnectionFactory} - JMS ConnectionFactory : tokenRevocationJMSPublisher initialized
+TID: [1] [] [2023-01-13 13:50:18,161]  INFO {org.wso2.carbon.identity.tenant.resource.manager.TenantAwareAxis2ConfigurationContextObserver} - Loading configuration context for tenant domain: ashwinpro.com
+TID: [1] [] [2023-01-13 13:50:18,166]  WARN {org.wso2.carbon.identity.tenant.resource.manager.TenantAwareAxis2ConfigurationContextObserver} - Configuration store is disabled. Super tenant configuration will be used for the tenant domain: ashwinpro.com
+TID: [1] [] [2023-01-13 13:50:18,184]  INFO {org.wso2.carbon.core.multitenancy.TenantAxisConfigurator} - Creating tenant AxisConfiguration for tenant: ashwinpro.com[1]
+TID: [1] [] [2023-01-13 13:50:18,262]  INFO {org.wso2.carbon.identity.user.store.configuration.deployer.UserStoreConfigurationDeployer} - User Store Configuration Deployer initiated.
+TID: [1] [] [2023-01-13 13:50:18,263]  INFO {org.wso2.carbon.identity.user.store.configuration.deployer.UserStoreConfigurationDeployer} - User Store Configuration Deployer initiated.
+TID: [1] [] [2023-01-13 13:50:18,687]  INFO {org.wso2.carbon.apimgt.gateway.internal.TenantServiceCreator} - Initializing APIM TenantServiceCreator for the tenant domain : ashwinpro.com
+TID: [1] [] [2023-01-13 13:50:18,705]  INFO {org.wso2.carbon.core.internal.permission.update.PermissionUpdater} - Permission cache updated for tenant 1
+TID: [1] [] [2023-01-13 13:50:18,712]  INFO {org.wso2.carbon.apimgt.keymgt.listeners.ServerStartupListener} - Initializing ServerStartupListener for SubscriptionStore for the tenant domain : ashwinpro.com
+TID: [-1] [] [2023-01-13 13:50:18,891] ERROR {org.wso2.carbon.apimgt.impl.factory.KeyManagerHolder} - Key Manager Resident Key Manager already initialized in tenant ashwinpro.com
+TID: [1] [] [2023-01-13 13:50:18,894]  INFO {org.wso2.carbon.mediation.initializer.multitenancy.TenantServiceBusInitializer} - Initializing the ESB Configuration for the tenant domain : ashwinpro.com
+TID: [1] [] [2023-01-13 13:50:18,900]  INFO {org.wso2.carbon.mediation.dependency.mgt.DependencyTracker} - Sequence : main was added to the Synapse configuration successfully
+TID: [1] [] [2023-01-13 13:50:18,902]  INFO {org.wso2.carbon.mediation.dependency.mgt.DependencyTracker} - Sequence : fault was added to the Synapse configuration successfully
+TID: [1] [] [2023-01-13 13:50:18,904]  INFO {org.apache.synapse.SynapseControllerFactory} - Using Synapse home : /home/ubuntu/wso2am-3.2.0/repository/tenants/1
+TID: [1] [] [2023-01-13 13:50:18,933]  INFO {org.apache.synapse.SynapseControllerFactory} - Using synapse.xml location : /home/ubuntu/wso2am-3.2.0/repository/tenants/1/synapse-configs/default
+TID: [1] [] [2023-01-13 13:50:18,934]  INFO {org.apache.synapse.SynapseControllerFactory} - Using server name : synapse.ashwinpro.com
+TID: [1] [] [2023-01-13 13:50:18,934]  INFO {org.apache.synapse.SynapseControllerFactory} - The timeout handler will run every : 15s
+TID: [1] [] [2023-01-13 13:50:18,935]  INFO {org.apache.synapse.Axis2SynapseController} - Initializing Synapse at : Fri Jan 13 13:50:18 UTC 2023
+TID: [1] [] [2023-01-13 13:50:18,936]  INFO {org.wso2.carbon.mediation.initializer.CarbonSynapseController} - Loading the mediation configuration from the file system
+TID: [1] [] [2023-01-13 13:50:18,936]  INFO {org.apache.synapse.config.xml.MultiXMLConfigurationBuilder} - Building synapse configuration from the synapse artifact repository at : /home/ubuntu/wso2am-3.2.0/repository/tenants/1/synapse-configs/default
+TID: [1] [] [2023-01-13 13:50:18,937]  INFO {org.apache.synapse.config.xml.XMLConfigurationBuilder} - Generating the Synapse configuration model by parsing the XML configuration
+TID: [1] [] [2023-01-13 13:50:18,942]  INFO {org.wso2.carbon.mediation.ntask.NTaskTaskManager} - Initialized task manager. Tenant [1]
+TID: [1] [] [2023-01-13 13:50:18,943]  INFO {org.wso2.carbon.mediation.dependency.mgt.DependencyTracker} - Sequence : fault was added to the Synapse configuration successfully
+TID: [1] [] [2023-01-13 13:50:18,945]  INFO {org.wso2.carbon.mediation.dependency.mgt.DependencyTracker} - Sequence : main was added to the Synapse configuration successfully
+TID: [1] [] [2023-01-13 13:50:18,951]  INFO {org.wso2.carbon.mediation.dependency.mgt.DependencyTracker} - Sequence : _threat_fault_ was added to the Synapse configuration successfully
+TID: [1] [] [2023-01-13 13:50:18,956]  INFO {org.wso2.carbon.mediation.dependency.mgt.DependencyTracker} - Sequence : _production_key_error_ was added to the Synapse configuration successfully
+TID: [1] [] [2023-01-13 13:50:18,957]  INFO {org.wso2.carbon.mediation.dependency.mgt.DependencyTracker} - Sequence : _sandbox_key_error_ was added to the Synapse configuration successfully
+TID: [1] [] [2023-01-13 13:50:18,976]  INFO {org.wso2.carbon.mediation.dependency.mgt.DependencyTracker} - Sequence : fault was added to the Synapse configuration successfully
+TID: [1] [] [2023-01-13 13:50:19,002]  INFO {org.wso2.carbon.mediation.dependency.mgt.DependencyTracker} - Sequence : _cors_request_handler_ was added to the Synapse configuration successfully
+TID: [1] [] [2023-01-13 13:50:19,004]  INFO {org.wso2.carbon.mediation.dependency.mgt.DependencyTracker} - Sequence : _resource_mismatch_handler_ was added to the Synapse configuration successfully
+TID: [1] [] [2023-01-13 13:50:19,027]  INFO {org.wso2.carbon.mediation.dependency.mgt.DependencyTracker} - Sequence : main was added to the Synapse configuration successfully
+TID: [1] [] [2023-01-13 13:50:19,028]  INFO {org.wso2.carbon.mediation.dependency.mgt.DependencyTracker} - Sequence : _auth_failure_handler_ was added to the Synapse configuration successfully
+TID: [1] [] [2023-01-13 13:50:19,029]  INFO {org.wso2.carbon.mediation.dependency.mgt.DependencyTracker} - Sequence : _graphql_failure_handler was added to the Synapse configuration successfully
+TID: [1] [] [2023-01-13 13:50:19,030]  INFO {org.wso2.carbon.mediation.dependency.mgt.DependencyTracker} - Sequence : _throttle_out_handler_ was added to the Synapse configuration successfully
+TID: [1] [] [2023-01-13 13:50:19,031]  INFO {org.apache.synapse.config.SynapseConfigurationBuilder} - Loaded Synapse configuration from the artifact repository at : /home/ubuntu/wso2am-3.2.0/repository/tenants/1/synapse-configs/default
+TID: [1] [] [2023-01-13 13:50:19,031]  INFO {org.wso2.carbon.mediation.dependency.mgt.DependencyTracker} - Local entry : SERVER_HOST was added to the Synapse configuration successfully
+TID: [1] [] [2023-01-13 13:50:19,032]  INFO {org.wso2.carbon.mediation.dependency.mgt.DependencyTracker} - Local entry : SERVER_IP was added to the Synapse configuration successfully
+TID: [1] [] [2023-01-13 13:50:19,033]  INFO {org.apache.synapse.Axis2SynapseController} - Loading mediator extensions...
+TID: [1] [] [2023-01-13 13:50:19,040]  INFO {org.apache.synapse.Axis2SynapseController} - Deploying the Synapse service...
+TID: [1] [] [2023-01-13 13:50:19,041]  INFO {org.apache.synapse.Axis2SynapseController} - Deploying Proxy services...
+TID: [1] [] [2023-01-13 13:50:19,042]  INFO {org.apache.synapse.Axis2SynapseController} - Deploying EventSources...
+TID: [1] [] [2023-01-13 13:50:19,042]  INFO {org.apache.synapse.ServerManager} - Server ready for processing...
+TID: [1] [] [2023-01-13 13:50:19,101]  INFO {org.wso2.carbon.core.multitenancy.utils.TenantAxisUtils} - Loaded tenant ashwinpro.com in 944 ms
+TID: [-1234] [AuthenticationAdmin] [2023-01-13 14:10:14,952]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} - 'admin@carbon.super [-1234]' logged in at [2023-01-13 14:10:14,952+0000]
+TID: [-1234] [AuthenticationAdmin] [2023-01-13 14:10:15,247]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} - 'admin@carbon.super [-1234]' logged in at [2023-01-13 14:10:15,247+0000]
+TID: [-1] [] [2023-01-13 14:10:15,319]  INFO {org.wso2.carbon.databridge.core.DataBridge} - user admin connected
+TID: [-1234] [AuthenticationAdmin] [2023-01-13 14:10:15,440]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} - 'admin@carbon.super [-1234]' logged in at [2023-01-13 14:10:15,440+0000]
+TID: [-1234] [APIGatewayAdmin] [2023-01-13 14:10:15,457]  INFO {org.apache.synapse.rest.API} - {api:admin--CompaniesHouseIdentityService:v1.0} Destroying API: admin--CompaniesHouseIdentityService:v1.0
+TID: [-1234] [APIGatewayAdmin] [2023-01-13 14:10:15,466]  INFO {org.wso2.carbon.mediation.dependency.mgt.DependencyTracker} - API : admin--CompaniesHouseIdentityService:v1.0 was removed from the Synapse configuration successfully
+TID: [-1234] [APIGatewayAdmin] [2023-01-13 14:10:15,467]  INFO {org.wso2.carbon.mediation.dependency.mgt.DependencyTracker} - Local entry : b8b46728-a41f-4a90-9dc6-12ecef36f92b was removed from the Synapse configuration successfully
+TID: [-1234] [APIGatewayAdmin] [2023-01-13 14:10:15,468]  INFO {org.wso2.carbon.mediation.dependency.mgt.DependencyTracker} - Local entry : b8b46728-a41f-4a90-9dc6-12ecef36f92b was added to the Synapse configuration successfully
+TID: [-1234] [APIGatewayAdmin] [2023-01-13 14:10:15,470]  INFO {org.wso2.carbon.mediation.dependency.mgt.DependencyTracker} - Endpoint : CompaniesHouseIdentityService--v1.0_APIproductionEndpoint was added to the Synapse configuration successfully
+TID: [-1234] [APIGatewayAdmin] [2023-01-13 14:10:15,471]  INFO {org.wso2.carbon.mediation.dependency.mgt.DependencyTracker} - Endpoint : CompaniesHouseIdentityService--v1.0_APIsandboxEndpoint was added to the Synapse configuration successfully
+TID: [-1234] [APIGatewayAdmin] [2023-01-13 14:10:15,575]  INFO {org.wso2.carbon.mediation.dependency.mgt.DependencyTracker} - API : admin--CompaniesHouseIdentityService:v1.0 was added to the Synapse configuration successfully
+TID: [-1234] [APIGatewayAdmin] [2023-01-13 14:10:15,586]  INFO {org.apache.synapse.rest.API} - {api:admin--CompaniesHouseIdentityService:v1.0} Initializing API: admin--CompaniesHouseIdentityService:v1.0
+TID: [-1234] [AuthenticationAdmin] [2023-01-13 14:10:15,628]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} - 'admin@carbon.super [-1234]' logged in at [2023-01-13 14:10:15,628+0000]
+TID: [-1234] [api/am/admin] [2023-01-13 14:13:21,496]  WARN {org.wso2.carbon.apimgt.rest.api.admin.v1.impl.TenantInfoApiServiceImpl} - Could not decode the username. Using original username
+TID: [-1234] [] [2023-01-13 14:22:22,258] ERROR {org.wso2.carbon.identity.oidc.session.servlet.OIDCSessionIFrameServlet} - Error while retrieving OAuth application information for the provided client id : null, Cannot find an application associated with the given consumer key : null
+TID: [-1234] [publisher] [2023-01-13 14:22:22,536]  WARN {JAGGERY.services.refresh.refresh:jag} - Something went wrong while refreshing the token
+TID: [-1234] [publisher] [2023-01-13 14:22:22,542] ERROR {JAGGERY.services.refresh.refresh:jag} - {}
+TID: [-1234] [api/am/publisher] [2023-01-13 14:22:22,559] ERROR {org.wso2.carbon.apimgt.rest.api.util.impl.WebAppAuthenticatorImpl} - Invalid OAuth Token : Invalid Access Token. ACTIVE access token is not found.
+TID: [-1234] [api/am/publisher] [2023-01-13 14:22:22,560] ERROR {org.wso2.carbon.apimgt.rest.api.util.impl.WebAppAuthenticatorImpl} - Provided access token is invalid
+TID: [-1234] [api/am/admin] [2023-01-13 14:25:37,909]  WARN {org.wso2.carbon.apimgt.rest.api.admin.v1.impl.TenantInfoApiServiceImpl} - Could not decode the username. Using original username
+TID: [-1234] [api/am/admin] [2023-01-13 14:26:03,024]  WARN {org.wso2.carbon.apimgt.rest.api.admin.v1.impl.TenantInfoApiServiceImpl} - Could not decode the username. Using original username
+TID: [-1234] [api/am/admin] [2023-01-13 14:26:13,703]  WARN {org.wso2.carbon.apimgt.rest.api.admin.v1.impl.TenantInfoApiServiceImpl} - Could not decode the username. Using original username
+TID: [-1234] [api/am/admin] [2023-01-13 14:26:35,216]  WARN {org.wso2.carbon.apimgt.rest.api.admin.v1.impl.TenantInfoApiServiceImpl} - Could not decode the username. Using original username
+TID: [-1234] [api/am/admin] [2023-01-13 14:29:21,141]  WARN {org.wso2.carbon.apimgt.rest.api.admin.v1.impl.TenantInfoApiServiceImpl} - Could not decode the username. Using original username
+TID: [-1234] [api/am/admin] [2023-01-13 14:29:51,475]  WARN {org.wso2.carbon.apimgt.rest.api.admin.v1.impl.TenantInfoApiServiceImpl} - Could not decode the username. Using original username
+TID: [-1234] [api/am/admin] [2023-01-13 14:30:34,309]  WARN {org.wso2.carbon.apimgt.rest.api.admin.v1.impl.TenantInfoApiServiceImpl} - Could not decode the username. Using original username
+TID: [-1234] [api/am/admin] [2023-01-13 14:31:58,929]  WARN {org.wso2.carbon.apimgt.rest.api.admin.v1.impl.TenantInfoApiServiceImpl} - Could not decode the username. Using original username
+TID: [-1234] [api/am/admin] [2023-01-13 14:32:52,860]  WARN {org.wso2.carbon.apimgt.rest.api.admin.v1.impl.TenantInfoApiServiceImpl} - Could not decode the username. Using original username
+TID: [-1234] [api/am/admin] [2023-01-13 14:37:57,059]  WARN {org.wso2.carbon.apimgt.rest.api.admin.v1.impl.TenantInfoApiServiceImpl} - Could not decode the username. Using original username
+TID: [-1234] [api/am/admin] [2023-01-13 14:38:29,711]  WARN {org.wso2.carbon.apimgt.rest.api.admin.v1.impl.TenantInfoApiServiceImpl} - Could not decode the username. Using original username
+TID: [-1234] [api/am/admin] [2023-01-13 14:40:55,099]  WARN {org.wso2.carbon.apimgt.rest.api.admin.v1.impl.TenantInfoApiServiceImpl} - Could not decode the username. Using original username
+TID: [-1234] [api/am/admin] [2023-01-13 14:43:20,590]  WARN {org.wso2.carbon.apimgt.rest.api.admin.v1.impl.TenantInfoApiServiceImpl} - Could not decode the username. Using original username
+TID: [1] [] [2023-01-13 14:55:09,049]  INFO {org.wso2.carbon.core.multitenancy.utils.TenantAxisUtils} - Starting to clean tenant : ashwinpro.com
+TID: [1] [] [2023-01-13 14:55:09,052]  INFO {org.wso2.carbon.mediation.initializer.multitenancy.TenantServiceBusInitializer} - Shutting down the persistence manager for the tenant: ashwinpro.com
+TID: [1] [] [2023-01-13 14:55:09,096]  INFO {org.wso2.carbon.core.multitenancy.utils.TenantAxisUtils} - Cleaned up tenant ashwinpro.com
+TID: [-1] [] [2023-01-13 15:18:53,065] ERROR {org.wso2.carbon.inbound.endpoint.protocol.websocket.InboundWebsocketSourceHandler} - Endpoint not found for port : 8099 tenant domain : null
+TID: [-1234] [] [2023-01-13 15:18:55,007] ERROR {org.wso2.carbon.apimgt.gateway.handlers.WebsocketInboundHandler} - No Authorization Header or access_token query parameter present
+TID: [-1] [] [2023-01-13 15:18:55,009] ERROR {org.wso2.carbon.inbound.endpoint.protocol.websocket.InboundWebsocketSourceHandler} - Endpoint not found for port : 8099 tenant domain : null
+TID: [1] [] [2023-01-13 16:48:29,246]  INFO {org.wso2.carbon.identity.tenant.resource.manager.TenantAwareAxis2ConfigurationContextObserver} - Loading configuration context for tenant domain: ashwinpro.com
+TID: [1] [] [2023-01-13 16:48:29,247]  WARN {org.wso2.carbon.identity.tenant.resource.manager.TenantAwareAxis2ConfigurationContextObserver} - Configuration store is disabled. Super tenant configuration will be used for the tenant domain: ashwinpro.com
+TID: [1] [] [2023-01-13 16:48:29,248]  INFO {org.wso2.carbon.core.multitenancy.TenantAxisConfigurator} - Creating tenant AxisConfiguration for tenant: ashwinpro.com[1]
+TID: [1] [] [2023-01-13 16:48:29,324]  INFO {org.wso2.carbon.identity.user.store.configuration.deployer.UserStoreConfigurationDeployer} - User Store Configuration Deployer initiated.
+TID: [1] [] [2023-01-13 16:48:29,325]  INFO {org.wso2.carbon.identity.user.store.configuration.deployer.UserStoreConfigurationDeployer} - User Store Configuration Deployer initiated.
+TID: [1] [] [2023-01-13 16:48:29,681]  INFO {org.wso2.carbon.apimgt.gateway.internal.TenantServiceCreator} - Initializing APIM TenantServiceCreator for the tenant domain : ashwinpro.com
+TID: [1] [] [2023-01-13 16:48:29,742]  INFO {org.wso2.carbon.core.internal.permission.update.PermissionUpdater} - Permission cache updated for tenant 1
+TID: [1] [] [2023-01-13 16:48:29,748]  INFO {org.wso2.carbon.apimgt.keymgt.listeners.ServerStartupListener} - Initializing ServerStartupListener for SubscriptionStore for the tenant domain : ashwinpro.com
+TID: [-1] [] [2023-01-13 16:48:29,818] ERROR {org.wso2.carbon.apimgt.impl.factory.KeyManagerHolder} - Key Manager Resident Key Manager already initialized in tenant ashwinpro.com
+TID: [1] [] [2023-01-13 16:48:29,921]  INFO {org.wso2.carbon.mediation.initializer.multitenancy.TenantServiceBusInitializer} - Initializing the ESB Configuration for the tenant domain : ashwinpro.com
+TID: [1] [] [2023-01-13 16:48:29,956]  INFO {org.wso2.carbon.mediation.dependency.mgt.DependencyTracker} - Sequence : main was added to the Synapse configuration successfully
+TID: [1] [] [2023-01-13 16:48:29,956]  INFO {org.wso2.carbon.mediation.dependency.mgt.DependencyTracker} - Sequence : fault was added to the Synapse configuration successfully
+TID: [1] [] [2023-01-13 16:48:29,957]  INFO {org.apache.synapse.SynapseControllerFactory} - Using Synapse home : /home/ubuntu/wso2am-3.2.0/repository/tenants/1
+TID: [1] [] [2023-01-13 16:48:29,958]  INFO {org.apache.synapse.SynapseControllerFactory} - Using synapse.xml location : /home/ubuntu/wso2am-3.2.0/repository/tenants/1/synapse-configs/default
+TID: [1] [] [2023-01-13 16:48:29,958]  INFO {org.apache.synapse.SynapseControllerFactory} - Using server name : synapse.ashwinpro.com
+TID: [1] [] [2023-01-13 16:48:29,959]  INFO {org.apache.synapse.SynapseControllerFactory} - The timeout handler will run every : 15s
+TID: [1] [] [2023-01-13 16:48:29,960]  INFO {org.apache.synapse.Axis2SynapseController} - Initializing Synapse at : Fri Jan 13 16:48:29 UTC 2023
+TID: [1] [] [2023-01-13 16:48:29,962]  INFO {org.wso2.carbon.mediation.initializer.CarbonSynapseController} - Loading the mediation configuration from the file system
+TID: [1] [] [2023-01-13 16:48:29,963]  INFO {org.apache.synapse.config.xml.MultiXMLConfigurationBuilder} - Building synapse configuration from the synapse artifact repository at : /home/ubuntu/wso2am-3.2.0/repository/tenants/1/synapse-configs/default
+TID: [1] [] [2023-01-13 16:48:29,963]  INFO {org.apache.synapse.config.xml.XMLConfigurationBuilder} - Generating the Synapse configuration model by parsing the XML configuration
+TID: [1] [] [2023-01-13 16:48:29,984]  INFO {org.wso2.carbon.mediation.ntask.NTaskTaskManager} - Initialized task manager. Tenant [1]
+TID: [1] [] [2023-01-13 16:48:29,985]  INFO {org.wso2.carbon.mediation.dependency.mgt.DependencyTracker} - Sequence : fault was added to the Synapse configuration successfully
+TID: [1] [] [2023-01-13 16:48:29,986]  INFO {org.wso2.carbon.mediation.dependency.mgt.DependencyTracker} - Sequence : main was added to the Synapse configuration successfully
+TID: [1] [] [2023-01-13 16:48:29,995]  INFO {org.wso2.carbon.mediation.dependency.mgt.DependencyTracker} - Sequence : _threat_fault_ was added to the Synapse configuration successfully
+TID: [1] [] [2023-01-13 16:48:29,998]  INFO {org.wso2.carbon.mediation.dependency.mgt.DependencyTracker} - Sequence : _production_key_error_ was added to the Synapse configuration successfully
+TID: [1] [] [2023-01-13 16:48:30,003]  INFO {org.wso2.carbon.mediation.dependency.mgt.DependencyTracker} - Sequence : _sandbox_key_error_ was added to the Synapse configuration successfully
+TID: [1] [] [2023-01-13 16:48:30,018]  INFO {org.wso2.carbon.mediation.dependency.mgt.DependencyTracker} - Sequence : fault was added to the Synapse configuration successfully
+TID: [1] [] [2023-01-13 16:48:30,030]  INFO {org.wso2.carbon.mediation.dependency.mgt.DependencyTracker} - Sequence : _cors_request_handler_ was added to the Synapse configuration successfully
+TID: [1] [] [2023-01-13 16:48:30,042]  INFO {org.wso2.carbon.mediation.dependency.mgt.DependencyTracker} - Sequence : _resource_mismatch_handler_ was added to the Synapse configuration successfully
+TID: [1] [] [2023-01-13 16:48:30,051]  INFO {org.wso2.carbon.mediation.dependency.mgt.DependencyTracker} - Sequence : main was added to the Synapse configuration successfully
+TID: [1] [] [2023-01-13 16:48:30,062]  INFO {org.wso2.carbon.mediation.dependency.mgt.DependencyTracker} - Sequence : _auth_failure_handler_ was added to the Synapse configuration successfully
+TID: [1] [] [2023-01-13 16:48:30,066]  INFO {org.wso2.carbon.mediation.dependency.mgt.DependencyTracker} - Sequence : _graphql_failure_handler was added to the Synapse configuration successfully
+TID: [1] [] [2023-01-13 16:48:30,067]  INFO {org.wso2.carbon.mediation.dependency.mgt.DependencyTracker} - Sequence : _throttle_out_handler_ was added to the Synapse configuration successfully
+TID: [1] [] [2023-01-13 16:48:30,074]  INFO {org.apache.synapse.config.SynapseConfigurationBuilder} - Loaded Synapse configuration from the artifact repository at : /home/ubuntu/wso2am-3.2.0/repository/tenants/1/synapse-configs/default
+TID: [1] [] [2023-01-13 16:48:30,074]  INFO {org.wso2.carbon.mediation.dependency.mgt.DependencyTracker} - Local entry : SERVER_HOST was added to the Synapse configuration successfully
+TID: [1] [] [2023-01-13 16:48:30,075]  INFO {org.wso2.carbon.mediation.dependency.mgt.DependencyTracker} - Local entry : SERVER_IP was added to the Synapse configuration successfully
+TID: [1] [] [2023-01-13 16:48:30,076]  INFO {org.apache.synapse.Axis2SynapseController} - Loading mediator extensions...
+TID: [1] [] [2023-01-13 16:48:30,077]  INFO {org.apache.synapse.Axis2SynapseController} - Deploying the Synapse service...
+TID: [1] [] [2023-01-13 16:48:30,078]  INFO {org.apache.synapse.Axis2SynapseController} - Deploying Proxy services...
+TID: [1] [] [2023-01-13 16:48:30,078]  INFO {org.apache.synapse.Axis2SynapseController} - Deploying EventSources...
+TID: [1] [] [2023-01-13 16:48:30,086]  INFO {org.apache.synapse.ServerManager} - Server ready for processing...
+TID: [1] [] [2023-01-13 16:48:30,146]  INFO {org.wso2.carbon.core.multitenancy.utils.TenantAxisUtils} - Loaded tenant ashwinpro.com in 901 ms
+TID: [1] [] [2023-01-13 17:19:09,049]  INFO {org.wso2.carbon.core.multitenancy.utils.TenantAxisUtils} - Starting to clean tenant : ashwinpro.com
+TID: [1] [] [2023-01-13 17:19:09,051]  INFO {org.wso2.carbon.mediation.initializer.multitenancy.TenantServiceBusInitializer} - Shutting down the persistence manager for the tenant: ashwinpro.com
+TID: [1] [] [2023-01-13 17:19:09,102]  INFO {org.wso2.carbon.core.multitenancy.utils.TenantAxisUtils} - Cleaned up tenant ashwinpro.com
+TID: [-1] [] [2023-01-13 19:52:41,924] ERROR {org.wso2.carbon.inbound.endpoint.protocol.websocket.InboundWebsocketSourceHandler} - Endpoint not found for port : 8099 tenant domain : null
+TID: [-1] [] [2023-01-13 21:50:26,991]  INFO {org.wso2.carbon.identity.application.authentication.framework.store.SessionCleanUpService} - Session Data cleanup task is running successfully for removing expired Data

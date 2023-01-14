@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test scenarios for <Footer/> component should match with the existing snapshot 1`] = `
+<footer
+  className="makeStyles-footer-1"
+>
+  <div
+    className="MuiGrid-root MuiGrid-container MuiGrid-align-items-xs-center MuiGrid-justify-xs-space-between"
+  >
+    <div
+      className="MuiGrid-root MuiGrid-item"
+    >
+      <p
+        className="MuiTypography-root MuiTypography-body1 MuiTypography-noWrap"
+      >
+        © 2023 - 0CodeAPI Publisher | Powered by API Swagger
+      </p>
+    </div>
+  </div>
+</footer>
+`;

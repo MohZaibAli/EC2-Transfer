@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?><api xmlns="http://ws.apache.org/ns/synapse" name="admin--CompaniesHouseIdentityService" context="/CompaniesHouseIdentityService/1.0" version="1.0" version-type="context">
+    <resource methods="POST" url-mapping="/oauth2/token" faultSequence="fault">
+        <inSequence>
+            <property name="api.ut.backendRequestTime" expression="get-property('SYSTEM_TIME')"/>
+            <filter source="$ctx:AM_KEY_TYPE" regex="PRODUCTION">
+                <then>
+                    <send>
+                        <endpoint key="CompaniesHouseIdentityService--v1.0_APIproductionEndpoint"/>
+                    </send>
+                </then>
+                <else>
+                    <send>
+                        <endpoint key="CompaniesHouseIdentityService--v1.0_APIsandboxEndpoint"/>
+                    </send>
+                </else>
+            </filter>
+        </inSequence>
+        <outSequence>
+            <class name="org.wso2.carbon.apimgt.gateway.handlers.analytics.APIMgtResponseHandler"/>
+            <send/>
+        </outSequence>
+    </resource>
+    <resource methods="GET" url-mapping="/user/profile" faultSequence="fault">
+        <inSequence>
+            <property name="api.ut.backendRequestTime" expression="get-property('SYSTEM_TIME')"/>
+            <filter source="$ctx:AM_KEY_TYPE" regex="PRODUCTION">
+                <then>
+                    <send>
+                        <endpoint key="CompaniesHouseIdentityService--v1.0_APIproductionEndpoint"/>
+                    </send>
+                </then>
+                <else>
+                    <send>
+                        <endpoint key="CompaniesHouseIdentityService--v1.0_APIsandboxEndpoint"/>
+                    </send>
+                </else>
+            </filter>
+        </inSequence>
+        <outSequence>
+            <class name="org.wso2.carbon.apimgt.gateway.handlers.analytics.APIMgtResponseHandler"/>
+            <send/>
+        </outSequence>
+    </resource>
+    <resource methods="GET" url-mapping="/oauth2/verify" faultSequence="fault">
+        <inSequence>
+            <property name="api.ut.backendRequestTime" expression="get-property('SYSTEM_TIME')"/>
+            <filter source="$ctx:AM_KEY_TYPE" regex="PRODUCTION">
+                <then>
+                    <send>
+                        <endpoint key="CompaniesHouseIdentityService--v1.0_APIproductionEndpoint"/>
+                    </send>
+                </then>
+                <else>
+                    <send>
+                        <endpoint key="CompaniesHouseIdentityService--v1.0_APIsandboxEndpoint"/>
+                    </send>
+                </else>
+            </filter>
+        </inSequence>
+        <outSequence>
+            <class name="org.wso2.carbon.apimgt.gateway.handlers.analytics.APIMgtResponseHandler"/>
+            <send/>
+        </outSequence>
+    </resource>
+    <resource methods="GET" url-mapping="/oauth2/authorise" faultSequence="fault">
+        <inSequence>
+            <property name="api.ut.backendRequestTime" expression="get-property('SYSTEM_TIME')"/>
+            <filter source="$ctx:AM_KEY_TYPE" regex="PRODUCTION">
+                <then>
+                    <send>
+                        <endpoint key="CompaniesHouseIdentityService--v1.0_APIproductionEndpoint"/>
+                    </send>
+                </then>
+                <else>
+                    <send>
+                        <endpoint key="CompaniesHouseIdentityService--v1.0_APIsandboxEndpoint"/>
+                    </send>
+                </else>
+            </filter>
+        </inSequence>
+        <outSequence>
+            <class name="org.wso2.carbon.apimgt.gateway.handlers.analytics.APIMgtResponseHandler"/>
+            <send/>
+        </outSequence>
+    </resource>
+    <handlers>
+        <handler class="org.wso2.carbon.apimgt.gateway.handlers.common.APIMgtLatencyStatsHandler">
+            <property name="apiUUID" value="b8b46728-a41f-4a90-9dc6-12ecef36f92b"/>
+        </handler>
+        <handler class="org.wso2.carbon.apimgt.gateway.handlers.security.CORSRequestHandler">
+            <property name="apiImplementationType" value="ENDPOINT"/>
+            <property name="AuthorizationHeader" value="Authorization"/>
+        </handler>
+        <handler class="org.wso2.carbon.apimgt.gateway.handlers.security.APIAuthenticationHandler">
+            <property name="RemoveOAuthHeadersFromOutMessage" value="true"/>
+            <property name="APILevelPolicy" value=""/>
+            <property name="AuthorizationHeader" value="Authorization"/>
+            <property name="keyManagers" value="all"/>
+            <property name="CertificateInformation" value="{}"/>
+            <property name="APISecurity" value="oauth2,oauth_basic_auth_api_key_mandatory"/>
+            <property name="apiUUID" value="b8b46728-a41f-4a90-9dc6-12ecef36f92b"/>
+        </handler>
+        <handler class="org.wso2.carbon.apimgt.gateway.handlers.throttling.ThrottleHandler"/>
+        <handler class="org.wso2.carbon.apimgt.gateway.handlers.analytics.APIMgtUsageHandler"/>
+        <handler class="org.wso2.carbon.apimgt.gateway.handlers.analytics.APIMgtGoogleAnalyticsTrackingHandler">
+            <property name="configKey" value="ga-config-key"/>
+        </handler>
+        <handler class="org.wso2.carbon.apimgt.gateway.handlers.ext.APIManagerExtensionHandler"/>
+    </handlers>
+</api>

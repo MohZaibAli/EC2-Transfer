@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?><localEntry xmlns="http://ws.apache.org/ns/synapse" key="b8b46728-a41f-4a90-9dc6-12ecef36f92b">{
+  "swagger" : "2.0",
+  "info" : {
+    "description" : "Companies House identity and authentication service.",
+    "version" : "1.0",
+    "title" : "Companies House identity service"
+  },
+  "host" : "identity.company-information.service.gov.uk",
+  "basePath" : "/",
+  "tags" : [ {
+    "name" : "oauth2",
+    "description" : "Authentication"
+  }, {
+    "name" : "user",
+    "description" : "User details"
+  } ],
+  "schemes" : [ "https" ],
+  "security" : [ {
+    "oauth2" : [ "https://identity.company-information.service.gov.uk/user/profile.read" ]
+  } ],
+  "paths" : {
+    "/oauth2/authorise" : {
+      "get" : {
+        "tags" : [ "oauth2" ],
+        "summary" : "Request user authorisation code",
+        "description" : "Request authentication credentials for a web application user.",
+        "operationId" : "authorizationCode",
+        "parameters" : [ {
+          "name" : "response_type",
+          "in" : "query",
+          "description" : "Requests the type of response the authorisation API should return. For server-side web applications, this would be `code`, for JavaScript applications this would be `token`.",
+          "required" : true,
+          "type" : "string",
+          "enum" : [ "code", "token" ]
+        }, {
+          "name" : "client_id",
+          "in" : "query",
+          "description" : "Identifies the client that is making the request. This is the requestors client ID.",
+          "required" : true,
+          "type" : "string"
+        }, {
+          "name" : "redirect_uri",
+          "in" : "query",
+          "description" : "One of the redirect URIs registered at the time of obtaining a `client_id` and `client_secret`. Must be the same as sent during the authorisation request that returned the code.",
+          "required" : true,
+          "type" : "string"
+        }, {
+          "name" : "scope",
+          "in" : "query",
+          "description" : "Indicates the service access your application is requesting, the user will be asked to give their consent of these permissions to be given to your application. Scope is given as a space delimited set of permissions requested by the application.",
+          "required" : false,
+          "type" : "string"
+        }, {
+          "name" : "state",
+          "in" : "query",
+          "description" : "This parameter contains any state which your application may want returned in the response roundtrip. The value should contain a nonce that your application can check to prevent cross-site-request-forgery attempts.",
+          "required" : true,
+          "type" : "string"
+        }, {
+          "name" : "reauthenticate",
+          "in" : "query",
+          "description" : "This parameter is used to force the user to reauthenticate for the application. This may be required to protect some user resources owned by the application.",
+          "required" : false,
+          "type" : "boolean"
+        }, {
+          "name" : "hint",
+          "in" : "query",
+          "description" : "This parameter is used to supply an email address to the authentication service. The value is used to pre-populate the email address web-screen field.",
+          "required" : false,
+          "type" : "string"
+        } ],
+        "responses" : {
+          "302" : {
+            "description" : "The users browser may be redirected to an appropriate authorisation web-screen, but will always result in a redirection to the supplied `redirect_uri` with a `code=` query parameter containing the authorization_code or an `error=` parameter otherwise.",
+            "headers" : {
+              "Location" : {
+                "type" : "string",
+                "description" : "The URL to which the user must be directed."
+              }
+            }
+          }
+        },
+        "security" : [ {
+          "default" : [ ]
+        } ],
+        "x-operationName" : "Authorise web user",
+        "x-auth-type" : "Application &amp; Application User",
+        "x-throttling-tier" : "Unlimited"
+      }
+    },
+    "/user/profile" : {
+      "get" : {
+        "tags" : [ "user" ],
+        "summary" : "Request user information",
+        "operationId" : "userProfile",
+        "parameters" : [ ],
+        "responses" : {
+          "200" : {
+            "description" : "User profile returned",
+            "schema" : {
+              "$ref" : "#/definitions/userProfile"
+            }
+          },
+          "401" : {
+            "description" : "Invalid or expired access token"
+          }
+        },
+        "security" : [ {
+          "default" : [ ]
+        } ],
+        "x-auth-type" : "Application &amp; Application User",
+        "x-throttling-tier" : "Unlimited"
+      }
+    },
+    "/oauth2/token" : {
+      "post" : {
+        "tags" : [ "oauth2" ],
+        "summary" : "Obtain an access token",
+        "parameters" : [ {
+          "name" : "client_id",
+          "in" : "formData",
+          "description" : "Identifies the client that is making the request.",
+          "required" : true,
+          "type" : "string"
+        }, {
+          "name" : "client_secret",
+          "in" : "formData",
+          "description" : "The requesters client secret that was obtained when registering the application.",
+          "required" : true,
+          "type" : "string"
+        }, {
+          "name" : "grant_type",
+          "in" : "formData",
+          "description" : "The grant type defined by the OAuth 2.0 specification.",
+          "required" : true,
+          "type" : "string",
+          "enum" : [ "authorization_code", "refresh_token" ]
+        }, {
+          "name" : "code",
+          "in" : "formData",
+          "description" : "The authorisation code returned by the authorisation API request. Required if `grant_type` is `authorization_code`.",
+          "required" : false,
+          "type" : "string"
+        }, {
+          "name" : "refresh_token",
+          "in" : "formData",
+          "description" : "The refresh token returned from the original authorisation code exchange. Required if `grant_type` is `refresh_token`.",
+          "required" : false,
+          "type" : "string"
+        }, {
+          "name" : "redirect_uri",
+          "in" : "formData",
+          "description" : "One of the redirect URIs registered at the time of obtaining a client_id and secret. Must be the same as sent during the authorisation request that returned the code. Required if `grant_type` is `authorization_code`.",
+          "required" : false,
+          "type" : "string"
+        } ],
+        "responses" : {
+          "200" : {
+            "description" : "Access token returned",
+            "schema" : {
+              "$ref" : "#/definitions/accessToken"
+            }
+          },
+          "400" : {
+            "description" : "Invalid request or access token"
+          }
+        },
+        "security" : [ {
+          "default" : [ ]
+        } ],
+        "x-operationName" : "Obtain access token",
+        "x-auth-type" : "Application &amp; Application User",
+        "x-throttling-tier" : "Unlimited"
+      }
+    },
+    "/oauth2/verify" : {
+      "get" : {
+        "tags" : [ "oauth2" ],
+        "summary" : "Verify an access token",
+        "description" : "Query an access token, and fetch some metadata such as when the token expires and which scopes have been granted.",
+        "parameters" : [ {
+          "name" : "access_token",
+          "in" : "query",
+          "description" : "Access token to verify.",
+          "required" : false,
+          "type" : "string"
+        } ],
+        "responses" : {
+          "200" : {
+            "description" : "Verification details for the access token",
+            "schema" : {
+              "$ref" : "#/definitions/tokenVerify"
+            }
+          },
+          "400" : {
+            "description" : "Invalid request"
+          },
+          "401" : {
+            "description" : "Not authorised"
+          }
+        },
+        "security" : [ { }, {
+          "default" : [ ]
+        } ],
+        "x-operationName" : "Verify token",
+        "x-auth-type" : "Application &amp; Application User",
+        "x-throttling-tier" : "Unlimited"
+      }
+    }
+  },
+  "securityDefinitions" : {
+    "oauth2" : {
+      "type" : "oauth2",
+      "authorizationUrl" : "https://identity.company-information.service.gov.uk/oauth2/authorise",
+      "flow" : "implicit",
+      "scopes" : {
+        "https://identity.company-information.service.gov.uk/user/profile.read" : "User profile read permission"
+      }
+    },
+    "default" : {
+      "type" : "oauth2",
+      "authorizationUrl" : "https://test.com",
+      "flow" : "implicit",
+      "scopes" : {
+        "https://identity.company-information.service.gov.uk/user/profile.read" : "User profile read permission"
+      },
+      "x-scopes-bindings" : {
+        "https://identity.company-information.service.gov.uk/user/profile.read" : ""
+      }
+    }
+  },
+  "definitions" : {
+    "accessToken" : {
+      "required" : [ "access_token", "expires_in", "token_type" ],
+      "properties" : {
+        "access_token" : {
+          "type" : "string",
+          "description" : "The token that can be sent to a Companies House API."
+        },
+        "expires_in" : {
+          "type" : "integer",
+          "format" : "int32",
+          "description" : "Time in seconds until token expires."
+        },
+        "token_type" : {
+          "type" : "string",
+          "description" : "The type of token.",
+          "enum" : [ "Bearer" ]
+        },
+        "refresh_token" : {
+          "type" : "string",
+          "description" : "The token to be used to refresh the access token. Only returned if the `grant_type` is `authorization_code`."
+        }
+      },
+      "title" : "accessToken"
+    },
+    "userProfile" : {
+      "required" : [ "id" ],
+      "properties" : {
+        "email" : {
+          "type" : "string",
+          "description" : "The users email address"
+        },
+        "forename" : {
+          "type" : "string",
+          "description" : "The users forename"
+        },
+        "id" : {
+          "type" : "string",
+          "description" : "The users unique ID"
+        },
+        "locale" : {
+          "type" : "string",
+          "description" : "The users chosen locale"
+        },
+        "surname" : {
+          "type" : "string",
+          "description" : "The users surname"
+        }
+      },
+      "title" : "userProfile"
+    },
+    "tokenVerify" : {
+      "properties" : {
+        "user_id" : {
+          "type" : "string",
+          "description" : "The ID of the user who authorised the access token."
+        },
+        "application" : {
+          "type" : "string",
+          "description" : "The ID of the application that was granted this access token."
+        },
+        "expires_in" : {
+          "type" : "integer",
+          "format" : "int32",
+          "description" : "Time in seconds until token expires."
+        },
+        "scope" : {
+          "type" : "string",
+          "description" : "A space-seperated list of scopes that were granted for this access token."
+        }
+      },
+      "title" : "tokenVerify"
+    }
+  },
+  "x-sortMethodsBy" : [ "operation" ]
+}</localEntry>

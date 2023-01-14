@@ -1,0 +1,4 @@
+<handlers xmlns:svns="http://org.wso2.securevault/configuration">
+    <handler name="externalCallLogger" class="org.wso2.carbon.apimgt.gateway.handlers.LogsHandler"/>
+    <handler name="open_tracing" class="org.wso2.carbon.apimgt.gateway.handlers.common.APIMgtLatencySynapseHandler"/>
+</handlers>

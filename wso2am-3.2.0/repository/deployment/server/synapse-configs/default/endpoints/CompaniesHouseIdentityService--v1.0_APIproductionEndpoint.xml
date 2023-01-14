@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><endpoint xmlns="http://ws.apache.org/ns/synapse" name="CompaniesHouseIdentityService--v1.0_APIproductionEndpoint">
+    <http uri-template="identity.company-information.service.gov.uk">
+        <timeout>
+            <responseAction>fault</responseAction>
+        </timeout>
+    </http>
+    <property name="ENDPOINT_ADDRESS" value="identity.company-information.service.gov.uk"/>
+</endpoint>

@@ -1,0 +1,1066 @@
+TID: [2023-01-12 15:14:02,046]  INFO {org.wso2.config.mapper.ConfigParser} - Applying Configurations upon new Templates {org.wso2.config.mapper.ConfigParser}
+TID: [2023-01-12 15:14:02,049]  WARN {org.wso2.config.mapper.ConfigParser} - Overriding files in configuration directory /home/ubuntu/wso2am-3.2.0 {org.wso2.config.mapper.ConfigParser}
+TID: [2023-01-12 15:14:03,304]  INFO {org.wso2.config.mapper.ConfigParser} - Writing Metadata Entries... {org.wso2.config.mapper.ConfigParser}
+TID: [-1234] [] [2023-01-12 15:14:17,895]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - Starting WSO2 Carbon...
+TID: [-1234] [] [2023-01-12 15:14:17,940]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - Operating System : Linux 5.15.0-1026-aws, amd64
+TID: [-1234] [] [2023-01-12 15:14:17,941]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - Java Home        : /usr/lib/jvm/java-11-openjdk-amd64
+TID: [-1234] [] [2023-01-12 15:14:17,941]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - Java Version     : 11.0.17
+TID: [-1234] [] [2023-01-12 15:14:17,941]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - Java VM          : OpenJDK 64-Bit Server VM 11.0.17+8-post-Ubuntu-1ubuntu220.04,Ubuntu
+TID: [-1234] [] [2023-01-12 15:14:17,941]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - Carbon Home      : /home/ubuntu/wso2am-3.2.0
+TID: [-1234] [] [2023-01-12 15:14:17,941]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - Java Temp Dir    : /home/ubuntu/wso2am-3.2.0/tmp
+TID: [-1234] [] [2023-01-12 15:14:17,942]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - User             : root, en-null, Etc/UTC
+TID: [-1] [] [2023-01-12 15:14:18,223]  INFO {org.wso2.carbon.crypto.provider.internal.DefaultCryptoProviderComponent} - 'CryptoService.Secret' property has not been set. 'org.wso2.carbon.crypto.provider.SymmetricKeyInternalCryptoProvider' won't be registered as an internal crypto provider. Please set the secret if the provider needs to be registered.
+TID: [-1] [] [2023-01-12 15:14:18,825]  INFO {org.wso2.carbon.event.output.adapter.kafka.internal.ds.KafkaEventAdapterServiceDS} - Successfully deployed the Kafka output event adaptor service
+TID: [-1] [] [2023-01-12 15:14:19,113]  INFO {org.wso2.carbon.event.template.manager.core.internal.ds.TemplateDeployerServiceTrackerDS} - Successfully deployed the execution manager tracker service
+TID: [-1234] [] [2023-01-12 15:14:23,108]  INFO {org.wso2.carbon.consent.mgt.core.internal.ConsentManagerComponent} - ConsentManagerComponent is activated.
+TID: [-1] [] [2023-01-12 15:14:23,486]  INFO {org.wso2.carbon.databridge.receiver.binary.internal.BinaryDataReceiver} - Started Binary SSL Transport on port : 9711
+TID: [-1] [] [2023-01-12 15:14:23,498]  INFO {org.wso2.carbon.databridge.receiver.binary.internal.BinaryDataReceiver} - Started Binary TCP Transport on port : 9611
+TID: [-1234] [] [2023-01-12 15:14:23,560]  INFO {org.wso2.carbon.databridge.core.internal.DataBridgeDS} - Successfully deployed Agent Server 
+TID: [-1234] [] [2023-01-12 15:14:24,377]  INFO {org.wso2.carbon.registry.core.jdbc.EmbeddedRegistryService} - Configured Registry in 195ms
+TID: [-1234] [] [2023-01-12 15:14:24,506]  INFO {org.wso2.carbon.registry.core.jdbc.EmbeddedRegistryService} - Connected to mount at configregistry in 5ms
+TID: [-1234] [] [2023-01-12 15:14:24,508]  INFO {org.wso2.carbon.registry.core.jdbc.EmbeddedRegistryService} - Connected to mount at govregistry in 7ms
+TID: [-1234] [] [2023-01-12 15:14:24,618]  INFO {org.wso2.carbon.registry.core.jdbc.EmbeddedRegistryService} - Connected to mount at configregistry in 0ms
+TID: [-1234] [] [2023-01-12 15:14:24,620]  INFO {org.wso2.carbon.registry.core.jdbc.EmbeddedRegistryService} - Connected to mount at govregistry in 2ms
+TID: [-1234] [] [2023-01-12 15:14:24,963]  INFO {org.wso2.carbon.registry.core.internal.RegistryCoreServiceComponent} - Registry Mode    : READ-WRITE
+TID: [-1234] [] [2023-01-12 15:14:25,238]  INFO {org.wso2.carbon.metrics.impl.util.JmxReporterBuilder} - Creating JMX reporter for Metrics with domain 'org.wso2.carbon.metrics'
+TID: [-1234] [] [2023-01-12 15:14:25,243]  INFO {org.wso2.carbon.metrics.impl.reporter.AbstractReporter} - Started JMX reporter for Metrics
+TID: [-1234] [] [2023-01-12 15:14:27,990]  INFO {org.wso2.carbon.registry.indexing.solr.SolrClient} - Default Embedded Solr Server Initialized
+TID: [-1234] [] [2023-01-12 15:14:28,995]  INFO {org.wso2.carbon.user.core.internal.UserStoreMgtDSComponent} - Carbon UserStoreMgtDSComponent activated successfully.
+TID: [-1234] [] [2023-01-12 15:14:31,593]  INFO {org.wso2.carbon.identity.user.store.configuration.deployer.UserStoreConfigurationDeployer} - User Store Configuration Deployer initiated.
+TID: [-1234] [] [2023-01-12 15:14:31,594]  INFO {org.wso2.carbon.identity.user.store.configuration.deployer.UserStoreConfigurationDeployer} - User Store Configuration Deployer initiated.
+TID: [-1234] [] [2023-01-12 15:14:32,437]  INFO {org.wso2.carbon.websocket.transport.WebsocketTransportSender} - WSS Sender started
+TID: [-1234] [] [2023-01-12 15:14:32,442]  INFO {org.apache.synapse.transport.passthru.PassThroughHttpSender} - Initializing Pass-through HTTP/S Sender...
+TID: [-1234] [] [2023-01-12 15:14:32,479]  INFO {org.apache.synapse.transport.passthru.PassThroughHttpSender} - Pass-through HTTP Sender started...
+TID: [-1234] [] [2023-01-12 15:14:32,480]  INFO {org.apache.synapse.transport.passthru.PassThroughHttpSSLSender} - Initializing Pass-through HTTP/S Sender...
+TID: [-1234] [] [2023-01-12 15:14:32,504]  INFO {org.apache.synapse.transport.nhttp.config.ClientConnFactoryBuilder} - customSSLProfiles configuration is loaded from path: /home/ubuntu/wso2am-3.2.0/repository/resources/security/sslprofiles.xml
+TID: [-1234] [] [2023-01-12 15:14:32,505]  INFO {org.apache.synapse.transport.nhttp.config.ClientConnFactoryBuilder} - HTTPS Loading custom SSL profiles for the HTTPS sender
+TID: [-1234] [] [2023-01-12 15:14:32,518]  INFO {org.apache.synapse.transport.nhttp.config.ClientConnFactoryBuilder} - HTTPS Custom SSL profiles initialized for 1 servers
+TID: [-1234] [] [2023-01-12 15:14:32,519]  INFO {org.apache.synapse.transport.passthru.PassThroughHttpSSLSender} - Pass-through HTTPS Sender started...
+TID: [-1234] [] [2023-01-12 15:14:32,523]  INFO {org.wso2.carbon.websocket.transport.WebsocketTransportSender} - WS Sender started
+TID: [-1234] [] [2023-01-12 15:14:32,548]  INFO {org.apache.synapse.transport.passthru.PassThroughHttpListener} - Initializing Pass-through HTTP/S Listener...
+TID: [-1234] [] [2023-01-12 15:14:32,574]  INFO {org.apache.synapse.transport.passthru.PassThroughHttpMultiSSLListener} - Initializing Pass-through HTTP/S Listener...
+TID: [-1234] [] [2023-01-12 15:14:32,594]  INFO {org.apache.synapse.transport.nhttp.config.ServerConnFactoryBuilder} - SSLProfile configuration is loaded from path: /home/ubuntu/wso2am-3.2.0/repository/resources/security/listenerprofiles.xml
+TID: [-1234] [I18nEmailMgtConfigService] [2023-01-12 15:14:34,887]  INFO {org.wso2.carbon.core.deployment.DeploymentInterceptor} - Deploying Axis2 service: I18nEmailMgtConfigService {super-tenant}
+TID: [-1234] [AccountCredentialMgtConfigService] [2023-01-12 15:14:37,676]  INFO {org.wso2.carbon.core.deployment.DeploymentInterceptor} - Deploying Axis2 service: AccountCredentialMgtConfigService {super-tenant}
+TID: [-1234] [UserIdentityManagementAdminService] [2023-01-12 15:14:37,678]  INFO {org.wso2.carbon.core.deployment.DeploymentInterceptor} - Deploying Axis2 service: UserIdentityManagementAdminService {super-tenant}
+TID: [-1234] [UserInformationRecoveryService] [2023-01-12 15:14:37,679]  INFO {org.wso2.carbon.core.deployment.DeploymentInterceptor} - Deploying Axis2 service: UserInformationRecoveryService {super-tenant}
+TID: [-1234] [] [2023-01-12 15:14:40,708]  WARN {org.apache.axis2.description.java2wsdl.DefaultSchemaGenerator} - We don't support method overloading. Ignoring [generateUpdatedAPIFromSwagger]
+TID: [-1234] [] [2023-01-12 15:14:41,986]  INFO {org.wso2.carbon.core.init.CarbonServerManager} - Repository       : /home/ubuntu/wso2am-3.2.0/repository/deployment/server/
+TID: [-1] [] [2023-01-12 15:14:41,993]  INFO {org.wso2.carbon.event.input.adapter.kafka.internal.ds.KafkaEventAdapterServiceHolder} - Kafka input event adaptor waiting for dependent configurations to load
+TID: [-1234] [] [2023-01-12 15:14:42,157]  INFO {org.wso2.carbon.andes.core.internal.ds.QueueManagerServiceDS} - Successfully created the queue manager service
+TID: [-1234] [] [2023-01-12 15:14:42,164]  INFO {org.wso2.carbon.andes.core.internal.ds.SubscriptionManagerServiceDS} - Successfully created the subscription manager service
+TID: [-1234] [] [2023-01-12 15:14:42,209]  INFO {org.wso2.carbon.core.multitenancy.eager.TenantLoadingConfig} - Using tenant lazy loading policy...
+TID: [-1234] [] [2023-01-12 15:14:42,241]  INFO {org.wso2.carbon.core.internal.permission.update.PermissionUpdater} - Permission cache updated for tenant -1234
+TID: [-1234] [] [2023-01-12 15:14:43,300]  WARN {org.wso2.carbon.identity.application.mgt.internal.ApplicationManagementServiceComponent} - Templates directory not found at /home/ubuntu/wso2am-3.2.0/repository/resources/identity/authntemplates
+TID: [-1234] [] [2023-01-12 15:14:44,791]  INFO {org.wso2.carbon.user.core.internal.UserStoreMgtDSComponent} - Claim manager set for class org.wso2.carbon.user.core.common.DefaultRealm
+TID: [-1234] [] [2023-01-12 15:14:44,794]  INFO {org.wso2.carbon.user.core.internal.UserStoreMgtDSComponent} - Claim manager set for class org.wso2.carbon.user.core.jdbc.UniqueIDJDBCUserStoreManager
+TID: [-1] [] [2023-01-12 15:14:45,093]  INFO {org.wso2.carbon.identity.entitlement.internal.SchemaBuilder} - XACML policy schema loaded successfully.
+TID: [-1234] [] [2023-01-12 15:14:45,499]  INFO {org.wso2.carbon.identity.oauth.config.OAuthServerConfiguration} - The default OAuth token issuer will be used. No custom token generator is set.
+TID: [-1234] [] [2023-01-12 15:14:46,690]  INFO {org.wso2.carbon.apimgt.jms.listener.utils.JMSConnectionFactory} - JMS ConnectionFactory : Siddhi-JMS-Consumer initialized
+TID: [-1234] [] [2023-01-12 15:14:47,052]  INFO {org.wso2.carbon.identity.oauth2.internal.OAuth2ServiceComponent} - PKCE Support enabled.
+TID: [-1234] [] [2023-01-12 15:14:49,046]  INFO {org.wso2.carbon.identity.application.authentication.framework.store.SessionDataStore} - Thread pool size for temporary authentication context data delete task: 20
+TID: [-1234] [] [2023-01-12 15:14:50,901]  INFO {org.wso2.carbon.mediation.initializer.ServiceBusInitializer} - Starting ESB...
+TID: [-1234] [] [2023-01-12 15:14:50,948]  INFO {org.wso2.carbon.mediation.initializer.ServiceBusInitializer} - Initializing Apache Synapse...
+TID: [-1234] [] [2023-01-12 15:14:50,954]  INFO {org.apache.synapse.SynapseControllerFactory} - Using Synapse home : /home/ubuntu/wso2am-3.2.0/.
+TID: [-1234] [] [2023-01-12 15:14:50,955]  INFO {org.apache.synapse.SynapseControllerFactory} - Using synapse.xml location : /home/ubuntu/wso2am-3.2.0/././repository/deployment/server/synapse-configs/default
+TID: [-1234] [] [2023-01-12 15:14:50,956]  INFO {org.apache.synapse.SynapseControllerFactory} - Using server name : localhost
+TID: [-1234] [] [2023-01-12 15:14:50,997]  INFO {org.apache.synapse.SynapseControllerFactory} - The timeout handler will run every : 15s
+TID: [-1234] [] [2023-01-12 15:14:51,041]  INFO {org.apache.synapse.Axis2SynapseController} - Initializing Synapse at : Thu Jan 12 15:14:51 UTC 2023
+TID: [-1234] [] [2023-01-12 15:14:51,050]  INFO {org.wso2.carbon.mediation.initializer.CarbonSynapseController} - Loading the mediation configuration from the file system
+TID: [-1234] [] [2023-01-12 15:14:51,054]  INFO {org.apache.synapse.config.xml.MultiXMLConfigurationBuilder} - Building synapse configuration from the synapse artifact repository at : ././repository/deployment/server/synapse-configs/default
+TID: [-1234] [] [2023-01-12 15:14:51,056]  INFO {org.apache.synapse.config.xml.XMLConfigurationBuilder} - Generating the Synapse configuration model by parsing the XML configuration
+TID: [-1234] [] [2023-01-12 15:14:51,237]  INFO {org.wso2.carbon.mediation.dependency.mgt.DependencyTracker} - Sequence : _threat_fault_ was added to the Synapse configuration successfully
+TID: [-1234] [] [2023-01-12 15:14:51,349]  INFO {org.wso2.carbon.mediation.dependency.mgt.DependencyTracker} - Sequence : _token_fault_ was added to the Synapse configuration successfully
+TID: [-1234] [] [2023-01-12 15:14:51,353]  INFO {org.wso2.carbon.mediation.dependency.mgt.DependencyTracker} - Sequence : _production_key_error_ was added to the Synapse configuration successfully
+TID: [-1234] [] [2023-01-12 15:14:51,355]  INFO {org.wso2.carbon.mediation.dependency.mgt.DependencyTracker} - Sequence : _sandbox_key_error_ was added to the Synapse configuration successfully
+TID: [-1234] [] [2023-01-12 15:14:51,461]  INFO {org.wso2.carbon.mediation.dependency.mgt.DependencyTracker} - Sequence : fault was added to the Synapse configuration successfully
+TID: [-1234] [] [2023-01-12 15:14:51,525]  INFO {org.wso2.carbon.mediation.dependency.mgt.DependencyTracker} - Sequence : _cors_request_handler_ was added to the Synapse configuration successfully
+TID: [-1234] [] [2023-01-12 15:14:51,527]  INFO {org.wso2.carbon.mediation.dependency.mgt.DependencyTracker} - Sequence : _resource_mismatch_handler_ was added to the Synapse configuration successfully
+TID: [-1234] [] [2023-01-12 15:14:51,592]  INFO {org.wso2.carbon.mediation.dependency.mgt.DependencyTracker} - Sequence : main was added to the Synapse configuration successfully
+TID: [-1234] [] [2023-01-12 15:14:51,593]  INFO {org.wso2.carbon.mediation.dependency.mgt.DependencyTracker} - Sequence : _auth_failure_handler_ was added to the Synapse configuration successfully
+TID: [-1234] [] [2023-01-12 15:14:51,594]  INFO {org.wso2.carbon.mediation.dependency.mgt.DependencyTracker} - Sequence : _graphql_failure_handler was added to the Synapse configuration successfully
+TID: [-1234] [] [2023-01-12 15:14:51,597]  INFO {org.wso2.carbon.mediation.dependency.mgt.DependencyTracker} - Sequence : _throttle_out_handler_ was added to the Synapse configuration successfully
+TID: [-1234] [] [2023-01-12 15:14:51,602]  INFO {org.wso2.carbon.mediation.dependency.mgt.DependencyTracker} - Sequence : _build_ was added to the Synapse configuration successfully
+TID: [-1234] [] [2023-01-12 15:14:51,603]  INFO {org.wso2.carbon.mediation.dependency.mgt.DependencyTracker} - Sequence : outDispatchSeq was added to the Synapse configuration successfully
+TID: [-1234] [] [2023-01-12 15:14:51,629]  INFO {org.wso2.carbon.mediation.dependency.mgt.DependencyTracker} - Sequence : dispatchSeq was added to the Synapse configuration successfully
+TID: [-1234] [] [2023-01-12 15:14:51,680]  INFO {org.wso2.carbon.mediation.dependency.mgt.DependencyTracker} - Proxy service : WorkflowCallbackService was added to the Synapse configuration successfully
+TID: [-1234] [] [2023-01-12 15:14:51,764]  INFO {org.wso2.carbon.mediation.dependency.mgt.DependencyTracker} - API : _WSO2AMTokenAPI_ was added to the Synapse configuration successfully
+TID: [-1234] [] [2023-01-12 15:14:51,778]  INFO {org.wso2.carbon.mediation.dependency.mgt.DependencyTracker} - API : _WSO2AMRevokeAPI_ was added to the Synapse configuration successfully
+TID: [-1234] [] [2023-01-12 15:14:51,791]  INFO {org.wso2.carbon.mediation.dependency.mgt.DependencyTracker} - API : _WSO2AMAuthorizeAPI_ was added to the Synapse configuration successfully
+TID: [-1234] [] [2023-01-12 15:14:51,831]  INFO {org.wso2.carbon.mediation.dependency.mgt.DependencyTracker} - API : _OpenService_ was added to the Synapse configuration successfully
+TID: [-1234] [] [2023-01-12 15:14:51,844]  INFO {org.wso2.carbon.mediation.dependency.mgt.DependencyTracker} - API : _WSO2AMUserInfoAPI_ was added to the Synapse configuration successfully
+TID: [-1234] [] [2023-01-12 15:14:51,858]  INFO {org.wso2.carbon.mediation.dependency.mgt.DependencyTracker} - API : _WSO2AMOpenIDConfigAPI_ was added to the Synapse configuration successfully
+TID: [-1234] [] [2023-01-12 15:14:51,861]  INFO {org.wso2.carbon.mediation.dependency.mgt.DependencyTracker} - Inbound Endpoint : SecureWebSocketEP was added to the Synapse configuration successfully
+TID: [-1234] [] [2023-01-12 15:14:51,862]  INFO {org.wso2.carbon.mediation.dependency.mgt.DependencyTracker} - Inbound Endpoint : WebSocketInboundEndpoint was added to the Synapse configuration successfully
+TID: [-1234] [] [2023-01-12 15:14:51,864]  INFO {org.apache.synapse.config.SynapseConfigurationBuilder} - Loaded Synapse configuration from the artifact repository at : ././repository/deployment/server/synapse-configs/default
+TID: [-1234] [] [2023-01-12 15:14:51,865]  INFO {org.wso2.carbon.mediation.dependency.mgt.DependencyTracker} - Local entry : SERVER_HOST was added to the Synapse configuration successfully
+TID: [-1234] [] [2023-01-12 15:14:51,866]  INFO {org.wso2.carbon.mediation.dependency.mgt.DependencyTracker} - Local entry : SERVER_IP was added to the Synapse configuration successfully
+TID: [-1234] [] [2023-01-12 15:14:51,943]  INFO {org.apache.synapse.Axis2SynapseController} - Loading mediator extensions...
+TID: [-1234] [echo] [2023-01-12 15:14:52,044]  INFO {org.wso2.carbon.core.deployment.DeploymentInterceptor} - Deploying Axis2 service: echo {super-tenant}
+TID: [-1234] [Version] [2023-01-12 15:14:52,085]  INFO {org.wso2.carbon.core.deployment.DeploymentInterceptor} - Deploying Axis2 service: Version {super-tenant}
+TID: [-1234] [] [2023-01-12 15:14:52,115]  INFO {org.wso2.carbon.event.stream.core.EventStreamDeployer} - Stream definition is deployed successfully  : id_gov_notify_stream:1.0.0
+TID: [-1234] [] [2023-01-12 15:14:52,122]  INFO {org.wso2.carbon.event.stream.core.EventStreamDeployer} - Stream definition is deployed successfully  : org.wso2.apimgt.cache.invalidation.stream:1.0.0
+TID: [-1234] [] [2023-01-12 15:14:52,125]  INFO {org.wso2.carbon.event.stream.core.EventStreamDeployer} - Stream definition is deployed successfully  : org.wso2.apimgt.keymgt.stream:1.0.0
+TID: [-1234] [] [2023-01-12 15:14:52,127]  INFO {org.wso2.carbon.event.stream.core.EventStreamDeployer} - Stream definition is deployed successfully  : org.wso2.apimgt.notification.stream:1.0.0
+TID: [-1234] [] [2023-01-12 15:14:52,129]  INFO {org.wso2.carbon.event.stream.core.EventStreamDeployer} - Stream definition is deployed successfully  : org.wso2.apimgt.recommendation.event.stream:1.0.0
+TID: [-1234] [] [2023-01-12 15:14:52,136]  INFO {org.wso2.carbon.event.stream.core.EventStreamDeployer} - Stream definition is deployed successfully  : org.wso2.apimgt.token.revocation.stream:1.0.0
+TID: [-1234] [] [2023-01-12 15:14:52,139]  INFO {org.wso2.carbon.event.stream.core.EventStreamDeployer} - Stream definition is deployed successfully  : org.wso2.blocking.request.stream:1.0.0
+TID: [-1234] [] [2023-01-12 15:14:52,146]  INFO {org.wso2.carbon.event.stream.core.EventStreamDeployer} - Stream definition is deployed successfully  : org.wso2.botDetectionData.request.stream:1.0.0
+TID: [-1234] [] [2023-01-12 15:14:52,148]  INFO {org.wso2.carbon.event.stream.core.EventStreamDeployer} - Stream definition is deployed successfully  : org.wso2.keytemplate.request.stream:1.0.0
+TID: [-1234] [] [2023-01-12 15:14:52,149]  INFO {org.wso2.carbon.event.stream.core.EventStreamDeployer} - Stream definition is deployed successfully  : org.wso2.throttle.globalThrottle.stream:1.0.0
+TID: [-1234] [] [2023-01-12 15:14:52,150]  INFO {org.wso2.carbon.event.stream.core.EventStreamDeployer} - Stream definition is deployed successfully  : org.wso2.throttle.globalThrottle.stream:1.1.0
+TID: [-1234] [] [2023-01-12 15:14:52,155]  INFO {org.wso2.carbon.event.stream.core.EventStreamDeployer} - Stream definition is deployed successfully  : org.wso2.throttle.processed.request.stream:1.0.0
+TID: [-1234] [] [2023-01-12 15:14:52,159]  INFO {org.wso2.carbon.event.stream.core.EventStreamDeployer} - Stream definition is deployed successfully  : org.wso2.throttle.request.stream:1.0.0
+TID: [-1234] [] [2023-01-12 15:14:52,173]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - WSO2EventConsumer added to the junction. Stream:id_gov_notify_stream:1.0.0
+TID: [-1234] [] [2023-01-12 15:14:52,176]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher configuration successfully deployed and in active state : EmailPublisher
+TID: [-1234] [] [2023-01-12 15:14:52,180]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - WSO2EventConsumer added to the junction. Stream:org.wso2.apimgt.recommendation.event.stream:1.0.0
+TID: [-1234] [] [2023-01-12 15:14:52,185]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher configuration successfully deployed and in active state : HTTP-recommendationEventPublisher
+TID: [-1234] [] [2023-01-12 15:14:52,187]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - WSO2EventConsumer added to the junction. Stream:org.wso2.blocking.request.stream:1.0.0
+TID: [-1234] [] [2023-01-12 15:14:52,217]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher configuration successfully deployed and in active state : blockingEventJMSPublisher
+TID: [-1234] [] [2023-01-12 15:14:52,219]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - WSO2EventConsumer added to the junction. Stream:org.wso2.apimgt.cache.invalidation.stream:1.0.0
+TID: [-1234] [] [2023-01-12 15:14:52,220]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher configuration successfully deployed and in active state : cacheInvalidationJMSPublisher
+TID: [-1234] [] [2023-01-12 15:14:52,221]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - WSO2EventConsumer added to the junction. Stream:org.wso2.throttle.globalThrottle.stream:1.0.0
+TID: [-1234] [] [2023-01-12 15:14:52,224]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher configuration successfully deployed and in active state : jmsEventPublisher
+TID: [-1234] [] [2023-01-12 15:14:52,226]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - WSO2EventConsumer added to the junction. Stream:org.wso2.throttle.globalThrottle.stream:1.0.0
+TID: [-1234] [] [2023-01-12 15:14:52,226]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher configuration successfully deployed and in active state : jmsEventPublisher2
+TID: [-1234] [] [2023-01-12 15:14:52,233]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - WSO2EventConsumer added to the junction. Stream:org.wso2.throttle.globalThrottle.stream:1.1.0
+TID: [-1234] [] [2023-01-12 15:14:52,235]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher configuration successfully deployed and in active state : jmsEventPublisher-1.0.0
+TID: [-1234] [] [2023-01-12 15:14:52,236]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - WSO2EventConsumer added to the junction. Stream:org.wso2.throttle.globalThrottle.stream:1.1.0
+TID: [-1234] [] [2023-01-12 15:14:52,237]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher configuration successfully deployed and in active state : jmsEventPublisher-1.0.0-2
+TID: [-1234] [] [2023-01-12 15:14:52,238]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - WSO2EventConsumer added to the junction. Stream:org.wso2.keytemplate.request.stream:1.0.0
+TID: [-1234] [] [2023-01-12 15:14:52,243]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher configuration successfully deployed and in active state : keyTemplateEventPublisher
+TID: [-1234] [] [2023-01-12 15:14:52,245]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - WSO2EventConsumer added to the junction. Stream:org.wso2.apimgt.keymgt.stream:1.0.0
+TID: [-1234] [] [2023-01-12 15:14:52,247]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher configuration successfully deployed and in active state : keymgtEventJMSEventPublisher
+TID: [-1234] [] [2023-01-12 15:14:52,249]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - WSO2EventConsumer added to the junction. Stream:org.wso2.apimgt.notification.stream:1.0.0
+TID: [-1234] [] [2023-01-12 15:14:52,249]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher configuration successfully deployed and in active state : notificationJMSPublisher
+TID: [-1234] [] [2023-01-12 15:14:52,251]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - WSO2EventConsumer added to the junction. Stream:org.wso2.apimgt.token.revocation.stream:1.0.0
+TID: [-1234] [] [2023-01-12 15:14:52,256]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher configuration successfully deployed and in active state : tokenRevocationJMSPublisher
+TID: [-1234] [] [2023-01-12 15:14:52,260]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - WSO2EventConsumer added to the junction. Stream:org.wso2.apimgt.token.revocation.stream:1.0.0
+TID: [-1234] [] [2023-01-12 15:14:52,260]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher configuration successfully deployed and in active state : tokenRevocationJMSPublisher2
+TID: [-1234] [] [2023-01-12 15:14:52,275]  INFO {org.wso2.carbon.event.input.adapter.core.internal.InputAdapterRuntime} - Connecting receiver blockingWso2EventReceiver
+TID: [-1234] [] [2023-01-12 15:14:52,276]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - Producer added to the junction. Stream:org.wso2.blocking.request.stream:1.0.0
+TID: [-1234] [] [2023-01-12 15:14:52,278]  INFO {org.wso2.carbon.event.receiver.core.EventReceiverDeployer} - Event Receiver configuration successfully deployed and in active state: blockingWso2EventReceiver
+TID: [-1234] [] [2023-01-12 15:14:52,281]  INFO {org.wso2.carbon.event.input.adapter.core.internal.InputAdapterRuntime} - Connecting receiver cacheInvalidationWso2EventReceiver
+TID: [-1234] [] [2023-01-12 15:14:52,282]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - Producer added to the junction. Stream:org.wso2.apimgt.cache.invalidation.stream:1.0.0
+TID: [-1234] [] [2023-01-12 15:14:52,282]  INFO {org.wso2.carbon.event.receiver.core.EventReceiverDeployer} - Event Receiver configuration successfully deployed and in active state: cacheInvalidationWso2EventReceiver
+TID: [-1234] [] [2023-01-12 15:14:52,284]  INFO {org.wso2.carbon.event.input.adapter.core.internal.InputAdapterRuntime} - Connecting receiver keyMgtWso2EventReceiver
+TID: [-1234] [] [2023-01-12 15:14:52,284]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - Producer added to the junction. Stream:org.wso2.apimgt.keymgt.stream:1.0.0
+TID: [-1234] [] [2023-01-12 15:14:52,284]  INFO {org.wso2.carbon.event.receiver.core.EventReceiverDeployer} - Event Receiver configuration successfully deployed and in active state: keyMgtWso2EventReceiver
+TID: [-1234] [] [2023-01-12 15:14:52,286]  INFO {org.wso2.carbon.event.input.adapter.core.internal.InputAdapterRuntime} - Connecting receiver keyTemplateWso2EventReceiver
+TID: [-1234] [] [2023-01-12 15:14:52,286]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - Producer added to the junction. Stream:org.wso2.keytemplate.request.stream:1.0.0
+TID: [-1234] [] [2023-01-12 15:14:52,287]  INFO {org.wso2.carbon.event.receiver.core.EventReceiverDeployer} - Event Receiver configuration successfully deployed and in active state: keyTemplateWso2EventReceiver
+TID: [-1234] [] [2023-01-12 15:14:52,288]  INFO {org.wso2.carbon.event.input.adapter.core.internal.InputAdapterRuntime} - Connecting receiver notificationsWSO2EventReceiver
+TID: [-1234] [] [2023-01-12 15:14:52,288]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - Producer added to the junction. Stream:org.wso2.apimgt.notification.stream:1.0.0
+TID: [-1234] [] [2023-01-12 15:14:52,289]  INFO {org.wso2.carbon.event.receiver.core.EventReceiverDeployer} - Event Receiver configuration successfully deployed and in active state: notificationsWSO2EventReceiver
+TID: [-1234] [] [2023-01-12 15:14:52,290]  INFO {org.wso2.carbon.event.input.adapter.core.internal.InputAdapterRuntime} - Connecting receiver recommendationWso2EventReceiver
+TID: [-1234] [] [2023-01-12 15:14:52,290]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - Producer added to the junction. Stream:org.wso2.apimgt.recommendation.event.stream:1.0.0
+TID: [-1234] [] [2023-01-12 15:14:52,290]  INFO {org.wso2.carbon.event.receiver.core.EventReceiverDeployer} - Event Receiver configuration successfully deployed and in active state: recommendationWso2EventReceiver
+TID: [-1234] [] [2023-01-12 15:14:52,296]  INFO {org.wso2.carbon.event.input.adapter.core.internal.InputAdapterRuntime} - Connecting receiver throttleEventReceiver
+TID: [-1234] [] [2023-01-12 15:14:52,298]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - Producer added to the junction. Stream:org.wso2.throttle.request.stream:1.0.0
+TID: [-1234] [] [2023-01-12 15:14:52,298]  INFO {org.wso2.carbon.event.receiver.core.EventReceiverDeployer} - Event Receiver configuration successfully deployed and in active state: throttleEventReceiver
+TID: [-1234] [] [2023-01-12 15:14:52,300]  INFO {org.wso2.carbon.event.input.adapter.core.internal.InputAdapterRuntime} - Connecting receiver throttleWSO2EventReceiver
+TID: [-1234] [] [2023-01-12 15:14:52,300]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - Producer added to the junction. Stream:org.wso2.throttle.request.stream:1.0.0
+TID: [-1234] [] [2023-01-12 15:14:52,301]  INFO {org.wso2.carbon.event.receiver.core.EventReceiverDeployer} - Event Receiver configuration successfully deployed and in active state: throttleWSO2EventReceiver
+TID: [-1234] [] [2023-01-12 15:14:52,302]  INFO {org.wso2.carbon.event.input.adapter.core.internal.InputAdapterRuntime} - Connecting receiver tokenRevocationWso2EventReceiver
+TID: [-1234] [] [2023-01-12 15:14:52,303]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - Producer added to the junction. Stream:org.wso2.apimgt.token.revocation.stream:1.0.0
+TID: [-1234] [] [2023-01-12 15:14:52,303]  INFO {org.wso2.carbon.event.receiver.core.EventReceiverDeployer} - Event Receiver configuration successfully deployed and in active state: tokenRevocationWso2EventReceiver
+TID: [-1234] [] [2023-01-12 15:14:52,599]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - Producer added to the junction. Stream:org.wso2.throttle.processed.request.stream:1.0.0
+TID: [-1234] [] [2023-01-12 15:14:52,601]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - Consumer added to the junction. Stream:org.wso2.throttle.request.stream:1.0.0
+TID: [-1234] [] [2023-01-12 15:14:52,605]  INFO {org.wso2.carbon.event.processor.core.EventProcessorDeployer} - Execution plan is deployed successfully and in active state  : requestPreProcessorExecutionPlan
+TID: [-1234] [] [2023-01-12 15:14:52,742]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - Producer added to the junction. Stream:org.wso2.throttle.globalThrottle.stream:1.0.0
+TID: [-1234] [] [2023-01-12 15:14:52,744]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - Consumer added to the junction. Stream:org.wso2.throttle.processed.request.stream:1.0.0
+TID: [-1234] [] [2023-01-12 15:14:52,744]  INFO {org.wso2.carbon.event.processor.core.EventProcessorDeployer} - Execution plan is deployed successfully and in active state  : carbon.super_app_10PerMin
+TID: [-1234] [] [2023-01-12 15:14:52,804]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - Producer added to the junction. Stream:org.wso2.throttle.globalThrottle.stream:1.0.0
+TID: [-1234] [] [2023-01-12 15:14:52,806]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - Consumer added to the junction. Stream:org.wso2.throttle.processed.request.stream:1.0.0
+TID: [-1234] [] [2023-01-12 15:14:52,807]  INFO {org.wso2.carbon.event.processor.core.EventProcessorDeployer} - Execution plan is deployed successfully and in active state  : carbon.super_app_20PerMin
+TID: [-1234] [] [2023-01-12 15:14:52,876]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - Producer added to the junction. Stream:org.wso2.throttle.globalThrottle.stream:1.0.0
+TID: [-1234] [] [2023-01-12 15:14:52,878]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - Consumer added to the junction. Stream:org.wso2.throttle.processed.request.stream:1.0.0
+TID: [-1234] [] [2023-01-12 15:14:52,879]  INFO {org.wso2.carbon.event.processor.core.EventProcessorDeployer} - Execution plan is deployed successfully and in active state  : carbon.super_app_50PerMin
+TID: [-1234] [] [2023-01-12 15:14:52,940]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - Producer added to the junction. Stream:org.wso2.throttle.globalThrottle.stream:1.0.0
+TID: [-1234] [] [2023-01-12 15:14:52,941]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - Consumer added to the junction. Stream:org.wso2.throttle.processed.request.stream:1.0.0
+TID: [-1234] [] [2023-01-12 15:14:52,942]  INFO {org.wso2.carbon.event.processor.core.EventProcessorDeployer} - Execution plan is deployed successfully and in active state  : carbon.super_resource_10KPerMin_default
+TID: [-1234] [] [2023-01-12 15:14:53,013]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - Producer added to the junction. Stream:org.wso2.throttle.globalThrottle.stream:1.0.0
+TID: [-1234] [] [2023-01-12 15:14:53,014]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - Consumer added to the junction. Stream:org.wso2.throttle.processed.request.stream:1.0.0
+TID: [-1234] [] [2023-01-12 15:14:53,015]  INFO {org.wso2.carbon.event.processor.core.EventProcessorDeployer} - Execution plan is deployed successfully and in active state  : carbon.super_resource_20KPerMin_default
+TID: [-1234] [] [2023-01-12 15:14:53,080]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - Producer added to the junction. Stream:org.wso2.throttle.globalThrottle.stream:1.0.0
+TID: [-1234] [] [2023-01-12 15:14:53,081]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - Consumer added to the junction. Stream:org.wso2.throttle.processed.request.stream:1.0.0
+TID: [-1234] [] [2023-01-12 15:14:53,082]  INFO {org.wso2.carbon.event.processor.core.EventProcessorDeployer} - Execution plan is deployed successfully and in active state  : carbon.super_resource_50KPerMin_default
+TID: [-1234] [] [2023-01-12 15:14:53,139]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - Producer added to the junction. Stream:org.wso2.throttle.globalThrottle.stream:1.0.0
+TID: [-1234] [] [2023-01-12 15:14:53,140]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - Consumer added to the junction. Stream:org.wso2.throttle.processed.request.stream:1.0.0
+TID: [-1234] [] [2023-01-12 15:14:53,141]  INFO {org.wso2.carbon.event.processor.core.EventProcessorDeployer} - Execution plan is deployed successfully and in active state  : carbon.super_sub_Bronze
+TID: [-1234] [] [2023-01-12 15:14:53,208]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - Producer added to the junction. Stream:org.wso2.throttle.globalThrottle.stream:1.0.0
+TID: [-1234] [] [2023-01-12 15:14:53,210]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - Consumer added to the junction. Stream:org.wso2.throttle.processed.request.stream:1.0.0
+TID: [-1234] [] [2023-01-12 15:14:53,210]  INFO {org.wso2.carbon.event.processor.core.EventProcessorDeployer} - Execution plan is deployed successfully and in active state  : carbon.super_sub_Gold
+TID: [-1234] [] [2023-01-12 15:14:53,278]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - Producer added to the junction. Stream:org.wso2.throttle.globalThrottle.stream:1.0.0
+TID: [-1234] [] [2023-01-12 15:14:53,279]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - Consumer added to the junction. Stream:org.wso2.throttle.processed.request.stream:1.0.0
+TID: [-1234] [] [2023-01-12 15:14:53,280]  INFO {org.wso2.carbon.event.processor.core.EventProcessorDeployer} - Execution plan is deployed successfully and in active state  : carbon.super_sub_Silver
+TID: [-1234] [] [2023-01-12 15:14:53,353]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - Producer added to the junction. Stream:org.wso2.throttle.globalThrottle.stream:1.0.0
+TID: [-1234] [] [2023-01-12 15:14:53,354]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - Consumer added to the junction. Stream:org.wso2.throttle.processed.request.stream:1.0.0
+TID: [-1234] [] [2023-01-12 15:14:53,355]  INFO {org.wso2.carbon.event.processor.core.EventProcessorDeployer} - Execution plan is deployed successfully and in active state  : carbon.super_sub_Unauthenticated
+TID: [-1234] [accountrecoveryendpoint] [2023-01-12 15:14:57,517]  INFO {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer} - Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/accountrecoveryendpoint].File[/home/ubuntu/wso2am-3.2.0/repository/deployment/server/webapps/accountrecoveryendpoint]
+TID: [-1234] [am#sample#calculator#v1] [2023-01-12 15:14:58,881]  INFO {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer} - Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/am/sample/calculator/v1].File[/home/ubuntu/wso2am-3.2.0/repository/deployment/server/webapps/am#sample#calculator#v1.war]
+TID: [-1234] [am#sample#pizzashack#v1] [2023-01-12 15:14:59,853]  INFO {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer} - Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/am/sample/pizzashack/v1].File[/home/ubuntu/wso2am-3.2.0/repository/deployment/server/webapps/am#sample#pizzashack#v1.war]
+TID: [-1234] [api#am#admin#v0.17] [2023-01-12 15:15:01,853]  INFO {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer} - Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/api/am/admin/v0.17].File[/home/ubuntu/wso2am-3.2.0/repository/deployment/server/webapps/api#am#admin#v0.17.war]
+TID: [-1234] [api#am#admin] [2023-01-12 15:15:03,359]  INFO {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer} - Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/api/am/admin].File[/home/ubuntu/wso2am-3.2.0/repository/deployment/server/webapps/api#am#admin.war]
+TID: [-1234] [api#am#gateway] [2023-01-12 15:15:05,528]  INFO {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer} - Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/api/am/gateway].File[/home/ubuntu/wso2am-3.2.0/repository/deployment/server/webapps/api#am#gateway.war]
+TID: [-1234] [api#am#publisher] [2023-01-12 15:15:07,641]  INFO {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer} - Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/api/am/publisher].File[/home/ubuntu/wso2am-3.2.0/repository/deployment/server/webapps/api#am#publisher.war]
+TID: [-1234] [api#am#store] [2023-01-12 15:15:09,314]  INFO {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer} - Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/api/am/store].File[/home/ubuntu/wso2am-3.2.0/repository/deployment/server/webapps/api#am#store.war]
+TID: [-1234] [api#identity#consent-mgt#v1.0] [2023-01-12 15:15:10,480]  INFO {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer} - Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/api/identity/consent-mgt/v1.0].File[/home/ubuntu/wso2am-3.2.0/repository/deployment/server/webapps/api#identity#consent-mgt#v1.0.war]
+TID: [-1234] [api#identity#oauth2#dcr#v1.1] [2023-01-12 15:15:11,603]  INFO {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer} - Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/api/identity/oauth2/dcr/v1.1].File[/home/ubuntu/wso2am-3.2.0/repository/deployment/server/webapps/api#identity#oauth2#dcr#v1.1.war]
+TID: [-1234] [api#identity#oauth2#v1.0] [2023-01-12 15:15:12,554]  INFO {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer} - Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/api/identity/oauth2/v1.0].File[/home/ubuntu/wso2am-3.2.0/repository/deployment/server/webapps/api#identity#oauth2#v1.0.war]
+TID: [-1234] [api#identity#recovery#v0.9] [2023-01-12 15:15:13,924]  INFO {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer} - Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/api/identity/recovery/v0.9].File[/home/ubuntu/wso2am-3.2.0/repository/deployment/server/webapps/api#identity#recovery#v0.9.war]
+TID: [-1234] [api#identity#user#v1.0] [2023-01-12 15:15:14,925]  INFO {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer} - Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/api/identity/user/v1.0].File[/home/ubuntu/wso2am-3.2.0/repository/deployment/server/webapps/api#identity#user#v1.0.war]
+TID: [-1234] [authenticationendpoint] [2023-01-12 15:15:15,192]  INFO {org.wso2.carbon.identity.application.authentication.endpoint.util.TenantDataManager} - EndpointConfig.properties file loaded from ./repository/conf/identity/EndpointConfig.properties
+TID: [-1234] [authenticationendpoint] [2023-01-12 15:15:15,196]  INFO {org.wso2.carbon.identity.application.authentication.endpoint.util.MutualSSLManager} - EndpointConfig.properties file loaded from ./repository/conf/identity/EndpointConfig.properties
+TID: [-1234] [authenticationendpoint] [2023-01-12 15:15:15,306]  INFO {org.wso2.carbon.identity.application.authentication.endpoint.util.EndpointConfigManager} - EndpointConfig.properties file loaded from ./repository/conf/identity/EndpointConfig.properties
+TID: [-1234] [authenticationendpoint] [2023-01-12 15:15:18,837]  INFO {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer} - Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/authenticationendpoint].File[/home/ubuntu/wso2am-3.2.0/repository/deployment/server/webapps/authenticationendpoint]
+TID: [-1234] [client-registration#v0.17] [2023-01-12 15:15:20,080]  INFO {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer} - Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/client-registration/v0.17].File[/home/ubuntu/wso2am-3.2.0/repository/deployment/server/webapps/client-registration#v0.17.war]
+TID: [-1234] [internal#data#v1] [2023-01-12 15:15:21,112]  INFO {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer} - Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/internal/data/v1].File[/home/ubuntu/wso2am-3.2.0/repository/deployment/server/webapps/internal#data#v1.war]
+TID: [-1] [] [2023-01-12 15:15:21,993]  INFO {org.wso2.carbon.event.processor.manager.core.internal.CarbonEventManagementService} - Starting polling event receivers
+TID: [-1234] [keymanager-operations] [2023-01-12 15:15:22,103]  INFO {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer} - Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/keymanager-operations].File[/home/ubuntu/wso2am-3.2.0/repository/deployment/server/webapps/keymanager-operations.war]
+TID: [-1234] [oauth2] [2023-01-12 15:15:24,003]  INFO {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer} - Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/oauth2].File[/home/ubuntu/wso2am-3.2.0/repository/deployment/server/webapps/oauth2.war]
+TID: [-1234] [] [2023-01-12 15:15:25,533]  INFO {org.apache.synapse.Axis2SynapseController} - Deploying the Synapse service...
+TID: [-1234] [] [2023-01-12 15:15:25,535]  INFO {org.apache.synapse.Axis2SynapseController} - Deploying Proxy services...
+TID: [-1234] [] [2023-01-12 15:15:25,536]  INFO {org.apache.synapse.core.axis2.ProxyService} - {proxy:WorkflowCallbackService} Building Axis service for Proxy service : WorkflowCallbackService
+TID: [-1234] [] [2023-01-12 15:15:25,543]  INFO {org.apache.synapse.core.axis2.ProxyService} - {proxy:WorkflowCallbackService} Adding service WorkflowCallbackService to the Axis2 configuration
+TID: [-1234] [WorkflowCallbackService] [2023-01-12 15:15:25,545]  INFO {org.wso2.carbon.core.deployment.DeploymentInterceptor} - Deploying Axis2 service: WorkflowCallbackService {super-tenant}
+TID: [-1234] [] [2023-01-12 15:15:25,545]  INFO {org.apache.synapse.core.axis2.ProxyService} - {proxy:WorkflowCallbackService} Successfully created the Axis2 service for Proxy service : WorkflowCallbackService
+TID: [-1234] [] [2023-01-12 15:15:25,546]  INFO {org.apache.synapse.Axis2SynapseController} - Deployed Proxy service : WorkflowCallbackService
+TID: [-1234] [] [2023-01-12 15:15:25,546]  INFO {org.apache.synapse.Axis2SynapseController} - Deploying EventSources...
+TID: [-1234] [] [2023-01-12 15:15:25,612]  INFO {org.apache.synapse.inbound.InboundEndpoint} - Initializing Inbound Endpoint: WebSocketInboundEndpoint
+TID: [-1234] [] [2023-01-12 15:15:25,780]  INFO {org.wso2.carbon.inbound.endpoint.persistence.InboundEndpointsDataStore} - Inbound endpoint registry data not found, so re-initializing registry data
+TID: [-1234] [] [2023-01-12 15:15:26,316]  INFO {org.wso2.carbon.inbound.endpoint.protocol.websocket.management.WebsocketEndpointManager} - Netty Listener starting on port 9099
+TID: [-1234] [] [2023-01-12 15:15:26,317]  INFO {org.apache.synapse.inbound.InboundEndpoint} - Initializing Inbound Endpoint: SecureWebSocketEP
+TID: [-1234] [] [2023-01-12 15:15:26,336]  INFO {org.wso2.carbon.inbound.endpoint.protocol.websocket.management.WebsocketEndpointManager} - Netty SSL Listener starting on port 8099
+TID: [-1234] [] [2023-01-12 15:15:26,338]  INFO {org.apache.synapse.rest.API} - {api:_WSO2AMOpenIDConfigAPI_} Initializing API: _WSO2AMOpenIDConfigAPI_
+TID: [-1234] [] [2023-01-12 15:15:26,338]  INFO {org.apache.synapse.rest.API} - {api:_WSO2AMAuthorizeAPI_} Initializing API: _WSO2AMAuthorizeAPI_
+TID: [-1234] [] [2023-01-12 15:15:26,339]  INFO {org.apache.synapse.rest.API} - {api:_WSO2AMUserInfoAPI_} Initializing API: _WSO2AMUserInfoAPI_
+TID: [-1234] [] [2023-01-12 15:15:26,339]  INFO {org.apache.synapse.rest.API} - {api:_OpenService_} Initializing API: _OpenService_
+TID: [-1234] [] [2023-01-12 15:15:26,339]  INFO {org.apache.synapse.rest.API} - {api:_WSO2AMRevokeAPI_} Initializing API: _WSO2AMRevokeAPI_
+TID: [-1234] [] [2023-01-12 15:15:26,340]  INFO {org.apache.synapse.rest.API} - {api:_WSO2AMTokenAPI_} Initializing API: _WSO2AMTokenAPI_
+TID: [-1234] [] [2023-01-12 15:15:26,340]  INFO {org.apache.synapse.ServerManager} - Server ready for processing...
+TID: [-1234] [] [2023-01-12 15:15:27,274]  INFO {org.wso2.carbon.apimgt.jms.listener.utils.JMSConnectionFactory} - JMS ConnectionFactory : Siddhi-JMS-Consumer initialized
+TID: [-1234] [] [2023-01-12 15:15:27,275]  INFO {org.wso2.carbon.apimgt.jms.listener.utils.JMSConnectionFactory} - JMS ConnectionFactory : Siddhi-JMS-Consumer initialized
+TID: [-1234] [] [2023-01-12 15:15:27,517]  INFO {org.wso2.carbon.inbound.endpoint.protocol.websocket.management.WebsocketEndpointManager} - Netty Listener already started on port 8099
+TID: [-1234] [] [2023-01-12 15:15:27,518]  INFO {org.wso2.carbon.inbound.endpoint.protocol.websocket.management.WebsocketEndpointManager} - Netty Listener already started on port 9099
+TID: [-1] [] [2023-01-12 15:15:27,743]  INFO {org.wso2.carbon.databridge.core.DataBridge} - user admin connected
+TID: [-1234] [] [2023-01-12 15:15:27,772]  INFO {org.wso2.carbon.andes.internal.QpidServiceComponent} - Activating Andes Message Broker Engine...
+TID: [-1234] [] [2023-01-12 15:15:28,554]  INFO {qpid.message.broker.listening} - [Broker] BRK-1002 : Starting : Listening on TCP port 5672
+TID: [-1234] [] [2023-01-12 15:15:28,561]  INFO {qpid.message.broker.listening} - [Broker] BRK-1002 : Starting : Listening on TCP/SSL port 8672
+TID: [-1234] [] [2023-01-12 15:15:28,625]  INFO {org.wso2.carbon.andes.internal.QpidServiceComponent} - AMQP Host Address : 0.0.0.0 Port : 5672
+TID: [-1234] [] [2023-01-12 15:15:28,626]  INFO {org.wso2.carbon.andes.internal.QpidServiceComponent} - Successfully connected to AMQP server on port 5672
+TID: [-1234] [] [2023-01-12 15:15:28,627]  WARN {org.wso2.carbon.andes.internal.QpidServiceComponent} - MQTT Transport is disabled as per configuration.
+TID: [-1234] [] [2023-01-12 15:15:28,628]  INFO {org.wso2.carbon.andes.internal.QpidServiceComponent} - WSO2 Message Broker is started.
+TID: [-1234] [] [2023-01-12 15:15:28,962]  INFO {org.wso2.carbon.databridge.receiver.thrift.internal.ThriftServerStartupObserver} -  Thrift Data Receiver is disabled.
+TID: [-1234] [] [2023-01-12 15:15:28,965]  INFO {org.apache.synapse.transport.passthru.PassThroughHttpListener} - Starting Pass-through HTTP Listener...
+TID: [-1234] [] [2023-01-12 15:15:28,977]  INFO {org.apache.synapse.transport.passthru.core.PassThroughListeningIOReactorManager} - Pass-through HTTP Listener started on 0.0.0.0:8280
+TID: [-1234] [] [2023-01-12 15:15:28,979]  INFO {org.apache.synapse.transport.passthru.PassThroughHttpMultiSSLListener} - Starting Pass-through HTTPS Listener...
+TID: [-1234] [] [2023-01-12 15:15:29,010]  INFO {org.apache.synapse.transport.passthru.core.PassThroughListeningIOReactorManager} - Pass-through HTTPS Listener started on 0.0.0.0:8243
+TID: [-1234] [] [2023-01-12 15:15:29,265]  WARN {org.apache.tomcat.util.net.SSLUtilBase} - jsseUtil.trustedCertNotValid
+TID: [-1234] [] [2023-01-12 15:15:29,271]  WARN {org.apache.tomcat.util.net.SSLUtilBase} - jsseUtil.trustedCertNotValid
+TID: [-1234] [] [2023-01-12 15:15:29,272]  WARN {org.apache.tomcat.util.net.SSLUtilBase} - jsseUtil.trustedCertNotValid
+TID: [-1234] [] [2023-01-12 15:15:29,273]  WARN {org.apache.tomcat.util.net.SSLUtilBase} - jsseUtil.trustedCertNotValid
+TID: [-1234] [] [2023-01-12 15:15:29,273]  WARN {org.apache.tomcat.util.net.SSLUtilBase} - jsseUtil.trustedCertNotValid
+TID: [-1234] [] [2023-01-12 15:15:29,274]  WARN {org.apache.tomcat.util.net.SSLUtilBase} - jsseUtil.trustedCertNotValid
+TID: [-1234] [] [2023-01-12 15:15:29,280]  WARN {org.apache.tomcat.util.net.SSLUtilBase} - jsseUtil.trustedCertNotValid
+TID: [-1234] [] [2023-01-12 15:15:29,280]  WARN {org.apache.tomcat.util.net.SSLUtilBase} - jsseUtil.trustedCertNotValid
+TID: [-1234] [] [2023-01-12 15:15:29,281]  WARN {org.apache.tomcat.util.net.SSLUtilBase} - jsseUtil.trustedCertNotValid
+TID: [-1234] [] [2023-01-12 15:15:29,281]  WARN {org.apache.tomcat.util.net.SSLUtilBase} - jsseUtil.trustedCertNotValid
+TID: [-1234] [] [2023-01-12 15:15:29,282]  WARN {org.apache.tomcat.util.net.SSLUtilBase} - jsseUtil.trustedCertNotValid
+TID: [-1234] [] [2023-01-12 15:15:29,282]  WARN {org.apache.tomcat.util.net.SSLUtilBase} - jsseUtil.trustedCertNotValid
+TID: [-1234] [] [2023-01-12 15:15:29,286]  WARN {org.apache.tomcat.util.net.SSLUtilBase} - jsseUtil.trustedCertNotValid
+TID: [-1234] [] [2023-01-12 15:15:29,286]  WARN {org.apache.tomcat.util.net.SSLUtilBase} - jsseUtil.trustedCertNotValid
+TID: [-1234] [] [2023-01-12 15:15:29,287]  WARN {org.apache.tomcat.util.net.SSLUtilBase} - jsseUtil.trustedCertNotValid
+TID: [-1234] [] [2023-01-12 15:15:29,467]  INFO {org.wso2.carbon.ntask.core.service.impl.TaskServiceImpl} - Task service starting in STANDALONE mode...
+TID: [-1234] [] [2023-01-12 15:15:29,516]  INFO {org.wso2.carbon.registry.eventing.internal.RegistryEventingServiceComponent} - Successfully Initialized Eventing on Registry
+TID: [-1234] [] [2023-01-12 15:15:29,704]  INFO {org.wso2.carbon.core.init.JMXServerManager} - JMX Service URL  : service:jmx:rmi://localhost:11111/jndi/rmi://localhost:9999/jmxrmi
+TID: [-1234] [] [2023-01-12 15:15:29,883]  INFO {org.wso2.carbon.apimgt.jms.listener.utils.JMSTransportHandler} - Starting jms topic consumer thread for the keyManager topic...
+TID: [-1234] [] [2023-01-12 15:15:29,962]  INFO {org.wso2.carbon.apimgt.jms.listener.utils.JMSTransportHandler} - Starting jms topic consumer thread for the throttleData topic...
+TID: [-1234] [] [2023-01-12 15:15:29,975]  INFO {org.wso2.carbon.apimgt.jms.listener.utils.JMSTransportHandler} - Starting jms topic consumer thread for the tokenRevocation topic...
+TID: [-1234] [] [2023-01-12 15:15:29,998]  INFO {org.wso2.carbon.apimgt.jms.listener.utils.JMSTransportHandler} - Starting jms topic consumer thread for the cacheInvalidation topic...
+TID: [-1234] [] [2023-01-12 15:15:30,018]  INFO {org.wso2.carbon.apimgt.jms.listener.utils.JMSTransportHandler} - Starting jms topic consumer thread for the notification topic...
+TID: [-1234] [] [2023-01-12 15:15:30,019]  INFO {org.wso2.carbon.core.internal.StartupFinalizerServiceComponent} - Server           :  0CodeAPI Manager-3.2.0
+TID: [-1234] [] [2023-01-12 15:15:30,020]  INFO {org.wso2.carbon.core.internal.StartupFinalizerServiceComponent} - WSO2 Carbon started in 88 sec
+TID: [-1] [] [2023-01-12 15:15:31,472]  INFO {org.wso2.callhome.CallHomeExecutor} - 
+...............................................................................
+There are 833 updates available for the product 'wso2am-3.2.0'.[WARNING] There
+are 123 critical security updates for the product 'wso2am-3.2.0'. WSO2 strongly
+recommends to apply these updates in production as soon as possible.
+...............................................................................
+TID: [-1] [] [2023-01-12 15:15:31,602]  INFO {org.wso2.carbon.apimgt.jms.listener.utils.JMSListener} - Connection attempt: 1 for JMS Provider for listener: Siddhi-JMS-Consumer#throttleData was successful!
+TID: [-1] [] [2023-01-12 15:15:31,602]  INFO {org.wso2.carbon.apimgt.jms.listener.utils.JMSListener} - Connection attempt: 1 for JMS Provider for listener: Siddhi-JMS-Consumer#tokenRevocation was successful!
+TID: [-1] [] [2023-01-12 15:15:31,602]  INFO {org.wso2.carbon.apimgt.jms.listener.utils.JMSListener} - Connection attempt: 1 for JMS Provider for listener: Siddhi-JMS-Consumer#keyManager was successful!
+TID: [-1] [] [2023-01-12 15:15:31,603]  INFO {org.wso2.carbon.apimgt.jms.listener.utils.JMSListener} - Connection attempt: 1 for JMS Provider for listener: Siddhi-JMS-Consumer#notification was successful!
+TID: [-1] [] [2023-01-12 15:15:31,614]  INFO {org.wso2.carbon.apimgt.jms.listener.utils.JMSTaskManager} - Task manager for Siddhi-JMS-Consumer [re-]initialized
+TID: [-1] [] [2023-01-12 15:15:31,625]  INFO {org.wso2.carbon.apimgt.jms.listener.utils.JMSTaskManager} - Task manager for Siddhi-JMS-Consumer [re-]initialized
+TID: [-1] [] [2023-01-12 15:15:31,626]  INFO {org.wso2.carbon.apimgt.jms.listener.utils.JMSTaskManager} - Task manager for Siddhi-JMS-Consumer [re-]initialized
+TID: [-1] [] [2023-01-12 15:15:31,627]  INFO {org.wso2.carbon.apimgt.jms.listener.utils.JMSTaskManager} - Task manager for Siddhi-JMS-Consumer [re-]initialized
+TID: [-1] [] [2023-01-12 15:15:31,638]  INFO {org.wso2.carbon.apimgt.jms.listener.utils.JMSListener} - Connection attempt: 1 for JMS Provider for listener: Siddhi-JMS-Consumer#cacheInvalidation was successful!
+TID: [-1] [] [2023-01-12 15:15:31,647]  INFO {org.wso2.carbon.apimgt.jms.listener.utils.JMSTaskManager} - Task manager for Siddhi-JMS-Consumer [re-]initialized
+TID: [-1] [] [2023-01-12 15:15:31,899]  WARN {org.wso2.carbon.apimgt.jms.listener.utils.JMSUtils} - Cannot locate destination : cacheInvalidation
+TID: [-1] [] [2023-01-12 15:15:31,874]  WARN {org.wso2.carbon.apimgt.jms.listener.utils.JMSUtils} - Cannot locate destination : throttleData
+TID: [-1] [] [2023-01-12 15:15:31,875]  WARN {org.wso2.carbon.apimgt.jms.listener.utils.JMSUtils} - Cannot locate destination : keyManager
+TID: [-1] [] [2023-01-12 15:15:31,879]  WARN {org.wso2.carbon.apimgt.jms.listener.utils.JMSUtils} - Cannot locate destination : notification
+TID: [-1] [] [2023-01-12 15:15:32,186]  WARN {org.wso2.carbon.apimgt.jms.listener.utils.JMSUtils} - Cannot locate destination : tokenRevocation
+TID: [-1234] [internal/data/v1] [2023-01-12 15:15:32,885]  INFO {org.wso2.carbon.identity.oauth.config.OAuthServerConfiguration} - An instance of org.wso2.carbon.identity.oauth2.token.OauthTokenIssuerImpl is created for Identity OAuth token generation.
+TID: [-1234] [] [2023-01-12 15:15:33,456]  INFO {org.wso2.carbon.ui.internal.CarbonUIServiceComponent} - Mgt Console URL  : https://localhost:9443/carbon/
+TID: [-1234] [] [2023-01-12 15:15:33,457]  INFO {org.wso2.carbon.ui.internal.CarbonUIServiceComponent} - API Developer Portal Default Context : https://localhost:9443/devportal
+TID: [-1234] [] [2023-01-12 15:15:33,457]  INFO {org.wso2.carbon.ui.internal.CarbonUIServiceComponent} - API Publisher Default Context : https://localhost:9443/publisher
+TID: [-1] [] [2023-01-12 15:15:33,630]  INFO {org.wso2.carbon.apimgt.jms.listener.utils.JMSListener} - Started to listen on destination : throttleData of type topic for listener Siddhi-JMS-Consumer#throttleData
+TID: [-1] [] [2023-01-12 15:15:33,630]  INFO {org.wso2.carbon.apimgt.jms.listener.utils.JMSListener} - Started to listen on destination : notification of type topic for listener Siddhi-JMS-Consumer#notification
+TID: [-1] [] [2023-01-12 15:15:33,631]  INFO {org.wso2.carbon.apimgt.jms.listener.utils.JMSListener} - Started to listen on destination : tokenRevocation of type topic for listener Siddhi-JMS-Consumer#tokenRevocation
+TID: [-1] [] [2023-01-12 15:15:33,630]  INFO {org.wso2.carbon.apimgt.jms.listener.utils.JMSListener} - Started to listen on destination : keyManager of type topic for listener Siddhi-JMS-Consumer#keyManager
+TID: [-1] [] [2023-01-12 15:15:33,652]  INFO {org.wso2.carbon.apimgt.jms.listener.utils.JMSListener} - Started to listen on destination : cacheInvalidation of type topic for listener Siddhi-JMS-Consumer#cacheInvalidation
+TID: [-1234] [] [2023-01-12 15:42:42,267]  INFO {org.wso2.carbon.core.init.CarbonServerManager} - Shutdown hook triggered....
+TID: [-1234] [] [2023-01-12 15:42:42,272]  INFO {org.wso2.carbon.core.init.CarbonServerManager} - Gracefully shutting down 0CodeAPI Manager...
+TID: [-1234] [] [2023-01-12 15:42:42,274]  INFO {org.wso2.carbon.core.ServerManagement} - Starting to switch to maintenance mode...
+TID: [-1234] [] [2023-01-12 15:42:42,275]  INFO {org.apache.synapse.transport.passthru.PassThroughHttpListener} - Stopping Pass-through HTTP Listener..
+TID: [-1234] [] [2023-01-12 15:42:42,313]  INFO {org.apache.synapse.transport.passthru.core.PassThroughListeningIOReactorManager} - Pausing  IO Reactor bind for port 8280
+TID: [-1234] [] [2023-01-12 15:42:42,340]  INFO {org.apache.synapse.transport.passthru.core.PassThroughListeningIOReactorManager} - Shutting down IO Reactor bind for port 8280
+TID: [-1] [] [2023-01-12 15:42:42,377]  INFO {org.apache.synapse.transport.passthru.core.PassThroughListeningIOReactorManager} - HTTP-Listener I/O dispatcher Listener shutdown.
+TID: [-1234] [] [2023-01-12 15:42:42,378]  INFO {org.apache.synapse.transport.passthru.PassThroughHttpMultiSSLListener} - Stopping Pass-through HTTPS Listener..
+TID: [-1234] [] [2023-01-12 15:42:42,378]  INFO {org.apache.synapse.transport.passthru.core.PassThroughListeningIOReactorManager} - Pausing  IO Reactor bind for port 8243
+TID: [-1234] [] [2023-01-12 15:42:42,391]  INFO {org.apache.synapse.transport.passthru.core.PassThroughListeningIOReactorManager} - Shutting down IO Reactor bind for port 8243
+TID: [-1] [] [2023-01-12 15:42:42,418]  INFO {org.apache.synapse.transport.passthru.core.PassThroughListeningIOReactorManager} - HTTPS-Listener I/O dispatcher Listener shutdown.
+TID: [-1234] [] [2023-01-12 15:42:42,419]  INFO {org.wso2.carbon.core.ServerManagement} - Stopped all transport listeners
+TID: [-1234] [] [2023-01-12 15:42:42,420]  INFO {org.wso2.carbon.core.ServerManagement} - Waiting for request service completion...
+TID: [-1234] [] [2023-01-12 15:42:42,459]  INFO {org.wso2.carbon.core.ServerManagement} - All requests have been served.
+TID: [-1234] [] [2023-01-12 15:42:42,459]  INFO {org.wso2.carbon.core.ServerManagement} - Waiting for deployment completion...
+TID: [-1234] [accountrecoveryendpoint] [2023-01-12 15:42:42,884]  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/accountrecoveryendpoint]
+TID: [-1234] [authenticationendpoint] [2023-01-12 15:42:42,916]  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/authenticationendpoint]
+TID: [-1234] [api#identity#consent-mgt#v1.0] [2023-01-12 15:42:42,940]  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/api/identity/consent-mgt/v1.0]
+TID: [-1234] [am#sample#calculator#v1] [2023-01-12 15:42:42,964]  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/am/sample/calculator/v1]
+TID: [-1234] [api#am#gateway] [2023-01-12 15:42:43,001]  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/api/am/gateway]
+TID: [-1234] [internal#data#v1] [2023-01-12 15:42:43,021]  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/internal/data/v1]
+TID: [-1234] [api#identity#recovery#v0.9] [2023-01-12 15:42:43,042]  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/api/identity/recovery/v0.9]
+TID: [-1234] [api#identity#user#v1.0] [2023-01-12 15:42:43,064]  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/api/identity/user/v1.0]
+TID: [-1234] [oauth2] [2023-01-12 15:42:43,095]  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/oauth2]
+TID: [-1234] [api#am#admin#v0.17] [2023-01-12 15:42:43,122]  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/api/am/admin/v0.17]
+TID: [-1234] [api#am#publisher] [2023-01-12 15:42:43,148]  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/api/am/publisher]
+TID: [-1234] [am#sample#pizzashack#v1] [2023-01-12 15:42:43,167]  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/am/sample/pizzashack/v1]
+TID: [-1234] [api#am#admin] [2023-01-12 15:42:43,191]  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/api/am/admin]
+TID: [-1234] [api#am#store] [2023-01-12 15:42:43,221]  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/api/am/store]
+TID: [-1234] [api#identity#oauth2#dcr#v1.1] [2023-01-12 15:42:43,240]  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/api/identity/oauth2/dcr/v1.1]
+TID: [-1234] [client-registration#v0.17] [2023-01-12 15:42:43,266]  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/client-registration/v0.17]
+TID: [-1234] [api#identity#oauth2#v1.0] [2023-01-12 15:42:43,286]  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/api/identity/oauth2/v1.0]
+TID: [-1234] [keymanager-operations] [2023-01-12 15:42:43,306]  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/keymanager-operations]
+TID: [-1234] [admin] [2023-01-12 15:42:43,320]  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/admin]
+TID: [-1234] [publisher] [2023-01-12 15:42:43,368]  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/publisher]
+TID: [-1234] [devportal] [2023-01-12 15:42:43,379]  INFO {org.wso2.carbon.webapp.mgt.WebApplication} - Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/devportal]
+TID: [-1234] [devportal] [2023-01-12 15:42:43,379]  INFO {org.wso2.carbon.core.ServerManagement} - All deployment tasks have been completed.
+TID: [-1234] [devportal] [2023-01-12 15:42:43,380]  INFO {org.wso2.carbon.core.ServerManagement} - Waiting for server task completion...
+TID: [-1234] [devportal] [2023-01-12 15:42:43,405]  INFO {org.wso2.carbon.core.ServerManagement} - All server tasks have been completed.
+TID: [-1234] [devportal] [2023-01-12 15:42:43,405]  INFO {org.wso2.carbon.core.init.CarbonServerManager} - Shutting down 0CodeAPI Manager...
+TID: [-1234] [devportal] [2023-01-12 15:42:43,406]  INFO {org.wso2.carbon.apimgt.jms.listener.utils.JMSTransportHandler} - Starting to Shutdown the Listener...
+TID: [-1234] [devportal] [2023-01-12 15:42:44,410]  INFO {org.wso2.carbon.apimgt.jms.listener.utils.JMSTaskManager} - Task manager for jms consumer 1000 shutdown
+TID: [-1234] [devportal] [2023-01-12 15:42:44,411]  INFO {org.wso2.carbon.apimgt.jms.listener.utils.JMSListener} - Stopped listening for JMS messages to listener : Siddhi-JMS-Consumer#keyManager
+TID: [-1234] [devportal] [2023-01-12 15:42:44,411]  INFO {org.wso2.carbon.apimgt.jms.listener.utils.JMSTransportHandler} - Starting to Shutdown the Listener...
+TID: [-1234] [devportal] [2023-01-12 15:42:45,414]  INFO {org.wso2.carbon.apimgt.jms.listener.utils.JMSTaskManager} - Task manager for jms consumer 1000 shutdown
+TID: [-1234] [devportal] [2023-01-12 15:42:45,416]  INFO {org.wso2.carbon.apimgt.jms.listener.utils.JMSListener} - Stopped listening for JMS messages to listener : Siddhi-JMS-Consumer#throttleData
+TID: [-1234] [devportal] [2023-01-12 15:42:45,416]  INFO {org.wso2.carbon.apimgt.jms.listener.utils.JMSTransportHandler} - Starting to Shutdown the Listener...
+TID: [-1234] [devportal] [2023-01-12 15:42:46,419]  INFO {org.wso2.carbon.apimgt.jms.listener.utils.JMSTaskManager} - Task manager for jms consumer 1000 shutdown
+TID: [-1234] [devportal] [2023-01-12 15:42:46,419]  INFO {org.wso2.carbon.apimgt.jms.listener.utils.JMSListener} - Stopped listening for JMS messages to listener : Siddhi-JMS-Consumer#tokenRevocation
+TID: [-1234] [devportal] [2023-01-12 15:42:47,422]  INFO {org.wso2.carbon.apimgt.jms.listener.utils.JMSTaskManager} - Task manager for jms consumer 1000 shutdown
+TID: [-1234] [devportal] [2023-01-12 15:42:47,423]  INFO {org.wso2.carbon.apimgt.jms.listener.utils.JMSListener} - Stopped listening for JMS messages to listener : Siddhi-JMS-Consumer#cacheInvalidation
+TID: [-1234] [devportal] [2023-01-12 15:42:48,426]  INFO {org.wso2.carbon.apimgt.jms.listener.utils.JMSTaskManager} - Task manager for jms consumer 1000 shutdown
+TID: [-1234] [devportal] [2023-01-12 15:42:48,427]  INFO {org.wso2.carbon.apimgt.jms.listener.utils.JMSListener} - Stopped listening for JMS messages to listener : Siddhi-JMS-Consumer#notification
+TID: [-1234] [devportal] [2023-01-12 15:42:48,455]  INFO {org.wso2.carbon.core.init.CarbonServerManager} - Shutting down OSGi framework...
+TID: [-1234] [] [2023-01-12 15:42:48,505]  INFO {org.wso2.carbon.core.init.CarbonServerManager} - Stopping CarbonServerManager...
+TID: [-1234] [] [2023-01-12 15:42:48,507]  INFO {org.wso2.carbon.websocket.transport.WebsocketTransportSender} - WSS Sender Shutdown
+TID: [-1] [] [2023-01-12 15:42:48,508]  INFO {org.apache.synapse.transport.passthru.PassThroughHttpSender} - HTTP Sender shutdown
+TID: [-1234] [] [2023-01-12 15:42:48,509]  INFO {org.wso2.carbon.websocket.transport.WebsocketTransportSender} - WS Sender Shutdown
+TID: [-1] [] [2023-01-12 15:42:48,509]  INFO {org.apache.synapse.transport.passthru.PassThroughHttpSSLSender} - HTTPS Sender shutdown
+TID: [-1234] [] [2023-01-12 15:42:48,510]  INFO {org.apache.synapse.transport.passthru.PassThroughHttpListener} - Destroying PassThroughHttpListener
+TID: [-1234] [] [2023-01-12 15:42:48,510]  INFO {org.apache.synapse.transport.passthru.PassThroughHttpMultiSSLListener} - Destroying PassThroughHttpListener
+TID: [-1234] [devportal] [2023-01-12 15:42:48,569]  INFO {org.wso2.carbon.event.processor.core.internal.CarbonEventProcessorService} - Successfully shutdown ExecutionPlans
+TID: [-1234] [devportal] [2023-01-12 15:42:48,721]  INFO {org.apache.synapse.Axis2SynapseController} - Undeploying the Synapse service...
+TID: [-1234] [devportal] [2023-01-12 15:42:48,722]  INFO {org.apache.synapse.Axis2SynapseController} - Undeploying Proxy services...
+TID: [-1234] [devportal] [2023-01-12 15:42:48,722]  INFO {org.apache.synapse.Axis2SynapseController} - Undeploying EventSources...
+TID: [-1234] [devportal] [2023-01-12 15:42:48,732]  INFO {org.apache.synapse.inbound.InboundEndpoint} - Destroying Inbound Endpoint: WebSocketInboundEndpoint
+TID: [-1234] [devportal] [2023-01-12 15:42:48,763]  INFO {org.apache.synapse.inbound.InboundEndpoint} - Destroying Inbound Endpoint: SecureWebSocketEP
+TID: [-1234] [devportal] [2023-01-12 15:42:48,774]  INFO {org.apache.synapse.rest.API} - {api:_WSO2AMOpenIDConfigAPI_} Destroying API: _WSO2AMOpenIDConfigAPI_
+TID: [-1234] [devportal] [2023-01-12 15:42:48,774]  INFO {org.apache.synapse.rest.API} - {api:_WSO2AMAuthorizeAPI_} Destroying API: _WSO2AMAuthorizeAPI_
+TID: [-1234] [devportal] [2023-01-12 15:42:48,775]  INFO {org.apache.synapse.rest.API} - {api:_WSO2AMUserInfoAPI_} Destroying API: _WSO2AMUserInfoAPI_
+TID: [-1234] [devportal] [2023-01-12 15:42:48,775]  INFO {org.apache.synapse.rest.API} - {api:_OpenService_} Destroying API: _OpenService_
+TID: [-1234] [devportal] [2023-01-12 15:42:48,775]  INFO {org.apache.synapse.rest.API} - {api:_WSO2AMRevokeAPI_} Destroying API: _WSO2AMRevokeAPI_
+TID: [-1234] [devportal] [2023-01-12 15:42:48,776]  INFO {org.apache.synapse.rest.API} - {api:_WSO2AMTokenAPI_} Destroying API: _WSO2AMTokenAPI_
+TID: [-1234] [devportal] [2023-01-12 15:42:48,776]  INFO {org.apache.synapse.task.SynapseTaskManager} - Shutting down the task manager
+TID: [-1234] [devportal] [2023-01-12 15:42:48,790]  INFO {org.wso2.carbon.metrics.impl.reporter.AbstractReporter} - Stopped JMX reporter for Metrics
+TID: [-1234] [devportal] [2023-01-12 15:42:48,917]  INFO {org.wso2.carbon.tomcat.ext.internal.CarbonTomcatServiceComponent} - Stopping the carbon web-app registered under : /
+TID: [-1234] [devportal] [2023-01-12 15:42:49,152]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher undeployed successfully : EmailPublisher.xml
+TID: [-1234] [devportal] [2023-01-12 15:42:49,154]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher deployment held back and in inactive state : EmailPublisher.xml, waiting for Output Event Adapter dependency : email
+TID: [-1234] [devportal] [2023-01-12 15:42:49,154]  INFO {org.wso2.carbon.event.publisher.core.internal.CarbonEventPublisherService} - Event publisher : EmailPublisher  is in inactive state because dependency could not be found : email
+TID: [-1234] [devportal] [2023-01-12 15:42:49,156]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher undeployed successfully : HTTP-recommendationEventPublisher.xml
+TID: [-1234] [devportal] [2023-01-12 15:42:49,157]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher deployment held back and in inactive state : HTTP-recommendationEventPublisher.xml, waiting for Output Event Adapter dependency : http-extended
+TID: [-1234] [devportal] [2023-01-12 15:42:49,157]  INFO {org.wso2.carbon.event.publisher.core.internal.CarbonEventPublisherService} - Event publisher : HTTP-recommendationEventPublisher  is in inactive state because dependency could not be found : http-extended
+TID: [-1234] [devportal] [2023-01-12 15:42:49,158]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher undeployed successfully : jmsEventPublisher_1.10.0_2.xml
+TID: [-1234] [devportal] [2023-01-12 15:42:49,158]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher deployment held back and in inactive state : jmsEventPublisher_1.10.0_2.xml, waiting for Output Event Adapter dependency : jms
+TID: [-1234] [devportal] [2023-01-12 15:42:49,159]  INFO {org.wso2.carbon.event.publisher.core.internal.CarbonEventPublisherService} - Event publisher : jmsEventPublisher-1.0.0-2  is in inactive state because dependency could not be found : jms
+TID: [-1234] [devportal] [2023-01-12 15:42:49,159]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher undeployed successfully : keymgtEventJMSEventPublisher.xml
+TID: [-1234] [devportal] [2023-01-12 15:42:49,159]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher deployment held back and in inactive state : keymgtEventJMSEventPublisher.xml, waiting for Output Event Adapter dependency : jms
+TID: [-1234] [devportal] [2023-01-12 15:42:49,160]  INFO {org.wso2.carbon.event.publisher.core.internal.CarbonEventPublisherService} - Event publisher : keymgtEventJMSEventPublisher  is in inactive state because dependency could not be found : jms
+TID: [-1234] [devportal] [2023-01-12 15:42:49,160]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher undeployed successfully : jmsEventPublisher2.xml
+TID: [-1234] [devportal] [2023-01-12 15:42:49,160]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher deployment held back and in inactive state : jmsEventPublisher2.xml, waiting for Output Event Adapter dependency : jms
+TID: [-1234] [devportal] [2023-01-12 15:42:49,161]  INFO {org.wso2.carbon.event.publisher.core.internal.CarbonEventPublisherService} - Event publisher : jmsEventPublisher2  is in inactive state because dependency could not be found : jms
+TID: [-1234] [devportal] [2023-01-12 15:42:49,161]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher undeployed successfully : cacheInvalidationEventJMSPublisher.xml
+TID: [-1234] [devportal] [2023-01-12 15:42:49,161]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher deployment held back and in inactive state : cacheInvalidationEventJMSPublisher.xml, waiting for Output Event Adapter dependency : jms
+TID: [-1234] [devportal] [2023-01-12 15:42:49,161]  INFO {org.wso2.carbon.event.publisher.core.internal.CarbonEventPublisherService} - Event publisher : cacheInvalidationJMSPublisher  is in inactive state because dependency could not be found : jms
+TID: [-1234] [devportal] [2023-01-12 15:42:49,162]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher undeployed successfully : blockingEventJMSPublisher.xml
+TID: [-1234] [devportal] [2023-01-12 15:42:49,162]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher deployment held back and in inactive state : blockingEventJMSPublisher.xml, waiting for Output Event Adapter dependency : jms
+TID: [-1234] [devportal] [2023-01-12 15:42:49,162]  INFO {org.wso2.carbon.event.publisher.core.internal.CarbonEventPublisherService} - Event publisher : blockingEventJMSPublisher  is in inactive state because dependency could not be found : jms
+TID: [-1234] [devportal] [2023-01-12 15:42:49,163]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher undeployed successfully : tokenRevokeEventJMSPublisher_2.xml
+TID: [-1234] [devportal] [2023-01-12 15:42:49,163]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher deployment held back and in inactive state : tokenRevokeEventJMSPublisher_2.xml, waiting for Output Event Adapter dependency : jms
+TID: [-1234] [devportal] [2023-01-12 15:42:49,163]  INFO {org.wso2.carbon.event.publisher.core.internal.CarbonEventPublisherService} - Event publisher : tokenRevocationJMSPublisher2  is in inactive state because dependency could not be found : jms
+TID: [-1234] [devportal] [2023-01-12 15:42:49,163]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher undeployed successfully : jmsEventPublisher_1.10.0.xml
+TID: [-1234] [devportal] [2023-01-12 15:42:49,164]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher deployment held back and in inactive state : jmsEventPublisher_1.10.0.xml, waiting for Output Event Adapter dependency : jms
+TID: [-1234] [devportal] [2023-01-12 15:42:49,164]  INFO {org.wso2.carbon.event.publisher.core.internal.CarbonEventPublisherService} - Event publisher : jmsEventPublisher-1.0.0  is in inactive state because dependency could not be found : jms
+TID: [-1234] [devportal] [2023-01-12 15:42:49,164]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher undeployed successfully : notificationEventJMSPublisher.xml
+TID: [-1234] [devportal] [2023-01-12 15:42:49,165]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher deployment held back and in inactive state : notificationEventJMSPublisher.xml, waiting for Output Event Adapter dependency : jms
+TID: [-1234] [devportal] [2023-01-12 15:42:49,165]  INFO {org.wso2.carbon.event.publisher.core.internal.CarbonEventPublisherService} - Event publisher : notificationJMSPublisher  is in inactive state because dependency could not be found : jms
+TID: [-1234] [devportal] [2023-01-12 15:42:49,165]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher undeployed successfully : jmsEventPublisher.xml
+TID: [-1234] [devportal] [2023-01-12 15:42:49,166]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher deployment held back and in inactive state : jmsEventPublisher.xml, waiting for Output Event Adapter dependency : jms
+TID: [-1234] [devportal] [2023-01-12 15:42:49,166]  INFO {org.wso2.carbon.event.publisher.core.internal.CarbonEventPublisherService} - Event publisher : jmsEventPublisher  is in inactive state because dependency could not be found : jms
+TID: [-1234] [devportal] [2023-01-12 15:42:49,166]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher undeployed successfully : keyTemplateEventPublisher.xml
+TID: [-1234] [devportal] [2023-01-12 15:42:49,168]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher deployment held back and in inactive state : keyTemplateEventPublisher.xml, waiting for Output Event Adapter dependency : jms
+TID: [-1234] [devportal] [2023-01-12 15:42:49,168]  INFO {org.wso2.carbon.event.publisher.core.internal.CarbonEventPublisherService} - Event publisher : keyTemplateEventPublisher  is in inactive state because dependency could not be found : jms
+TID: [-1234] [devportal] [2023-01-12 15:42:49,169]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher undeployed successfully : tokenRevokeEventJMSPublisher.xml
+TID: [-1234] [devportal] [2023-01-12 15:42:49,169]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher deployment held back and in inactive state : tokenRevokeEventJMSPublisher.xml, waiting for Output Event Adapter dependency : jms
+TID: [-1234] [devportal] [2023-01-12 15:42:49,169]  INFO {org.wso2.carbon.event.publisher.core.internal.CarbonEventPublisherService} - Event publisher : tokenRevocationJMSPublisher  is in inactive state because dependency could not be found : jms
+TID: [-1234] [devportal] [2023-01-12 15:42:49,204]  INFO {org.wso2.carbon.databridge.receiver.binary.internal.BinaryDataReceiverServiceComponent} - Binary Data Receiver server shutting down...
+TID: [-1234] [devportal] [2023-01-12 15:42:49,204]  INFO {org.wso2.carbon.databridge.receiver.binary.internal.BinaryDataReceiver} - Stopping Binary Server..
+TID: [-1234] [] [2023-01-12 15:42:49,838]  INFO {org.wso2.carbon.core.init.CarbonServerManager} - Shutdown complete 
+TID: [-1234] [] [2023-01-12 15:42:49,839]  INFO {org.wso2.carbon.core.init.CarbonServerManager} - Halting JVM 
+TID: [2023-01-12 15:49:39,758]  WARN {org.wso2.config.mapper.ConfigParser} - Configurations Changed in :repository/conf/deployment.toml {org.wso2.config.mapper.ConfigParser}
+TID: [2023-01-12 15:49:39,761]  WARN {org.wso2.config.mapper.ConfigParser} - Overriding files in configuration directory /home/ubuntu/wso2am-3.2.0 {org.wso2.config.mapper.ConfigParser}
+TID: [2023-01-12 15:49:40,992]  INFO {org.wso2.config.mapper.ConfigParser} - Writing Metadata Entries... {org.wso2.config.mapper.ConfigParser}
+TID: [-1234] [] [2023-01-12 15:49:55,475]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - Starting WSO2 Carbon...
+TID: [-1234] [] [2023-01-12 15:49:55,489]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - Operating System : Linux 5.15.0-1027-aws, amd64
+TID: [-1234] [] [2023-01-12 15:49:55,490]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - Java Home        : /usr/lib/jvm/java-11-openjdk-amd64
+TID: [-1234] [] [2023-01-12 15:49:55,490]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - Java Version     : 11.0.17
+TID: [-1234] [] [2023-01-12 15:49:55,490]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - Java VM          : OpenJDK 64-Bit Server VM 11.0.17+8-post-Ubuntu-1ubuntu220.04,Ubuntu
+TID: [-1234] [] [2023-01-12 15:49:55,490]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - Carbon Home      : /home/ubuntu/wso2am-3.2.0
+TID: [-1234] [] [2023-01-12 15:49:55,491]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - Java Temp Dir    : /home/ubuntu/wso2am-3.2.0/tmp
+TID: [-1234] [] [2023-01-12 15:49:55,491]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - User             : root, en-null, Etc/UTC
+TID: [-1] [] [2023-01-12 15:49:55,751]  INFO {org.wso2.carbon.crypto.provider.internal.DefaultCryptoProviderComponent} - 'CryptoService.Secret' property has not been set. 'org.wso2.carbon.crypto.provider.SymmetricKeyInternalCryptoProvider' won't be registered as an internal crypto provider. Please set the secret if the provider needs to be registered.
+TID: [-1] [] [2023-01-12 15:49:56,480]  INFO {org.wso2.carbon.event.output.adapter.kafka.internal.ds.KafkaEventAdapterServiceDS} - Successfully deployed the Kafka output event adaptor service
+TID: [-1] [] [2023-01-12 15:49:56,795]  INFO {org.wso2.carbon.event.template.manager.core.internal.ds.TemplateDeployerServiceTrackerDS} - Successfully deployed the execution manager tracker service
+TID: [-1234] [] [2023-01-12 15:50:00,867]  INFO {org.wso2.carbon.consent.mgt.core.internal.ConsentManagerComponent} - ConsentManagerComponent is activated.
+TID: [-1] [] [2023-01-12 15:50:01,317]  INFO {org.wso2.carbon.databridge.receiver.binary.internal.BinaryDataReceiver} - Started Binary SSL Transport on port : 9711
+TID: [-1] [] [2023-01-12 15:50:01,320]  INFO {org.wso2.carbon.databridge.receiver.binary.internal.BinaryDataReceiver} - Started Binary TCP Transport on port : 9611
+TID: [-1234] [] [2023-01-12 15:50:01,349]  INFO {org.wso2.carbon.databridge.core.internal.DataBridgeDS} - Successfully deployed Agent Server 
+TID: [-1234] [] [2023-01-12 15:50:02,065]  INFO {org.wso2.carbon.registry.core.jdbc.EmbeddedRegistryService} - Configured Registry in 130ms
+TID: [-1234] [] [2023-01-12 15:50:02,133]  INFO {org.wso2.carbon.registry.core.jdbc.EmbeddedRegistryService} - Connected to mount at configregistry in 15ms
+TID: [-1234] [] [2023-01-12 15:50:02,137]  INFO {org.wso2.carbon.registry.core.jdbc.EmbeddedRegistryService} - Connected to mount at govregistry in 18ms
+TID: [-1234] [] [2023-01-12 15:50:02,277]  INFO {org.wso2.carbon.registry.core.jdbc.EmbeddedRegistryService} - Connected to mount at configregistry in 2ms
+TID: [-1234] [] [2023-01-12 15:50:02,280]  INFO {org.wso2.carbon.registry.core.jdbc.EmbeddedRegistryService} - Connected to mount at govregistry in 4ms
+TID: [-1234] [] [2023-01-12 15:50:02,291]  INFO {org.wso2.carbon.registry.core.internal.RegistryCoreServiceComponent} - Registry Mode    : READ-WRITE
+TID: [-1234] [] [2023-01-12 15:50:02,810]  INFO {org.wso2.carbon.metrics.impl.util.JmxReporterBuilder} - Creating JMX reporter for Metrics with domain 'org.wso2.carbon.metrics'
+TID: [-1234] [] [2023-01-12 15:50:02,815]  INFO {org.wso2.carbon.metrics.impl.reporter.AbstractReporter} - Started JMX reporter for Metrics
+TID: [-1234] [] [2023-01-12 15:50:06,141]  INFO {org.wso2.carbon.registry.indexing.solr.SolrClient} - Default Embedded Solr Server Initialized
+TID: [-1234] [] [2023-01-12 15:50:06,464]  INFO {org.wso2.carbon.user.core.internal.UserStoreMgtDSComponent} - Carbon UserStoreMgtDSComponent activated successfully.
+TID: [-1234] [] [2023-01-12 15:50:09,753]  INFO {org.wso2.carbon.identity.user.store.configuration.deployer.UserStoreConfigurationDeployer} - User Store Configuration Deployer initiated.
+TID: [-1234] [] [2023-01-12 15:50:09,755]  INFO {org.wso2.carbon.identity.user.store.configuration.deployer.UserStoreConfigurationDeployer} - User Store Configuration Deployer initiated.
+TID: [-1234] [] [2023-01-12 15:50:10,815]  INFO {org.wso2.carbon.websocket.transport.WebsocketTransportSender} - WSS Sender started
+TID: [-1234] [] [2023-01-12 15:50:10,825]  INFO {org.apache.synapse.transport.passthru.PassThroughHttpSender} - Initializing Pass-through HTTP/S Sender...
+TID: [-1234] [] [2023-01-12 15:50:10,880]  INFO {org.apache.synapse.transport.passthru.PassThroughHttpSender} - Pass-through HTTP Sender started...
+TID: [-1234] [] [2023-01-12 15:50:10,881]  INFO {org.apache.synapse.transport.passthru.PassThroughHttpSSLSender} - Initializing Pass-through HTTP/S Sender...
+TID: [-1234] [] [2023-01-12 15:50:10,900]  INFO {org.apache.synapse.transport.nhttp.config.ClientConnFactoryBuilder} - customSSLProfiles configuration is loaded from path: /home/ubuntu/wso2am-3.2.0/repository/resources/security/sslprofiles.xml
+TID: [-1234] [] [2023-01-12 15:50:10,906]  INFO {org.apache.synapse.transport.nhttp.config.ClientConnFactoryBuilder} - HTTPS Loading custom SSL profiles for the HTTPS sender
+TID: [-1234] [] [2023-01-12 15:50:10,917]  INFO {org.apache.synapse.transport.nhttp.config.ClientConnFactoryBuilder} - HTTPS Custom SSL profiles initialized for 1 servers
+TID: [-1234] [] [2023-01-12 15:50:10,919]  INFO {org.apache.synapse.transport.passthru.PassThroughHttpSSLSender} - Pass-through HTTPS Sender started...
+TID: [-1234] [] [2023-01-12 15:50:10,924]  INFO {org.wso2.carbon.websocket.transport.WebsocketTransportSender} - WS Sender started
+TID: [-1234] [] [2023-01-12 15:50:10,949]  INFO {org.apache.synapse.transport.passthru.PassThroughHttpListener} - Initializing Pass-through HTTP/S Listener...
+TID: [-1234] [] [2023-01-12 15:50:10,976]  INFO {org.apache.synapse.transport.passthru.PassThroughHttpMultiSSLListener} - Initializing Pass-through HTTP/S Listener...
+TID: [-1234] [] [2023-01-12 15:50:10,998]  INFO {org.apache.synapse.transport.nhttp.config.ServerConnFactoryBuilder} - SSLProfile configuration is loaded from path: /home/ubuntu/wso2am-3.2.0/repository/resources/security/listenerprofiles.xml
+TID: [-1234] [I18nEmailMgtConfigService] [2023-01-12 15:50:13,320]  INFO {org.wso2.carbon.core.deployment.DeploymentInterceptor} - Deploying Axis2 service: I18nEmailMgtConfigService {super-tenant}
+TID: [-1234] [AccountCredentialMgtConfigService] [2023-01-12 15:50:16,135]  INFO {org.wso2.carbon.core.deployment.DeploymentInterceptor} - Deploying Axis2 service: AccountCredentialMgtConfigService {super-tenant}
+TID: [-1234] [UserIdentityManagementAdminService] [2023-01-12 15:50:16,137]  INFO {org.wso2.carbon.core.deployment.DeploymentInterceptor} - Deploying Axis2 service: UserIdentityManagementAdminService {super-tenant}
+TID: [-1234] [UserInformationRecoveryService] [2023-01-12 15:50:16,139]  INFO {org.wso2.carbon.core.deployment.DeploymentInterceptor} - Deploying Axis2 service: UserInformationRecoveryService {super-tenant}
+TID: [-1234] [] [2023-01-12 15:50:19,518]  WARN {org.apache.axis2.description.java2wsdl.DefaultSchemaGenerator} - We don't support method overloading. Ignoring [generateUpdatedAPIFromSwagger]
+TID: [-1234] [] [2023-01-12 15:50:21,055]  INFO {org.wso2.carbon.core.init.CarbonServerManager} - Repository       : /home/ubuntu/wso2am-3.2.0/repository/deployment/server/
+TID: [-1] [] [2023-01-12 15:50:21,063]  INFO {org.wso2.carbon.event.input.adapter.kafka.internal.ds.KafkaEventAdapterServiceHolder} - Kafka input event adaptor waiting for dependent configurations to load
+TID: [-1234] [] [2023-01-12 15:50:21,233]  INFO {org.wso2.carbon.andes.core.internal.ds.QueueManagerServiceDS} - Successfully created the queue manager service
+TID: [-1234] [] [2023-01-12 15:50:21,244]  INFO {org.wso2.carbon.andes.core.internal.ds.SubscriptionManagerServiceDS} - Successfully created the subscription manager service
+TID: [-1234] [] [2023-01-12 15:50:21,284]  INFO {org.wso2.carbon.core.multitenancy.eager.TenantLoadingConfig} - Using tenant lazy loading policy...
+TID: [-1234] [] [2023-01-12 15:50:21,312]  INFO {org.wso2.carbon.core.internal.permission.update.PermissionUpdater} - Permission cache updated for tenant -1234
+TID: [-1234] [] [2023-01-12 15:50:22,203]  WARN {org.wso2.carbon.identity.application.mgt.internal.ApplicationManagementServiceComponent} - Templates directory not found at /home/ubuntu/wso2am-3.2.0/repository/resources/identity/authntemplates
+TID: [-1234] [] [2023-01-12 15:50:23,139]  INFO {org.wso2.carbon.user.core.internal.UserStoreMgtDSComponent} - Claim manager set for class org.wso2.carbon.user.core.common.DefaultRealm
+TID: [-1234] [] [2023-01-12 15:50:23,145]  INFO {org.wso2.carbon.user.core.internal.UserStoreMgtDSComponent} - Claim manager set for class org.wso2.carbon.user.core.jdbc.UniqueIDJDBCUserStoreManager
+TID: [-1] [] [2023-01-12 15:50:23,389]  INFO {org.wso2.carbon.identity.entitlement.internal.SchemaBuilder} - XACML policy schema loaded successfully.
+TID: [-1234] [] [2023-01-12 15:50:23,668]  INFO {org.wso2.carbon.identity.oauth.config.OAuthServerConfiguration} - The default OAuth token issuer will be used. No custom token generator is set.
+TID: [-1234] [] [2023-01-12 15:50:24,623]  INFO {org.wso2.carbon.apimgt.jms.listener.utils.JMSConnectionFactory} - JMS ConnectionFactory : Siddhi-JMS-Consumer initialized
+TID: [-1234] [] [2023-01-12 15:50:24,964]  INFO {org.wso2.carbon.identity.oauth2.internal.OAuth2ServiceComponent} - PKCE Support enabled.
+TID: [-1234] [] [2023-01-12 15:50:26,822]  INFO {org.wso2.carbon.identity.application.authentication.framework.store.SessionDataStore} - Thread pool size for temporary authentication context data delete task: 20
+TID: [-1234] [] [2023-01-12 15:50:27,823]  INFO {org.wso2.carbon.mediation.initializer.ServiceBusInitializer} - Starting ESB...
+TID: [-1234] [] [2023-01-12 15:50:27,860]  INFO {org.wso2.carbon.mediation.initializer.ServiceBusInitializer} - Initializing Apache Synapse...
+TID: [-1234] [] [2023-01-12 15:50:27,867]  INFO {org.apache.synapse.SynapseControllerFactory} - Using Synapse home : /home/ubuntu/wso2am-3.2.0/.
+TID: [-1234] [] [2023-01-12 15:50:27,868]  INFO {org.apache.synapse.SynapseControllerFactory} - Using synapse.xml location : /home/ubuntu/wso2am-3.2.0/././repository/deployment/server/synapse-configs/default
+TID: [-1234] [] [2023-01-12 15:50:27,869]  INFO {org.apache.synapse.SynapseControllerFactory} - Using server name : localhost
+TID: [-1234] [] [2023-01-12 15:50:27,917]  INFO {org.apache.synapse.SynapseControllerFactory} - The timeout handler will run every : 15s
+TID: [-1234] [] [2023-01-12 15:50:27,959]  INFO {org.apache.synapse.Axis2SynapseController} - Initializing Synapse at : Thu Jan 12 15:50:27 UTC 2023
+TID: [-1234] [] [2023-01-12 15:50:27,967]  INFO {org.wso2.carbon.mediation.initializer.CarbonSynapseController} - Loading the mediation configuration from the file system
+TID: [-1234] [] [2023-01-12 15:50:27,972]  INFO {org.apache.synapse.config.xml.MultiXMLConfigurationBuilder} - Building synapse configuration from the synapse artifact repository at : ././repository/deployment/server/synapse-configs/default
+TID: [-1234] [] [2023-01-12 15:50:27,975]  INFO {org.apache.synapse.config.xml.XMLConfigurationBuilder} - Generating the Synapse configuration model by parsing the XML configuration
+TID: [-1234] [] [2023-01-12 15:50:28,212]  INFO {org.wso2.carbon.mediation.dependency.mgt.DependencyTracker} - Sequence : _threat_fault_ was added to the Synapse configuration successfully
+TID: [-1234] [] [2023-01-12 15:50:28,266]  INFO {org.wso2.carbon.mediation.dependency.mgt.DependencyTracker} - Sequence : _token_fault_ was added to the Synapse configuration successfully
+TID: [-1234] [] [2023-01-12 15:50:28,270]  INFO {org.wso2.carbon.mediation.dependency.mgt.DependencyTracker} - Sequence : _production_key_error_ was added to the Synapse configuration successfully
+TID: [-1234] [] [2023-01-12 15:50:28,271]  INFO {org.wso2.carbon.mediation.dependency.mgt.DependencyTracker} - Sequence : _sandbox_key_error_ was added to the Synapse configuration successfully
+TID: [-1234] [] [2023-01-12 15:50:28,379]  INFO {org.wso2.carbon.mediation.dependency.mgt.DependencyTracker} - Sequence : fault was added to the Synapse configuration successfully
+TID: [-1234] [] [2023-01-12 15:50:28,447]  INFO {org.wso2.carbon.mediation.dependency.mgt.DependencyTracker} - Sequence : _cors_request_handler_ was added to the Synapse configuration successfully
+TID: [-1234] [] [2023-01-12 15:50:28,450]  INFO {org.wso2.carbon.mediation.dependency.mgt.DependencyTracker} - Sequence : _resource_mismatch_handler_ was added to the Synapse configuration successfully
+TID: [-1234] [] [2023-01-12 15:50:28,527]  INFO {org.wso2.carbon.mediation.dependency.mgt.DependencyTracker} - Sequence : main was added to the Synapse configuration successfully
+TID: [-1234] [] [2023-01-12 15:50:28,529]  INFO {org.wso2.carbon.mediation.dependency.mgt.DependencyTracker} - Sequence : _auth_failure_handler_ was added to the Synapse configuration successfully
+TID: [-1234] [] [2023-01-12 15:50:28,530]  INFO {org.wso2.carbon.mediation.dependency.mgt.DependencyTracker} - Sequence : _graphql_failure_handler was added to the Synapse configuration successfully
+TID: [-1234] [] [2023-01-12 15:50:28,535]  INFO {org.wso2.carbon.mediation.dependency.mgt.DependencyTracker} - Sequence : _throttle_out_handler_ was added to the Synapse configuration successfully
+TID: [-1234] [] [2023-01-12 15:50:28,541]  INFO {org.wso2.carbon.mediation.dependency.mgt.DependencyTracker} - Sequence : _build_ was added to the Synapse configuration successfully
+TID: [-1234] [] [2023-01-12 15:50:28,543]  INFO {org.wso2.carbon.mediation.dependency.mgt.DependencyTracker} - Sequence : outDispatchSeq was added to the Synapse configuration successfully
+TID: [-1234] [] [2023-01-12 15:50:28,574]  INFO {org.wso2.carbon.mediation.dependency.mgt.DependencyTracker} - Sequence : dispatchSeq was added to the Synapse configuration successfully
+TID: [-1234] [] [2023-01-12 15:50:28,627]  INFO {org.wso2.carbon.mediation.dependency.mgt.DependencyTracker} - Proxy service : WorkflowCallbackService was added to the Synapse configuration successfully
+TID: [-1234] [] [2023-01-12 15:50:28,715]  INFO {org.wso2.carbon.mediation.dependency.mgt.DependencyTracker} - API : _WSO2AMTokenAPI_ was added to the Synapse configuration successfully
+TID: [-1234] [] [2023-01-12 15:50:28,733]  INFO {org.wso2.carbon.mediation.dependency.mgt.DependencyTracker} - API : _WSO2AMRevokeAPI_ was added to the Synapse configuration successfully
+TID: [-1234] [] [2023-01-12 15:50:28,751]  INFO {org.wso2.carbon.mediation.dependency.mgt.DependencyTracker} - API : _WSO2AMAuthorizeAPI_ was added to the Synapse configuration successfully
+TID: [-1234] [] [2023-01-12 15:50:28,792]  INFO {org.wso2.carbon.mediation.dependency.mgt.DependencyTracker} - API : _OpenService_ was added to the Synapse configuration successfully
+TID: [-1234] [] [2023-01-12 15:50:28,807]  INFO {org.wso2.carbon.mediation.dependency.mgt.DependencyTracker} - API : _WSO2AMUserInfoAPI_ was added to the Synapse configuration successfully
+TID: [-1234] [] [2023-01-12 15:50:28,822]  INFO {org.wso2.carbon.mediation.dependency.mgt.DependencyTracker} - API : _WSO2AMOpenIDConfigAPI_ was added to the Synapse configuration successfully
+TID: [-1234] [] [2023-01-12 15:50:28,825]  INFO {org.wso2.carbon.mediation.dependency.mgt.DependencyTracker} - Inbound Endpoint : SecureWebSocketEP was added to the Synapse configuration successfully
+TID: [-1234] [] [2023-01-12 15:50:28,827]  INFO {org.wso2.carbon.mediation.dependency.mgt.DependencyTracker} - Inbound Endpoint : WebSocketInboundEndpoint was added to the Synapse configuration successfully
+TID: [-1234] [] [2023-01-12 15:50:28,828]  INFO {org.apache.synapse.config.SynapseConfigurationBuilder} - Loaded Synapse configuration from the artifact repository at : ././repository/deployment/server/synapse-configs/default
+TID: [-1234] [] [2023-01-12 15:50:28,830]  INFO {org.wso2.carbon.mediation.dependency.mgt.DependencyTracker} - Local entry : SERVER_HOST was added to the Synapse configuration successfully
+TID: [-1234] [] [2023-01-12 15:50:28,831]  INFO {org.wso2.carbon.mediation.dependency.mgt.DependencyTracker} - Local entry : SERVER_IP was added to the Synapse configuration successfully
+TID: [-1234] [] [2023-01-12 15:50:28,911]  INFO {org.apache.synapse.Axis2SynapseController} - Loading mediator extensions...
+TID: [-1234] [echo] [2023-01-12 15:50:29,051]  INFO {org.wso2.carbon.core.deployment.DeploymentInterceptor} - Deploying Axis2 service: echo {super-tenant}
+TID: [-1234] [Version] [2023-01-12 15:50:29,093]  INFO {org.wso2.carbon.core.deployment.DeploymentInterceptor} - Deploying Axis2 service: Version {super-tenant}
+TID: [-1234] [] [2023-01-12 15:50:29,116]  INFO {org.wso2.carbon.event.stream.core.EventStreamDeployer} - Stream definition is deployed successfully  : id_gov_notify_stream:1.0.0
+TID: [-1234] [] [2023-01-12 15:50:29,123]  INFO {org.wso2.carbon.event.stream.core.EventStreamDeployer} - Stream definition is deployed successfully  : org.wso2.apimgt.cache.invalidation.stream:1.0.0
+TID: [-1234] [] [2023-01-12 15:50:29,127]  INFO {org.wso2.carbon.event.stream.core.EventStreamDeployer} - Stream definition is deployed successfully  : org.wso2.apimgt.keymgt.stream:1.0.0
+TID: [-1234] [] [2023-01-12 15:50:29,130]  INFO {org.wso2.carbon.event.stream.core.EventStreamDeployer} - Stream definition is deployed successfully  : org.wso2.apimgt.notification.stream:1.0.0
+TID: [-1234] [] [2023-01-12 15:50:29,132]  INFO {org.wso2.carbon.event.stream.core.EventStreamDeployer} - Stream definition is deployed successfully  : org.wso2.apimgt.recommendation.event.stream:1.0.0
+TID: [-1234] [] [2023-01-12 15:50:29,136]  INFO {org.wso2.carbon.event.stream.core.EventStreamDeployer} - Stream definition is deployed successfully  : org.wso2.apimgt.token.revocation.stream:1.0.0
+TID: [-1234] [] [2023-01-12 15:50:29,139]  INFO {org.wso2.carbon.event.stream.core.EventStreamDeployer} - Stream definition is deployed successfully  : org.wso2.blocking.request.stream:1.0.0
+TID: [-1234] [] [2023-01-12 15:50:29,145]  INFO {org.wso2.carbon.event.stream.core.EventStreamDeployer} - Stream definition is deployed successfully  : org.wso2.botDetectionData.request.stream:1.0.0
+TID: [-1234] [] [2023-01-12 15:50:29,148]  INFO {org.wso2.carbon.event.stream.core.EventStreamDeployer} - Stream definition is deployed successfully  : org.wso2.keytemplate.request.stream:1.0.0
+TID: [-1234] [] [2023-01-12 15:50:29,155]  INFO {org.wso2.carbon.event.stream.core.EventStreamDeployer} - Stream definition is deployed successfully  : org.wso2.throttle.globalThrottle.stream:1.0.0
+TID: [-1234] [] [2023-01-12 15:50:29,157]  INFO {org.wso2.carbon.event.stream.core.EventStreamDeployer} - Stream definition is deployed successfully  : org.wso2.throttle.globalThrottle.stream:1.1.0
+TID: [-1234] [] [2023-01-12 15:50:29,163]  INFO {org.wso2.carbon.event.stream.core.EventStreamDeployer} - Stream definition is deployed successfully  : org.wso2.throttle.processed.request.stream:1.0.0
+TID: [-1234] [] [2023-01-12 15:50:29,167]  INFO {org.wso2.carbon.event.stream.core.EventStreamDeployer} - Stream definition is deployed successfully  : org.wso2.throttle.request.stream:1.0.0
+TID: [-1234] [] [2023-01-12 15:50:29,180]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - WSO2EventConsumer added to the junction. Stream:id_gov_notify_stream:1.0.0
+TID: [-1234] [] [2023-01-12 15:50:29,184]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher configuration successfully deployed and in active state : EmailPublisher
+TID: [-1234] [] [2023-01-12 15:50:29,191]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - WSO2EventConsumer added to the junction. Stream:org.wso2.apimgt.recommendation.event.stream:1.0.0
+TID: [-1234] [] [2023-01-12 15:50:29,195]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher configuration successfully deployed and in active state : HTTP-recommendationEventPublisher
+TID: [-1234] [] [2023-01-12 15:50:29,199]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - WSO2EventConsumer added to the junction. Stream:org.wso2.blocking.request.stream:1.0.0
+TID: [-1234] [] [2023-01-12 15:50:29,228]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher configuration successfully deployed and in active state : blockingEventJMSPublisher
+TID: [-1234] [] [2023-01-12 15:50:29,233]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - WSO2EventConsumer added to the junction. Stream:org.wso2.apimgt.cache.invalidation.stream:1.0.0
+TID: [-1234] [] [2023-01-12 15:50:29,234]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher configuration successfully deployed and in active state : cacheInvalidationJMSPublisher
+TID: [-1234] [] [2023-01-12 15:50:29,236]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - WSO2EventConsumer added to the junction. Stream:org.wso2.throttle.globalThrottle.stream:1.0.0
+TID: [-1234] [] [2023-01-12 15:50:29,238]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher configuration successfully deployed and in active state : jmsEventPublisher
+TID: [-1234] [] [2023-01-12 15:50:29,240]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - WSO2EventConsumer added to the junction. Stream:org.wso2.throttle.globalThrottle.stream:1.0.0
+TID: [-1234] [] [2023-01-12 15:50:29,241]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher configuration successfully deployed and in active state : jmsEventPublisher2
+TID: [-1234] [] [2023-01-12 15:50:29,243]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - WSO2EventConsumer added to the junction. Stream:org.wso2.throttle.globalThrottle.stream:1.1.0
+TID: [-1234] [] [2023-01-12 15:50:29,245]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher configuration successfully deployed and in active state : jmsEventPublisher-1.0.0
+TID: [-1234] [] [2023-01-12 15:50:29,247]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - WSO2EventConsumer added to the junction. Stream:org.wso2.throttle.globalThrottle.stream:1.1.0
+TID: [-1234] [] [2023-01-12 15:50:29,248]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher configuration successfully deployed and in active state : jmsEventPublisher-1.0.0-2
+TID: [-1234] [] [2023-01-12 15:50:29,250]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - WSO2EventConsumer added to the junction. Stream:org.wso2.keytemplate.request.stream:1.0.0
+TID: [-1234] [] [2023-01-12 15:50:29,256]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher configuration successfully deployed and in active state : keyTemplateEventPublisher
+TID: [-1234] [] [2023-01-12 15:50:29,260]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - WSO2EventConsumer added to the junction. Stream:org.wso2.apimgt.keymgt.stream:1.0.0
+TID: [-1234] [] [2023-01-12 15:50:29,262]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher configuration successfully deployed and in active state : keymgtEventJMSEventPublisher
+TID: [-1234] [] [2023-01-12 15:50:29,264]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - WSO2EventConsumer added to the junction. Stream:org.wso2.apimgt.notification.stream:1.0.0
+TID: [-1234] [] [2023-01-12 15:50:29,265]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher configuration successfully deployed and in active state : notificationJMSPublisher
+TID: [-1234] [] [2023-01-12 15:50:29,269]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - WSO2EventConsumer added to the junction. Stream:org.wso2.apimgt.token.revocation.stream:1.0.0
+TID: [-1234] [] [2023-01-12 15:50:29,273]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher configuration successfully deployed and in active state : tokenRevocationJMSPublisher
+TID: [-1234] [] [2023-01-12 15:50:29,275]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - WSO2EventConsumer added to the junction. Stream:org.wso2.apimgt.token.revocation.stream:1.0.0
+TID: [-1234] [] [2023-01-12 15:50:29,276]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher configuration successfully deployed and in active state : tokenRevocationJMSPublisher2
+TID: [-1234] [] [2023-01-12 15:50:29,293]  INFO {org.wso2.carbon.event.input.adapter.core.internal.InputAdapterRuntime} - Connecting receiver blockingWso2EventReceiver
+TID: [-1234] [] [2023-01-12 15:50:29,294]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - Producer added to the junction. Stream:org.wso2.blocking.request.stream:1.0.0
+TID: [-1234] [] [2023-01-12 15:50:29,297]  INFO {org.wso2.carbon.event.receiver.core.EventReceiverDeployer} - Event Receiver configuration successfully deployed and in active state: blockingWso2EventReceiver
+TID: [-1234] [] [2023-01-12 15:50:29,301]  INFO {org.wso2.carbon.event.input.adapter.core.internal.InputAdapterRuntime} - Connecting receiver cacheInvalidationWso2EventReceiver
+TID: [-1234] [] [2023-01-12 15:50:29,302]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - Producer added to the junction. Stream:org.wso2.apimgt.cache.invalidation.stream:1.0.0
+TID: [-1234] [] [2023-01-12 15:50:29,303]  INFO {org.wso2.carbon.event.receiver.core.EventReceiverDeployer} - Event Receiver configuration successfully deployed and in active state: cacheInvalidationWso2EventReceiver
+TID: [-1234] [] [2023-01-12 15:50:29,305]  INFO {org.wso2.carbon.event.input.adapter.core.internal.InputAdapterRuntime} - Connecting receiver keyMgtWso2EventReceiver
+TID: [-1234] [] [2023-01-12 15:50:29,305]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - Producer added to the junction. Stream:org.wso2.apimgt.keymgt.stream:1.0.0
+TID: [-1234] [] [2023-01-12 15:50:29,305]  INFO {org.wso2.carbon.event.receiver.core.EventReceiverDeployer} - Event Receiver configuration successfully deployed and in active state: keyMgtWso2EventReceiver
+TID: [-1234] [] [2023-01-12 15:50:29,308]  INFO {org.wso2.carbon.event.input.adapter.core.internal.InputAdapterRuntime} - Connecting receiver keyTemplateWso2EventReceiver
+TID: [-1234] [] [2023-01-12 15:50:29,308]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - Producer added to the junction. Stream:org.wso2.keytemplate.request.stream:1.0.0
+TID: [-1234] [] [2023-01-12 15:50:29,309]  INFO {org.wso2.carbon.event.receiver.core.EventReceiverDeployer} - Event Receiver configuration successfully deployed and in active state: keyTemplateWso2EventReceiver
+TID: [-1234] [] [2023-01-12 15:50:29,310]  INFO {org.wso2.carbon.event.input.adapter.core.internal.InputAdapterRuntime} - Connecting receiver notificationsWSO2EventReceiver
+TID: [-1234] [] [2023-01-12 15:50:29,310]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - Producer added to the junction. Stream:org.wso2.apimgt.notification.stream:1.0.0
+TID: [-1234] [] [2023-01-12 15:50:29,311]  INFO {org.wso2.carbon.event.receiver.core.EventReceiverDeployer} - Event Receiver configuration successfully deployed and in active state: notificationsWSO2EventReceiver
+TID: [-1234] [] [2023-01-12 15:50:29,312]  INFO {org.wso2.carbon.event.input.adapter.core.internal.InputAdapterRuntime} - Connecting receiver recommendationWso2EventReceiver
+TID: [-1234] [] [2023-01-12 15:50:29,313]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - Producer added to the junction. Stream:org.wso2.apimgt.recommendation.event.stream:1.0.0
+TID: [-1234] [] [2023-01-12 15:50:29,313]  INFO {org.wso2.carbon.event.receiver.core.EventReceiverDeployer} - Event Receiver configuration successfully deployed and in active state: recommendationWso2EventReceiver
+TID: [-1234] [] [2023-01-12 15:50:29,320]  INFO {org.wso2.carbon.event.input.adapter.core.internal.InputAdapterRuntime} - Connecting receiver throttleEventReceiver
+TID: [-1234] [] [2023-01-12 15:50:29,322]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - Producer added to the junction. Stream:org.wso2.throttle.request.stream:1.0.0
+TID: [-1234] [] [2023-01-12 15:50:29,322]  INFO {org.wso2.carbon.event.receiver.core.EventReceiverDeployer} - Event Receiver configuration successfully deployed and in active state: throttleEventReceiver
+TID: [-1234] [] [2023-01-12 15:50:29,324]  INFO {org.wso2.carbon.event.input.adapter.core.internal.InputAdapterRuntime} - Connecting receiver throttleWSO2EventReceiver
+TID: [-1234] [] [2023-01-12 15:50:29,324]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - Producer added to the junction. Stream:org.wso2.throttle.request.stream:1.0.0
+TID: [-1234] [] [2023-01-12 15:50:29,325]  INFO {org.wso2.carbon.event.receiver.core.EventReceiverDeployer} - Event Receiver configuration successfully deployed and in active state: throttleWSO2EventReceiver
+TID: [-1234] [] [2023-01-12 15:50:29,327]  INFO {org.wso2.carbon.event.input.adapter.core.internal.InputAdapterRuntime} - Connecting receiver tokenRevocationWso2EventReceiver
+TID: [-1234] [] [2023-01-12 15:50:29,328]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - Producer added to the junction. Stream:org.wso2.apimgt.token.revocation.stream:1.0.0
+TID: [-1234] [] [2023-01-12 15:50:29,328]  INFO {org.wso2.carbon.event.receiver.core.EventReceiverDeployer} - Event Receiver configuration successfully deployed and in active state: tokenRevocationWso2EventReceiver
+TID: [-1234] [] [2023-01-12 15:50:29,601]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - Producer added to the junction. Stream:org.wso2.throttle.processed.request.stream:1.0.0
+TID: [-1234] [] [2023-01-12 15:50:29,602]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - Consumer added to the junction. Stream:org.wso2.throttle.request.stream:1.0.0
+TID: [-1234] [] [2023-01-12 15:50:29,603]  INFO {org.wso2.carbon.event.processor.core.EventProcessorDeployer} - Execution plan is deployed successfully and in active state  : requestPreProcessorExecutionPlan
+TID: [-1234] [] [2023-01-12 15:50:29,697]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - Producer added to the junction. Stream:org.wso2.throttle.globalThrottle.stream:1.0.0
+TID: [-1234] [] [2023-01-12 15:50:29,699]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - Consumer added to the junction. Stream:org.wso2.throttle.processed.request.stream:1.0.0
+TID: [-1234] [] [2023-01-12 15:50:29,699]  INFO {org.wso2.carbon.event.processor.core.EventProcessorDeployer} - Execution plan is deployed successfully and in active state  : carbon.super_app_10PerMin
+TID: [-1234] [] [2023-01-12 15:50:29,755]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - Producer added to the junction. Stream:org.wso2.throttle.globalThrottle.stream:1.0.0
+TID: [-1234] [] [2023-01-12 15:50:29,756]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - Consumer added to the junction. Stream:org.wso2.throttle.processed.request.stream:1.0.0
+TID: [-1234] [] [2023-01-12 15:50:29,757]  INFO {org.wso2.carbon.event.processor.core.EventProcessorDeployer} - Execution plan is deployed successfully and in active state  : carbon.super_app_20PerMin
+TID: [-1234] [] [2023-01-12 15:50:29,817]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - Producer added to the junction. Stream:org.wso2.throttle.globalThrottle.stream:1.0.0
+TID: [-1234] [] [2023-01-12 15:50:29,817]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - Consumer added to the junction. Stream:org.wso2.throttle.processed.request.stream:1.0.0
+TID: [-1234] [] [2023-01-12 15:50:29,818]  INFO {org.wso2.carbon.event.processor.core.EventProcessorDeployer} - Execution plan is deployed successfully and in active state  : carbon.super_app_50PerMin
+TID: [-1234] [] [2023-01-12 15:50:29,874]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - Producer added to the junction. Stream:org.wso2.throttle.globalThrottle.stream:1.0.0
+TID: [-1234] [] [2023-01-12 15:50:29,875]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - Consumer added to the junction. Stream:org.wso2.throttle.processed.request.stream:1.0.0
+TID: [-1234] [] [2023-01-12 15:50:29,876]  INFO {org.wso2.carbon.event.processor.core.EventProcessorDeployer} - Execution plan is deployed successfully and in active state  : carbon.super_resource_10KPerMin_default
+TID: [-1234] [] [2023-01-12 15:50:29,932]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - Producer added to the junction. Stream:org.wso2.throttle.globalThrottle.stream:1.0.0
+TID: [-1234] [] [2023-01-12 15:50:29,933]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - Consumer added to the junction. Stream:org.wso2.throttle.processed.request.stream:1.0.0
+TID: [-1234] [] [2023-01-12 15:50:29,933]  INFO {org.wso2.carbon.event.processor.core.EventProcessorDeployer} - Execution plan is deployed successfully and in active state  : carbon.super_resource_20KPerMin_default
+TID: [-1234] [] [2023-01-12 15:50:29,989]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - Producer added to the junction. Stream:org.wso2.throttle.globalThrottle.stream:1.0.0
+TID: [-1234] [] [2023-01-12 15:50:29,990]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - Consumer added to the junction. Stream:org.wso2.throttle.processed.request.stream:1.0.0
+TID: [-1234] [] [2023-01-12 15:50:29,991]  INFO {org.wso2.carbon.event.processor.core.EventProcessorDeployer} - Execution plan is deployed successfully and in active state  : carbon.super_resource_50KPerMin_default
+TID: [-1234] [] [2023-01-12 15:50:30,046]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - Producer added to the junction. Stream:org.wso2.throttle.globalThrottle.stream:1.0.0
+TID: [-1234] [] [2023-01-12 15:50:30,047]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - Consumer added to the junction. Stream:org.wso2.throttle.processed.request.stream:1.0.0
+TID: [-1234] [] [2023-01-12 15:50:30,047]  INFO {org.wso2.carbon.event.processor.core.EventProcessorDeployer} - Execution plan is deployed successfully and in active state  : carbon.super_sub_Bronze
+TID: [-1234] [] [2023-01-12 15:50:30,107]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - Producer added to the junction. Stream:org.wso2.throttle.globalThrottle.stream:1.0.0
+TID: [-1234] [] [2023-01-12 15:50:30,108]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - Consumer added to the junction. Stream:org.wso2.throttle.processed.request.stream:1.0.0
+TID: [-1234] [] [2023-01-12 15:50:30,109]  INFO {org.wso2.carbon.event.processor.core.EventProcessorDeployer} - Execution plan is deployed successfully and in active state  : carbon.super_sub_Gold
+TID: [-1234] [] [2023-01-12 15:50:30,231]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - Producer added to the junction. Stream:org.wso2.throttle.globalThrottle.stream:1.0.0
+TID: [-1234] [] [2023-01-12 15:50:30,232]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - Consumer added to the junction. Stream:org.wso2.throttle.processed.request.stream:1.0.0
+TID: [-1234] [] [2023-01-12 15:50:30,232]  INFO {org.wso2.carbon.event.processor.core.EventProcessorDeployer} - Execution plan is deployed successfully and in active state  : carbon.super_sub_Silver
+TID: [-1234] [] [2023-01-12 15:50:30,289]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - Producer added to the junction. Stream:org.wso2.throttle.globalThrottle.stream:1.0.0
+TID: [-1234] [] [2023-01-12 15:50:30,290]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - Consumer added to the junction. Stream:org.wso2.throttle.processed.request.stream:1.0.0
+TID: [-1234] [] [2023-01-12 15:50:30,290]  INFO {org.wso2.carbon.event.processor.core.EventProcessorDeployer} - Execution plan is deployed successfully and in active state  : carbon.super_sub_Unauthenticated
+TID: [-1234] [accountrecoveryendpoint] [2023-01-12 15:50:34,617]  INFO {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer} - Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/accountrecoveryendpoint].File[/home/ubuntu/wso2am-3.2.0/repository/deployment/server/webapps/accountrecoveryendpoint]
+TID: [-1234] [am#sample#calculator#v1] [2023-01-12 15:50:36,135]  INFO {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer} - Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/am/sample/calculator/v1].File[/home/ubuntu/wso2am-3.2.0/repository/deployment/server/webapps/am#sample#calculator#v1.war]
+TID: [-1234] [am#sample#pizzashack#v1] [2023-01-12 15:50:37,258]  INFO {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer} - Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/am/sample/pizzashack/v1].File[/home/ubuntu/wso2am-3.2.0/repository/deployment/server/webapps/am#sample#pizzashack#v1.war]
+TID: [-1234] [api#am#admin#v0.17] [2023-01-12 15:50:39,227]  INFO {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer} - Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/api/am/admin/v0.17].File[/home/ubuntu/wso2am-3.2.0/repository/deployment/server/webapps/api#am#admin#v0.17.war]
+TID: [-1234] [api#am#admin] [2023-01-12 15:50:40,856]  INFO {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer} - Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/api/am/admin].File[/home/ubuntu/wso2am-3.2.0/repository/deployment/server/webapps/api#am#admin.war]
+TID: [-1234] [api#am#gateway] [2023-01-12 15:50:42,324]  INFO {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer} - Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/api/am/gateway].File[/home/ubuntu/wso2am-3.2.0/repository/deployment/server/webapps/api#am#gateway.war]
+TID: [-1234] [api#am#publisher] [2023-01-12 15:50:44,118]  INFO {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer} - Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/api/am/publisher].File[/home/ubuntu/wso2am-3.2.0/repository/deployment/server/webapps/api#am#publisher.war]
+TID: [-1234] [api#am#store] [2023-01-12 15:50:45,673]  INFO {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer} - Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/api/am/store].File[/home/ubuntu/wso2am-3.2.0/repository/deployment/server/webapps/api#am#store.war]
+TID: [-1234] [api#identity#consent-mgt#v1.0] [2023-01-12 15:50:46,749]  INFO {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer} - Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/api/identity/consent-mgt/v1.0].File[/home/ubuntu/wso2am-3.2.0/repository/deployment/server/webapps/api#identity#consent-mgt#v1.0.war]
+TID: [-1234] [api#identity#oauth2#dcr#v1.1] [2023-01-12 15:50:47,831]  INFO {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer} - Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/api/identity/oauth2/dcr/v1.1].File[/home/ubuntu/wso2am-3.2.0/repository/deployment/server/webapps/api#identity#oauth2#dcr#v1.1.war]
+TID: [-1234] [api#identity#oauth2#v1.0] [2023-01-12 15:50:48,833]  INFO {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer} - Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/api/identity/oauth2/v1.0].File[/home/ubuntu/wso2am-3.2.0/repository/deployment/server/webapps/api#identity#oauth2#v1.0.war]
+TID: [-1234] [api#identity#recovery#v0.9] [2023-01-12 15:50:49,931]  INFO {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer} - Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/api/identity/recovery/v0.9].File[/home/ubuntu/wso2am-3.2.0/repository/deployment/server/webapps/api#identity#recovery#v0.9.war]
+TID: [-1234] [api#identity#user#v1.0] [2023-01-12 15:50:51,019]  INFO {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer} - Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/api/identity/user/v1.0].File[/home/ubuntu/wso2am-3.2.0/repository/deployment/server/webapps/api#identity#user#v1.0.war]
+TID: [-1234] [authenticationendpoint] [2023-01-12 15:50:51,297]  INFO {org.wso2.carbon.identity.application.authentication.endpoint.util.TenantDataManager} - EndpointConfig.properties file loaded from ./repository/conf/identity/EndpointConfig.properties
+TID: [-1234] [authenticationendpoint] [2023-01-12 15:50:51,300]  INFO {org.wso2.carbon.identity.application.authentication.endpoint.util.MutualSSLManager} - EndpointConfig.properties file loaded from ./repository/conf/identity/EndpointConfig.properties
+TID: [-1234] [authenticationendpoint] [2023-01-12 15:50:51,423]  INFO {org.wso2.carbon.identity.application.authentication.endpoint.util.EndpointConfigManager} - EndpointConfig.properties file loaded from ./repository/conf/identity/EndpointConfig.properties
+TID: [-1234] [authenticationendpoint] [2023-01-12 15:50:54,778]  INFO {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer} - Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/authenticationendpoint].File[/home/ubuntu/wso2am-3.2.0/repository/deployment/server/webapps/authenticationendpoint]
+TID: [-1234] [client-registration#v0.17] [2023-01-12 15:50:56,042]  INFO {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer} - Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/client-registration/v0.17].File[/home/ubuntu/wso2am-3.2.0/repository/deployment/server/webapps/client-registration#v0.17.war]
+TID: [-1234] [internal#data#v1] [2023-01-12 15:50:57,215]  INFO {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer} - Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/internal/data/v1].File[/home/ubuntu/wso2am-3.2.0/repository/deployment/server/webapps/internal#data#v1.war]
+TID: [-1234] [keymanager-operations] [2023-01-12 15:50:58,240]  INFO {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer} - Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/keymanager-operations].File[/home/ubuntu/wso2am-3.2.0/repository/deployment/server/webapps/keymanager-operations.war]
+TID: [-1234] [oauth2] [2023-01-12 15:51:00,048]  INFO {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer} - Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/oauth2].File[/home/ubuntu/wso2am-3.2.0/repository/deployment/server/webapps/oauth2.war]
+TID: [-1] [] [2023-01-12 15:51:01,062]  INFO {org.wso2.carbon.event.processor.manager.core.internal.CarbonEventManagementService} - Starting polling event receivers
+TID: [-1234] [] [2023-01-12 15:51:01,550]  INFO {org.apache.synapse.Axis2SynapseController} - Deploying the Synapse service...
+TID: [-1234] [] [2023-01-12 15:51:01,551]  INFO {org.apache.synapse.Axis2SynapseController} - Deploying Proxy services...
+TID: [-1234] [] [2023-01-12 15:51:01,554]  INFO {org.apache.synapse.core.axis2.ProxyService} - {proxy:WorkflowCallbackService} Building Axis service for Proxy service : WorkflowCallbackService
+TID: [-1234] [] [2023-01-12 15:51:01,562]  INFO {org.apache.synapse.core.axis2.ProxyService} - {proxy:WorkflowCallbackService} Adding service WorkflowCallbackService to the Axis2 configuration
+TID: [-1234] [WorkflowCallbackService] [2023-01-12 15:51:01,564]  INFO {org.wso2.carbon.core.deployment.DeploymentInterceptor} - Deploying Axis2 service: WorkflowCallbackService {super-tenant}
+TID: [-1234] [] [2023-01-12 15:51:01,564]  INFO {org.apache.synapse.core.axis2.ProxyService} - {proxy:WorkflowCallbackService} Successfully created the Axis2 service for Proxy service : WorkflowCallbackService
+TID: [-1234] [] [2023-01-12 15:51:01,565]  INFO {org.apache.synapse.Axis2SynapseController} - Deployed Proxy service : WorkflowCallbackService
+TID: [-1234] [] [2023-01-12 15:51:01,565]  INFO {org.apache.synapse.Axis2SynapseController} - Deploying EventSources...
+TID: [-1234] [] [2023-01-12 15:51:01,616]  INFO {org.apache.synapse.inbound.InboundEndpoint} - Initializing Inbound Endpoint: WebSocketInboundEndpoint
+TID: [-1234] [] [2023-01-12 15:51:02,157]  INFO {org.wso2.carbon.inbound.endpoint.protocol.websocket.management.WebsocketEndpointManager} - Netty Listener starting on port 9099
+TID: [-1234] [] [2023-01-12 15:51:02,158]  INFO {org.apache.synapse.inbound.InboundEndpoint} - Initializing Inbound Endpoint: SecureWebSocketEP
+TID: [-1234] [] [2023-01-12 15:51:02,199]  INFO {org.wso2.carbon.inbound.endpoint.protocol.websocket.management.WebsocketEndpointManager} - Netty SSL Listener starting on port 8099
+TID: [-1234] [] [2023-01-12 15:51:02,201]  INFO {org.apache.synapse.rest.API} - {api:_WSO2AMOpenIDConfigAPI_} Initializing API: _WSO2AMOpenIDConfigAPI_
+TID: [-1234] [] [2023-01-12 15:51:02,201]  INFO {org.apache.synapse.rest.API} - {api:_WSO2AMAuthorizeAPI_} Initializing API: _WSO2AMAuthorizeAPI_
+TID: [-1234] [] [2023-01-12 15:51:02,202]  INFO {org.apache.synapse.rest.API} - {api:_WSO2AMUserInfoAPI_} Initializing API: _WSO2AMUserInfoAPI_
+TID: [-1234] [] [2023-01-12 15:51:02,202]  INFO {org.apache.synapse.rest.API} - {api:_OpenService_} Initializing API: _OpenService_
+TID: [-1234] [] [2023-01-12 15:51:02,203]  INFO {org.apache.synapse.rest.API} - {api:_WSO2AMRevokeAPI_} Initializing API: _WSO2AMRevokeAPI_
+TID: [-1234] [] [2023-01-12 15:51:02,203]  INFO {org.apache.synapse.rest.API} - {api:_WSO2AMTokenAPI_} Initializing API: _WSO2AMTokenAPI_
+TID: [-1234] [] [2023-01-12 15:51:02,204]  INFO {org.apache.synapse.ServerManager} - Server ready for processing...
+TID: [-1234] [] [2023-01-12 15:51:03,179]  INFO {org.wso2.carbon.apimgt.jms.listener.utils.JMSConnectionFactory} - JMS ConnectionFactory : Siddhi-JMS-Consumer initialized
+TID: [-1234] [] [2023-01-12 15:51:03,180]  INFO {org.wso2.carbon.apimgt.jms.listener.utils.JMSConnectionFactory} - JMS ConnectionFactory : Siddhi-JMS-Consumer initialized
+TID: [-1234] [] [2023-01-12 15:51:03,415]  INFO {org.wso2.carbon.inbound.endpoint.protocol.websocket.management.WebsocketEndpointManager} - Netty Listener already started on port 8099
+TID: [-1234] [] [2023-01-12 15:51:03,415]  INFO {org.wso2.carbon.inbound.endpoint.protocol.websocket.management.WebsocketEndpointManager} - Netty Listener already started on port 9099
+TID: [-1] [] [2023-01-12 15:51:03,670]  INFO {org.wso2.carbon.databridge.core.DataBridge} - user admin connected
+TID: [-1234] [] [2023-01-12 15:51:03,691]  INFO {org.wso2.carbon.andes.internal.QpidServiceComponent} - Activating Andes Message Broker Engine...
+TID: [-1234] [] [2023-01-12 15:51:04,534]  INFO {qpid.message.broker.listening} - [Broker] BRK-1002 : Starting : Listening on TCP port 5672
+TID: [-1234] [] [2023-01-12 15:51:04,546]  INFO {qpid.message.broker.listening} - [Broker] BRK-1002 : Starting : Listening on TCP/SSL port 8672
+TID: [-1234] [] [2023-01-12 15:51:04,565]  INFO {org.wso2.carbon.andes.internal.QpidServiceComponent} - AMQP Host Address : 0.0.0.0 Port : 5672
+TID: [-1234] [] [2023-01-12 15:51:04,566]  INFO {org.wso2.carbon.andes.internal.QpidServiceComponent} - Successfully connected to AMQP server on port 5672
+TID: [-1234] [] [2023-01-12 15:51:04,567]  WARN {org.wso2.carbon.andes.internal.QpidServiceComponent} - MQTT Transport is disabled as per configuration.
+TID: [-1234] [] [2023-01-12 15:51:04,569]  INFO {org.wso2.carbon.andes.internal.QpidServiceComponent} - WSO2 Message Broker is started.
+TID: [-1234] [] [2023-01-12 15:51:05,050]  INFO {org.wso2.carbon.databridge.receiver.thrift.internal.ThriftServerStartupObserver} -  Thrift Data Receiver is disabled.
+TID: [-1234] [] [2023-01-12 15:51:05,059]  INFO {org.apache.synapse.transport.passthru.PassThroughHttpListener} - Starting Pass-through HTTP Listener...
+TID: [-1234] [] [2023-01-12 15:51:05,098]  INFO {org.apache.synapse.transport.passthru.core.PassThroughListeningIOReactorManager} - Pass-through HTTP Listener started on 0.0.0.0:8280
+TID: [-1234] [] [2023-01-12 15:51:05,102]  INFO {org.apache.synapse.transport.passthru.PassThroughHttpMultiSSLListener} - Starting Pass-through HTTPS Listener...
+TID: [-1234] [] [2023-01-12 15:51:05,122]  INFO {org.apache.synapse.transport.passthru.core.PassThroughListeningIOReactorManager} - Pass-through HTTPS Listener started on 0.0.0.0:8243
+TID: [-1234] [] [2023-01-12 15:51:05,301]  WARN {org.apache.tomcat.util.net.SSLUtilBase} - jsseUtil.trustedCertNotValid
+TID: [-1234] [] [2023-01-12 15:51:05,302]  WARN {org.apache.tomcat.util.net.SSLUtilBase} - jsseUtil.trustedCertNotValid
+TID: [-1234] [] [2023-01-12 15:51:05,302]  WARN {org.apache.tomcat.util.net.SSLUtilBase} - jsseUtil.trustedCertNotValid
+TID: [-1234] [] [2023-01-12 15:51:05,303]  WARN {org.apache.tomcat.util.net.SSLUtilBase} - jsseUtil.trustedCertNotValid
+TID: [-1234] [] [2023-01-12 15:51:05,303]  WARN {org.apache.tomcat.util.net.SSLUtilBase} - jsseUtil.trustedCertNotValid
+TID: [-1234] [] [2023-01-12 15:51:05,304]  WARN {org.apache.tomcat.util.net.SSLUtilBase} - jsseUtil.trustedCertNotValid
+TID: [-1234] [] [2023-01-12 15:51:05,304]  WARN {org.apache.tomcat.util.net.SSLUtilBase} - jsseUtil.trustedCertNotValid
+TID: [-1234] [] [2023-01-12 15:51:05,305]  WARN {org.apache.tomcat.util.net.SSLUtilBase} - jsseUtil.trustedCertNotValid
+TID: [-1234] [] [2023-01-12 15:51:05,306]  WARN {org.apache.tomcat.util.net.SSLUtilBase} - jsseUtil.trustedCertNotValid
+TID: [-1234] [] [2023-01-12 15:51:05,306]  WARN {org.apache.tomcat.util.net.SSLUtilBase} - jsseUtil.trustedCertNotValid
+TID: [-1234] [] [2023-01-12 15:51:05,307]  WARN {org.apache.tomcat.util.net.SSLUtilBase} - jsseUtil.trustedCertNotValid
+TID: [-1234] [] [2023-01-12 15:51:05,307]  WARN {org.apache.tomcat.util.net.SSLUtilBase} - jsseUtil.trustedCertNotValid
+TID: [-1234] [] [2023-01-12 15:51:05,308]  WARN {org.apache.tomcat.util.net.SSLUtilBase} - jsseUtil.trustedCertNotValid
+TID: [-1234] [] [2023-01-12 15:51:05,308]  WARN {org.apache.tomcat.util.net.SSLUtilBase} - jsseUtil.trustedCertNotValid
+TID: [-1234] [] [2023-01-12 15:51:05,308]  WARN {org.apache.tomcat.util.net.SSLUtilBase} - jsseUtil.trustedCertNotValid
+TID: [-1234] [] [2023-01-12 15:51:05,476]  INFO {org.wso2.carbon.ntask.core.service.impl.TaskServiceImpl} - Task service starting in STANDALONE mode...
+TID: [-1234] [] [2023-01-12 15:51:05,523]  INFO {org.wso2.carbon.registry.eventing.internal.RegistryEventingServiceComponent} - Successfully Initialized Eventing on Registry
+TID: [-1234] [] [2023-01-12 15:51:05,730]  INFO {org.wso2.carbon.core.init.JMXServerManager} - JMX Service URL  : service:jmx:rmi://localhost:11111/jndi/rmi://localhost:9999/jmxrmi
+TID: [-1234] [] [2023-01-12 15:51:05,893]  INFO {org.wso2.carbon.apimgt.jms.listener.utils.JMSTransportHandler} - Starting jms topic consumer thread for the keyManager topic...
+TID: [-1234] [] [2023-01-12 15:51:05,961]  INFO {org.wso2.carbon.apimgt.jms.listener.utils.JMSTransportHandler} - Starting jms topic consumer thread for the throttleData topic...
+TID: [-1234] [] [2023-01-12 15:51:05,992]  INFO {org.wso2.carbon.apimgt.jms.listener.utils.JMSTransportHandler} - Starting jms topic consumer thread for the tokenRevocation topic...
+TID: [-1234] [] [2023-01-12 15:51:06,024]  INFO {org.wso2.carbon.apimgt.jms.listener.utils.JMSTransportHandler} - Starting jms topic consumer thread for the cacheInvalidation topic...
+TID: [-1234] [] [2023-01-12 15:51:06,040]  INFO {org.wso2.carbon.apimgt.jms.listener.utils.JMSTransportHandler} - Starting jms topic consumer thread for the notification topic...
+TID: [-1234] [] [2023-01-12 15:51:06,053]  INFO {org.wso2.carbon.core.internal.StartupFinalizerServiceComponent} - Server           :  0CodeAPI Manager-3.2.0
+TID: [-1234] [] [2023-01-12 15:51:06,129]  INFO {org.wso2.carbon.core.internal.StartupFinalizerServiceComponent} - WSO2 Carbon started in 86 sec
+TID: [-1] [] [2023-01-12 15:51:07,040]  INFO {org.wso2.callhome.CallHomeExecutor} - 
+...............................................................................
+There are 833 updates available for the product 'wso2am-3.2.0'.[WARNING] There
+are 123 critical security updates for the product 'wso2am-3.2.0'. WSO2 strongly
+recommends to apply these updates in production as soon as possible.
+...............................................................................
+TID: [-1] [] [2023-01-12 15:51:07,611]  INFO {org.wso2.carbon.apimgt.jms.listener.utils.JMSListener} - Connection attempt: 1 for JMS Provider for listener: Siddhi-JMS-Consumer#notification was successful!
+TID: [-1] [] [2023-01-12 15:51:07,611]  INFO {org.wso2.carbon.apimgt.jms.listener.utils.JMSListener} - Connection attempt: 1 for JMS Provider for listener: Siddhi-JMS-Consumer#cacheInvalidation was successful!
+TID: [-1] [] [2023-01-12 15:51:07,615]  INFO {org.wso2.carbon.apimgt.jms.listener.utils.JMSListener} - Connection attempt: 1 for JMS Provider for listener: Siddhi-JMS-Consumer#tokenRevocation was successful!
+TID: [-1] [] [2023-01-12 15:51:07,614]  INFO {org.wso2.carbon.apimgt.jms.listener.utils.JMSListener} - Connection attempt: 1 for JMS Provider for listener: Siddhi-JMS-Consumer#keyManager was successful!
+TID: [-1] [] [2023-01-12 15:51:07,625]  INFO {org.wso2.carbon.apimgt.jms.listener.utils.JMSListener} - Connection attempt: 1 for JMS Provider for listener: Siddhi-JMS-Consumer#throttleData was successful!
+TID: [-1] [] [2023-01-12 15:51:07,633]  INFO {org.wso2.carbon.apimgt.jms.listener.utils.JMSTaskManager} - Task manager for Siddhi-JMS-Consumer [re-]initialized
+TID: [-1] [] [2023-01-12 15:51:07,641]  INFO {org.wso2.carbon.apimgt.jms.listener.utils.JMSTaskManager} - Task manager for Siddhi-JMS-Consumer [re-]initialized
+TID: [-1] [] [2023-01-12 15:51:07,649]  INFO {org.wso2.carbon.apimgt.jms.listener.utils.JMSTaskManager} - Task manager for Siddhi-JMS-Consumer [re-]initialized
+TID: [-1] [] [2023-01-12 15:51:07,655]  INFO {org.wso2.carbon.apimgt.jms.listener.utils.JMSTaskManager} - Task manager for Siddhi-JMS-Consumer [re-]initialized
+TID: [-1] [] [2023-01-12 15:51:07,662]  INFO {org.wso2.carbon.apimgt.jms.listener.utils.JMSTaskManager} - Task manager for Siddhi-JMS-Consumer [re-]initialized
+TID: [-1] [] [2023-01-12 15:51:07,990]  WARN {org.wso2.carbon.apimgt.jms.listener.utils.JMSUtils} - Cannot locate destination : tokenRevocation
+TID: [-1] [] [2023-01-12 15:51:07,991]  WARN {org.wso2.carbon.apimgt.jms.listener.utils.JMSUtils} - Cannot locate destination : keyManager
+TID: [-1] [] [2023-01-12 15:51:07,991]  WARN {org.wso2.carbon.apimgt.jms.listener.utils.JMSUtils} - Cannot locate destination : notification
+TID: [-1] [] [2023-01-12 15:51:07,992]  WARN {org.wso2.carbon.apimgt.jms.listener.utils.JMSUtils} - Cannot locate destination : cacheInvalidation
+TID: [-1] [] [2023-01-12 15:51:08,039]  WARN {org.wso2.carbon.apimgt.jms.listener.utils.JMSUtils} - Cannot locate destination : throttleData
+TID: [-1234] [] [2023-01-12 15:51:08,691]  INFO {org.wso2.carbon.ui.internal.CarbonUIServiceComponent} - Mgt Console URL  : https://alphav1.zerocodeapi.com:9443/carbon/
+TID: [-1234] [] [2023-01-12 15:51:08,692]  INFO {org.wso2.carbon.ui.internal.CarbonUIServiceComponent} - API Developer Portal Default Context : https://alphav1.zerocodeapi.com:9443/devportal
+TID: [-1234] [] [2023-01-12 15:51:08,692]  INFO {org.wso2.carbon.ui.internal.CarbonUIServiceComponent} - API Publisher Default Context : https://alphav1.zerocodeapi.com:9443/publisher
+TID: [-1234] [internal/data/v1] [2023-01-12 15:51:08,908]  INFO {org.wso2.carbon.identity.oauth.config.OAuthServerConfiguration} - An instance of org.wso2.carbon.identity.oauth2.token.OauthTokenIssuerImpl is created for Identity OAuth token generation.
+TID: [-1] [] [2023-01-12 15:51:09,634]  INFO {org.wso2.carbon.apimgt.jms.listener.utils.JMSListener} - Started to listen on destination : notification of type topic for listener Siddhi-JMS-Consumer#notification
+TID: [-1] [] [2023-01-12 15:51:09,642]  INFO {org.wso2.carbon.apimgt.jms.listener.utils.JMSListener} - Started to listen on destination : throttleData of type topic for listener Siddhi-JMS-Consumer#throttleData
+TID: [-1] [] [2023-01-12 15:51:09,650]  INFO {org.wso2.carbon.apimgt.jms.listener.utils.JMSListener} - Started to listen on destination : keyManager of type topic for listener Siddhi-JMS-Consumer#keyManager
+TID: [-1] [] [2023-01-12 15:51:09,656]  INFO {org.wso2.carbon.apimgt.jms.listener.utils.JMSListener} - Started to listen on destination : cacheInvalidation of type topic for listener Siddhi-JMS-Consumer#cacheInvalidation
+TID: [-1] [] [2023-01-12 15:51:09,665]  INFO {org.wso2.carbon.apimgt.jms.listener.utils.JMSListener} - Started to listen on destination : tokenRevocation of type topic for listener Siddhi-JMS-Consumer#tokenRevocation
+TID: [-1234] [] [2023-01-12 16:05:58,192]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} - 'admin@carbon.super [-1234]' logged in at [2023-01-12 16:05:58,192+0000]
+TID: [-1234] [api/am/admin] [2023-01-12 16:08:02,086]  WARN {org.wso2.carbon.apimgt.rest.api.admin.v1.impl.TenantInfoApiServiceImpl} - Could not decode the username. Using original username
+TID: [-1234] [api/am/admin] [2023-01-12 16:08:15,238]  WARN {org.wso2.carbon.apimgt.rest.api.admin.v1.utils.mappings.SystemScopesMappingUtil} - The scope openid does not exist in tenant.conf
+TID: [-1234] [api/am/admin] [2023-01-12 16:08:15,240]  WARN {org.wso2.carbon.apimgt.rest.api.admin.v1.utils.mappings.SystemScopesMappingUtil} - The scope apim:external_services_discover does not exist in tenant.conf
+TID: [-1234] [api/am/admin] [2023-01-12 16:08:36,331]  WARN {org.wso2.carbon.apimgt.rest.api.admin.v1.impl.TenantInfoApiServiceImpl} - Could not decode the username. Using original username
+TID: [-1234] [] [2023-01-12 16:11:08,526]  INFO {org.wso2.carbon.registry.core.internal.RegistryCoreServiceComponent} - Tenant 1 is not initialized correctly. Hence initializing the tenant registry
+TID: [-1234] [] [2023-01-12 16:11:08,560]  INFO {org.wso2.carbon.registry.core.jdbc.EmbeddedRegistryService} - Connected to mount at configregistry in 0ms
+TID: [-1234] [] [2023-01-12 16:11:08,561]  INFO {org.wso2.carbon.registry.core.jdbc.EmbeddedRegistryService} - Connected to mount at govregistry in 1ms
+TID: [-1234] [] [2023-01-12 16:11:08,575]  INFO {org.wso2.carbon.registry.core.jdbc.EmbeddedRegistryService} - Connected to mount at configregistry in 0ms
+TID: [-1234] [] [2023-01-12 16:11:08,576]  INFO {org.wso2.carbon.registry.core.jdbc.EmbeddedRegistryService} - Connected to mount at govregistry in 1ms
+TID: [1] [] [2023-01-12 16:11:08,868]  INFO {org.wso2.carbon.identity.entitlement.policy.finder.CarbonPolicyFinder} - Initializing of policy store is started at :  Thu Jan 12 16:11:08 UTC 2023
+TID: [1] [] [2023-01-12 16:11:08,878]  INFO {org.wso2.carbon.identity.entitlement.policy.store.DefaultPolicyDataStore} - Using Global policy combining algorithm that is defined in configuration file.
+TID: [1] [] [2023-01-12 16:11:08,879]  INFO {org.wso2.carbon.identity.entitlement.policy.finder.CarbonPolicyFinder} - Start retrieving policies from org.wso2.carbon.identity.entitlement.policy.store.RegistryPolicyStoreManageModule@458dfa9e at : Thu Jan 12 16:11:08 UTC 2023
+TID: [1] [] [2023-01-12 16:11:08,882]  INFO {org.wso2.carbon.identity.entitlement.policy.finder.CarbonPolicyFinder} - Finish retrieving policies from org.wso2.carbon.identity.entitlement.policy.store.RegistryPolicyStoreManageModule@458dfa9e at : Thu Jan 12 16:11:08 UTC 2023
+TID: [1] [] [2023-01-12 16:11:08,882]  INFO {org.wso2.carbon.identity.entitlement.policy.finder.CarbonPolicyFinder} - Initializing of policy store is finished at :  Thu Jan 12 16:11:08 UTC 2023
+TID: [1] [] [2023-01-12 16:11:08,896]  INFO {org.wso2.carbon.identity.entitlement.policy.finder.CarbonPolicyFinder} - Initializing of policy store is started at :  Thu Jan 12 16:11:08 UTC 2023
+TID: [1] [] [2023-01-12 16:11:08,897]  INFO {org.wso2.carbon.identity.entitlement.policy.store.DefaultPolicyDataStore} - Using Global policy combining algorithm that is defined in configuration file.
+TID: [1] [] [2023-01-12 16:11:08,898]  INFO {org.wso2.carbon.identity.entitlement.policy.finder.CarbonPolicyFinder} - Start retrieving policies from org.wso2.carbon.identity.entitlement.policy.store.RegistryPolicyStoreManageModule@458dfa9e at : Thu Jan 12 16:11:08 UTC 2023
+TID: [1] [] [2023-01-12 16:11:08,899]  INFO {org.wso2.carbon.identity.entitlement.policy.finder.CarbonPolicyFinder} - Finish retrieving policies from org.wso2.carbon.identity.entitlement.policy.store.RegistryPolicyStoreManageModule@458dfa9e at : Thu Jan 12 16:11:08 UTC 2023
+TID: [1] [] [2023-01-12 16:11:08,900]  INFO {org.wso2.carbon.identity.entitlement.policy.finder.CarbonPolicyFinder} - Initializing of policy store is finished at :  Thu Jan 12 16:11:08 UTC 2023
+TID: [-1234] [] [2023-01-12 16:11:10,069]  INFO {org.wso2.carbon.tenant.mgt.services.TenantMgtAdminService} - Added the tenant 'ashwinpro.com [1]' by 'admin'
+TID: [-1234] [api/am/admin] [2023-01-12 16:11:17,331]  WARN {org.wso2.carbon.apimgt.rest.api.admin.v1.impl.TenantInfoApiServiceImpl} - Could not decode the username. Using original username
+TID: [-1234] [api/am/admin] [2023-01-12 16:11:27,805]  WARN {org.wso2.carbon.apimgt.rest.api.admin.v1.impl.TenantInfoApiServiceImpl} - Could not decode the username. Using original username
+TID: [-1234] [api/am/admin] [2023-01-12 16:23:11,883]  WARN {org.wso2.carbon.apimgt.rest.api.admin.v1.impl.TenantInfoApiServiceImpl} - Could not decode the username. Using original username
+TID: [-1234] [api/am/admin] [2023-01-12 16:23:16,278]  WARN {org.wso2.carbon.apimgt.rest.api.admin.v1.utils.mappings.SystemScopesMappingUtil} - The scope openid does not exist in tenant.conf
+TID: [-1234] [api/am/admin] [2023-01-12 16:23:16,280]  WARN {org.wso2.carbon.apimgt.rest.api.admin.v1.utils.mappings.SystemScopesMappingUtil} - The scope apim:external_services_discover does not exist in tenant.conf
+TID: [-1234] [api/am/admin] [2023-01-12 16:35:59,010]  WARN {org.wso2.carbon.apimgt.rest.api.admin.v1.utils.mappings.SystemScopesMappingUtil} - The scope openid does not exist in tenant.conf
+TID: [-1234] [api/am/admin] [2023-01-12 16:35:59,018]  WARN {org.wso2.carbon.apimgt.rest.api.admin.v1.utils.mappings.SystemScopesMappingUtil} - The scope apim:external_services_discover does not exist in tenant.conf
+TID: [-1234] [api/am/admin] [2023-01-12 16:57:50,191]  WARN {org.wso2.carbon.apimgt.rest.api.admin.v1.impl.TenantInfoApiServiceImpl} - Could not decode the username. Using original username
+TID: [-1234] [api/am/publisher] [2023-01-12 17:02:23,454] ERROR {io.swagger.parser.util.RemoteUrl} - unable to read java.net.ConnectException: Connection refused (Connection refused)
+	at java.base/java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:412)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:255)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:237)
+	at java.base/java.net.Socket.connect(Socket.java:609)
+	at java.base/java.net.Socket.connect(Socket.java:558)
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:182)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:507)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:602)
+	at java.base/sun.net.www.http.HttpClient.<init>(HttpClient.java:275)
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:374)
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:395)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1253)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1187)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1081)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:1015)
+	at io.swagger.parser.util.RemoteUrl.urlToString(RemoteUrl.java:134)
+	at io.swagger.parser.util.RefUtils.readExternalRef(RefUtils.java:135)
+	at io.swagger.parser.ResolverCache.loadRef(ResolverCache.java:119)
+	at io.swagger.parser.processors.PathsProcessor.processPaths(PathsProcessor.java:80)
+	at io.swagger.parser.SwaggerResolver.resolve(SwaggerResolver.java:66)
+	at io.swagger.parser.SwaggerParser.readWithInfo(SwaggerParser.java:121)
+	at io.swagger.parser.SwaggerParser.readWithInfo(SwaggerParser.java:98)
+	at org.wso2.carbon.apimgt.impl.definitions.OAS2Parser.validateAPIDefinition_aroundBody28(OAS2Parser.java:613)
+	at org.wso2.carbon.apimgt.impl.definitions.OAS2Parser.validateAPIDefinition(OAS2Parser.java:609)
+	at org.wso2.carbon.apimgt.impl.definitions.OASParserUtil.tryOAS2Validation_aroundBody50(OASParserUtil.java:793)
+	at org.wso2.carbon.apimgt.impl.definitions.OASParserUtil.tryOAS2Validation(OASParserUtil.java:790)
+	at org.wso2.carbon.apimgt.impl.definitions.OASParserUtil.validateAPIDefinition_aroundBody48(OASParserUtil.java:775)
+	at org.wso2.carbon.apimgt.impl.definitions.OASParserUtil.validateAPIDefinition(OASParserUtil.java:768)
+	at org.wso2.carbon.apimgt.impl.definitions.OASParserUtil.validateAPIDefinitionByURL_aroundBody58(OASParserUtil.java:895)
+	at org.wso2.carbon.apimgt.impl.definitions.OASParserUtil.validateAPIDefinitionByURL(OASParserUtil.java:883)
+	at org.wso2.carbon.apimgt.rest.api.publisher.v1.impl.ApisApiServiceImpl.validateOpenAPIDefinition(ApisApiServiceImpl.java:4297)
+	at org.wso2.carbon.apimgt.rest.api.publisher.v1.impl.ApisApiServiceImpl.validateOpenAPIDefinition(ApisApiServiceImpl.java:3463)
+	at org.wso2.carbon.apimgt.rest.api.publisher.v1.ApisApi.validateOpenAPIDefinition(ApisApi.java:1243)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.apache.cxf.service.invoker.AbstractInvoker.performInvocation(AbstractInvoker.java:179)
+	at org.apache.cxf.service.invoker.AbstractInvoker.invoke(AbstractInvoker.java:96)
+	at org.apache.cxf.jaxrs.JAXRSInvoker.invoke(JAXRSInvoker.java:193)
+	at org.apache.cxf.jaxrs.JAXRSInvoker.invoke(JAXRSInvoker.java:103)
+	at org.apache.cxf.interceptor.ServiceInvokerInterceptor$1.run(ServiceInvokerInterceptor.java:59)
+	at org.apache.cxf.interceptor.ServiceInvokerInterceptor.handleMessage(ServiceInvokerInterceptor.java:96)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:308)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:267)
+	at org.apache.cxf.transport.servlet.ServletController.invokeDestination(ServletController.java:234)
+	at org.apache.cxf.transport.servlet.ServletController.invoke(ServletController.java:208)
+	at org.apache.cxf.transport.servlet.ServletController.invoke(ServletController.java:160)
+	at org.apache.cxf.transport.servlet.CXFNonSpringServlet.invoke(CXFNonSpringServlet.java:216)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.handleRequest(AbstractHTTPServlet.java:301)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.doPost(AbstractHTTPServlet.java:220)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.service(AbstractHTTPServlet.java:276)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.wso2.carbon.identity.context.rewrite.valve.TenantContextRewriteValve.invoke(TenantContextRewriteValve.java:86)
+	at org.wso2.carbon.identity.authz.valve.AuthorizationValve.invoke(AuthorizationValve.java:110)
+	at org.wso2.carbon.identity.auth.valve.AuthenticationValve.invoke(AuthenticationValve.java:75)
+	at org.wso2.carbon.tomcat.ext.valves.CompositeValve.continueInvocation(CompositeValve.java:99)
+	at org.wso2.carbon.tomcat.ext.valves.TomcatValveContainer.invokeValves(TomcatValveContainer.java:49)
+	at org.wso2.carbon.tomcat.ext.valves.CompositeValve.invoke(CompositeValve.java:62)
+	at org.wso2.carbon.tomcat.ext.valves.CarbonStuckThreadDetectionValve.invoke(CarbonStuckThreadDetectionValve.java:145)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:688)
+	at org.wso2.carbon.tomcat.ext.valves.CarbonContextCreatorValve.invoke(CarbonContextCreatorValve.java:57)
+	at org.wso2.carbon.tomcat.ext.valves.RequestCorrelationIdValve.invoke(RequestCorrelationIdValve.java:119)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1639)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+TID: [-1234] [api/am/publisher] [2023-01-12 17:02:29,304] ERROR {io.swagger.parser.util.RemoteUrl} - unable to read java.net.ConnectException: Connection refused (Connection refused)
+	at java.base/java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:412)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:255)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:237)
+	at java.base/java.net.Socket.connect(Socket.java:609)
+	at java.base/java.net.Socket.connect(Socket.java:558)
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:182)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:507)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:602)
+	at java.base/sun.net.www.http.HttpClient.<init>(HttpClient.java:275)
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:374)
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:395)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1253)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1187)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1081)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:1015)
+	at io.swagger.parser.util.RemoteUrl.urlToString(RemoteUrl.java:134)
+	at io.swagger.parser.util.RefUtils.readExternalRef(RefUtils.java:135)
+	at io.swagger.parser.ResolverCache.loadRef(ResolverCache.java:119)
+	at io.swagger.parser.processors.PathsProcessor.processPaths(PathsProcessor.java:80)
+	at io.swagger.parser.SwaggerResolver.resolve(SwaggerResolver.java:66)
+	at io.swagger.parser.SwaggerParser.readWithInfo(SwaggerParser.java:121)
+	at io.swagger.parser.SwaggerParser.readWithInfo(SwaggerParser.java:98)
+	at org.wso2.carbon.apimgt.impl.definitions.OAS2Parser.validateAPIDefinition_aroundBody28(OAS2Parser.java:613)
+	at org.wso2.carbon.apimgt.impl.definitions.OAS2Parser.validateAPIDefinition(OAS2Parser.java:609)
+	at org.wso2.carbon.apimgt.impl.definitions.OASParserUtil.tryOAS2Validation_aroundBody50(OASParserUtil.java:793)
+	at org.wso2.carbon.apimgt.impl.definitions.OASParserUtil.tryOAS2Validation(OASParserUtil.java:790)
+	at org.wso2.carbon.apimgt.impl.definitions.OASParserUtil.validateAPIDefinition_aroundBody48(OASParserUtil.java:775)
+	at org.wso2.carbon.apimgt.impl.definitions.OASParserUtil.validateAPIDefinition(OASParserUtil.java:768)
+	at org.wso2.carbon.apimgt.impl.definitions.OASParserUtil.validateAPIDefinitionByURL_aroundBody58(OASParserUtil.java:895)
+	at org.wso2.carbon.apimgt.impl.definitions.OASParserUtil.validateAPIDefinitionByURL(OASParserUtil.java:883)
+	at org.wso2.carbon.apimgt.rest.api.publisher.v1.impl.ApisApiServiceImpl.validateOpenAPIDefinition(ApisApiServiceImpl.java:4297)
+	at org.wso2.carbon.apimgt.rest.api.publisher.v1.impl.ApisApiServiceImpl.validateOpenAPIDefinition(ApisApiServiceImpl.java:3463)
+	at org.wso2.carbon.apimgt.rest.api.publisher.v1.ApisApi.validateOpenAPIDefinition(ApisApi.java:1243)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.apache.cxf.service.invoker.AbstractInvoker.performInvocation(AbstractInvoker.java:179)
+	at org.apache.cxf.service.invoker.AbstractInvoker.invoke(AbstractInvoker.java:96)
+	at org.apache.cxf.jaxrs.JAXRSInvoker.invoke(JAXRSInvoker.java:193)
+	at org.apache.cxf.jaxrs.JAXRSInvoker.invoke(JAXRSInvoker.java:103)
+	at org.apache.cxf.interceptor.ServiceInvokerInterceptor$1.run(ServiceInvokerInterceptor.java:59)
+	at org.apache.cxf.interceptor.ServiceInvokerInterceptor.handleMessage(ServiceInvokerInterceptor.java:96)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:308)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:267)
+	at org.apache.cxf.transport.servlet.ServletController.invokeDestination(ServletController.java:234)
+	at org.apache.cxf.transport.servlet.ServletController.invoke(ServletController.java:208)
+	at org.apache.cxf.transport.servlet.ServletController.invoke(ServletController.java:160)
+	at org.apache.cxf.transport.servlet.CXFNonSpringServlet.invoke(CXFNonSpringServlet.java:216)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.handleRequest(AbstractHTTPServlet.java:301)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.doPost(AbstractHTTPServlet.java:220)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.service(AbstractHTTPServlet.java:276)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.wso2.carbon.identity.context.rewrite.valve.TenantContextRewriteValve.invoke(TenantContextRewriteValve.java:86)
+	at org.wso2.carbon.identity.authz.valve.AuthorizationValve.invoke(AuthorizationValve.java:110)
+	at org.wso2.carbon.identity.auth.valve.AuthenticationValve.invoke(AuthenticationValve.java:75)
+	at org.wso2.carbon.tomcat.ext.valves.CompositeValve.continueInvocation(CompositeValve.java:99)
+	at org.wso2.carbon.tomcat.ext.valves.TomcatValveContainer.invokeValves(TomcatValveContainer.java:49)
+	at org.wso2.carbon.tomcat.ext.valves.CompositeValve.invoke(CompositeValve.java:62)
+	at org.wso2.carbon.tomcat.ext.valves.CarbonStuckThreadDetectionValve.invoke(CarbonStuckThreadDetectionValve.java:145)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:688)
+	at org.wso2.carbon.tomcat.ext.valves.CarbonContextCreatorValve.invoke(CarbonContextCreatorValve.java:57)
+	at org.wso2.carbon.tomcat.ext.valves.RequestCorrelationIdValve.invoke(RequestCorrelationIdValve.java:119)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1639)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+TID: [-1234] [api/am/publisher] [2023-01-12 17:03:47,680] ERROR {org.wso2.carbon.apimgt.rest.api.publisher.v1.impl.ApisApiServiceImpl} - Context cannot end with '/' character
+TID: [-1] [] [2023-01-12 17:04:04,960]  INFO {org.wso2.carbon.databridge.core.DataBridge} - user admin connected
+TID: [-1234] [] [2023-01-12 17:04:05,283]  INFO {org.wso2.carbon.event.output.adapter.jms.internal.util.JMSConnectionFactory} - JMS ConnectionFactory : notificationJMSPublisher initialized
+TID: [-1234] [AuthenticationAdmin] [2023-01-12 17:04:18,139]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} - 'admin@carbon.super [-1234]' logged in at [2023-01-12 17:04:18,139+0000]
+TID: [-1234] [APIGatewayAdmin] [2023-01-12 17:04:18,232]  INFO {org.wso2.carbon.mediation.dependency.mgt.DependencyTracker} - Local entry : ga-config-key was added to the Synapse configuration successfully
+TID: [-1234] [APIGatewayAdmin] [2023-01-12 17:04:18,235]  INFO {org.wso2.carbon.mediation.dependency.mgt.DependencyTracker} - Local entry : b8b46728-a41f-4a90-9dc6-12ecef36f92b was added to the Synapse configuration successfully
+TID: [-1234] [APIGatewayAdmin] [2023-01-12 17:04:18,244]  INFO {org.wso2.carbon.mediation.dependency.mgt.DependencyTracker} - Endpoint : CompaniesHouseIdentityService--v1.0_APIproductionEndpoint was added to the Synapse configuration successfully
+TID: [-1234] [APIGatewayAdmin] [2023-01-12 17:04:18,246]  INFO {org.wso2.carbon.mediation.dependency.mgt.DependencyTracker} - Endpoint : CompaniesHouseIdentityService--v1.0_APIsandboxEndpoint was added to the Synapse configuration successfully
+TID: [-1234] [APIGatewayAdmin] [2023-01-12 17:04:18,519]  INFO {org.wso2.carbon.mediation.dependency.mgt.DependencyTracker} - API : admin--CompaniesHouseIdentityService:v1.0 was added to the Synapse configuration successfully
+TID: [-1234] [APIGatewayAdmin] [2023-01-12 17:04:18,522]  INFO {org.apache.synapse.rest.API} - {api:admin--CompaniesHouseIdentityService:v1.0} Initializing API: admin--CompaniesHouseIdentityService:v1.0
+TID: [-1234] [AuthenticationAdmin] [2023-01-12 17:04:18,819]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} - 'admin@carbon.super [-1234]' logged in at [2023-01-12 17:04:18,819+0000]
+TID: [-1234] [AuthenticationAdmin] [2023-01-12 17:04:19,615]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} - 'admin@carbon.super [-1234]' logged in at [2023-01-12 17:04:19,615+0000]
+TID: [-1234] [AuthenticationAdmin] [2023-01-12 17:04:19,782]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} - 'admin@carbon.super [-1234]' logged in at [2023-01-12 17:04:19,782+0000]
+TID: [-1234] [AuthenticationAdmin] [2023-01-12 17:04:19,944]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} - 'admin@carbon.super [-1234]' logged in at [2023-01-12 17:04:19,944+0000]
+TID: [-1234] [APIGatewayAdmin] [2023-01-12 17:04:19,963]  INFO {org.apache.synapse.rest.API} - {api:admin--CompaniesHouseIdentityService:v1.0} Destroying API: admin--CompaniesHouseIdentityService:v1.0
+TID: [-1234] [APIGatewayAdmin] [2023-01-12 17:04:19,970]  INFO {org.wso2.carbon.mediation.dependency.mgt.DependencyTracker} - API : admin--CompaniesHouseIdentityService:v1.0 was removed from the Synapse configuration successfully
+TID: [-1234] [APIGatewayAdmin] [2023-01-12 17:04:19,971]  INFO {org.wso2.carbon.mediation.dependency.mgt.DependencyTracker} - Local entry : b8b46728-a41f-4a90-9dc6-12ecef36f92b was removed from the Synapse configuration successfully
+TID: [-1234] [APIGatewayAdmin] [2023-01-12 17:04:19,972]  INFO {org.wso2.carbon.mediation.dependency.mgt.DependencyTracker} - Local entry : b8b46728-a41f-4a90-9dc6-12ecef36f92b was added to the Synapse configuration successfully
+TID: [-1234] [APIGatewayAdmin] [2023-01-12 17:04:19,974]  INFO {org.wso2.carbon.mediation.dependency.mgt.DependencyTracker} - Endpoint : CompaniesHouseIdentityService--v1.0_APIproductionEndpoint was added to the Synapse configuration successfully
+TID: [-1234] [APIGatewayAdmin] [2023-01-12 17:04:19,976]  INFO {org.wso2.carbon.mediation.dependency.mgt.DependencyTracker} - Endpoint : CompaniesHouseIdentityService--v1.0_APIsandboxEndpoint was added to the Synapse configuration successfully
+TID: [-1234] [APIGatewayAdmin] [2023-01-12 17:04:20,019]  INFO {org.wso2.carbon.mediation.dependency.mgt.DependencyTracker} - API : admin--CompaniesHouseIdentityService:v1.0 was added to the Synapse configuration successfully
+TID: [-1234] [APIGatewayAdmin] [2023-01-12 17:04:20,020]  INFO {org.apache.synapse.rest.API} - {api:admin--CompaniesHouseIdentityService:v1.0} Initializing API: admin--CompaniesHouseIdentityService:v1.0
+TID: [-1234] [AuthenticationAdmin] [2023-01-12 17:04:20,059]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} - 'admin@carbon.super [-1234]' logged in at [2023-01-12 17:04:20,059+0000]
+TID: [-1234] [] [2023-01-12 17:04:20,195]  INFO {org.wso2.carbon.event.output.adapter.jms.internal.util.JMSConnectionFactory} - JMS ConnectionFactory : cacheInvalidationJMSPublisher initialized
+TID: [-1234] [] [2023-01-12 17:04:34,680] ERROR {org.wso2.carbon.identity.oidc.session.servlet.OIDCSessionIFrameServlet} - Invalid request. redirect_uri is not matched with the regex that is configured in the service provider, client_id : ffcxeZlTtBMjZQjv9XcgafEB_Sga org.wso2.carbon.identity.oidc.session.OIDCSessionManagerException: Invalid request. redirect_uri is not matched with the regex that is configured in the service provider, client_id : ffcxeZlTtBMjZQjv9XcgafEB_Sga
+	at org.wso2.carbon.identity.oidc.session.servlet.OIDCSessionIFrameServlet.getCallbackURL(OIDCSessionIFrameServlet.java:137)
+	at org.wso2.carbon.identity.oidc.session.servlet.OIDCSessionIFrameServlet.doGet(OIDCSessionIFrameServlet.java:82)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.eclipse.equinox.http.helper.ContextPathServletAdaptor.service(ContextPathServletAdaptor.java:37)
+	at org.eclipse.equinox.http.servlet.internal.ServletRegistration.service(ServletRegistration.java:61)
+	at org.eclipse.equinox.http.servlet.internal.ProxyServlet.processAlias(ProxyServlet.java:128)
+	at org.eclipse.equinox.http.servlet.internal.ProxyServlet.service(ProxyServlet.java:60)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.wso2.carbon.tomcat.ext.servlet.DelegationServlet.service(DelegationServlet.java:68)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.owasp.csrfguard.CsrfGuardFilter.doFilter(CsrfGuardFilter.java:72)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.wso2.carbon.tomcat.ext.filter.CharacterSetFilter.doFilter(CharacterSetFilter.java:65)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.filters.HttpHeaderSecurityFilter.doFilter(HttpHeaderSecurityFilter.java:126)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.wso2.carbon.identity.context.rewrite.valve.TenantContextRewriteValve.invoke(TenantContextRewriteValve.java:86)
+	at org.wso2.carbon.identity.authz.valve.AuthorizationValve.invoke(AuthorizationValve.java:110)
+	at org.wso2.carbon.identity.auth.valve.AuthenticationValve.invoke(AuthenticationValve.java:75)
+	at org.wso2.carbon.tomcat.ext.valves.CompositeValve.continueInvocation(CompositeValve.java:99)
+	at org.wso2.carbon.tomcat.ext.valves.TomcatValveContainer.invokeValves(TomcatValveContainer.java:49)
+	at org.wso2.carbon.tomcat.ext.valves.CompositeValve.invoke(CompositeValve.java:62)
+	at org.wso2.carbon.tomcat.ext.valves.CarbonStuckThreadDetectionValve.invoke(CarbonStuckThreadDetectionValve.java:145)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:688)
+	at org.wso2.carbon.tomcat.ext.valves.CarbonContextCreatorValve.invoke(CarbonContextCreatorValve.java:57)
+	at org.wso2.carbon.tomcat.ext.valves.RequestCorrelationIdValve.invoke(RequestCorrelationIdValve.java:119)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1639)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+TID: [-1234] [api/am/admin] [2023-01-12 17:17:59,678]  WARN {org.wso2.carbon.apimgt.rest.api.admin.v1.impl.TenantInfoApiServiceImpl} - Could not decode the username. Using original username
+TID: [-1234] [api/am/admin] [2023-01-12 17:18:49,358]  WARN {org.wso2.carbon.apimgt.rest.api.admin.v1.utils.mappings.SystemScopesMappingUtil} - The scope openid does not exist in tenant.conf
+TID: [-1234] [api/am/admin] [2023-01-12 17:18:49,360]  WARN {org.wso2.carbon.apimgt.rest.api.admin.v1.utils.mappings.SystemScopesMappingUtil} - The scope apim:external_services_discover does not exist in tenant.conf
+TID: [-1234] [] [2023-01-12 17:45:21,265]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} - 'admin@carbon.super [-1234]' logged in at [2023-01-12 17:45:21,264+0000]
+TID: [-1234] [admin] [2023-01-12 20:32:10,769]  WARN {JAGGERY.services.refresh.refresh:jag} - Something went wrong while refreshing the token
+TID: [-1234] [admin] [2023-01-12 20:32:10,770] ERROR {JAGGERY.services.refresh.refresh:jag} - {}
+TID: [-1234] [api/am/admin] [2023-01-12 20:32:10,936] ERROR {org.wso2.carbon.apimgt.rest.api.util.impl.WebAppAuthenticatorImpl} - Invalid OAuth Token : Invalid Access Token. ACTIVE access token is not found.
+TID: [-1234] [api/am/admin] [2023-01-12 20:32:10,952] ERROR {org.wso2.carbon.apimgt.rest.api.util.impl.WebAppAuthenticatorImpl} - Provided access token is invalid
+TID: [-1234] [admin] [2023-01-12 20:32:10,956]  WARN {JAGGERY.services.refresh.refresh:jag} - Something went wrong while refreshing the token
+TID: [-1234] [admin] [2023-01-12 20:32:10,956] ERROR {JAGGERY.services.refresh.refresh:jag} - {}
+TID: [-1234] [api/am/admin] [2023-01-12 20:32:10,985] ERROR {org.wso2.carbon.apimgt.rest.api.util.impl.WebAppAuthenticatorImpl} - Provided access token is invalid
+TID: [-1] [] [2023-01-12 21:50:26,903]  INFO {org.wso2.carbon.identity.application.authentication.framework.store.SessionCleanUpService} - Session Data cleanup task is running successfully for removing expired Data
+TID: [-1] [] [2023-01-12 23:02:13,581] ERROR {org.wso2.carbon.inbound.endpoint.protocol.websocket.InboundWebsocketSourceHandler} - Endpoint not found for port : 8099 tenant domain : null
+TID: [-1] [] [2023-01-12 23:02:39,853] ERROR {org.wso2.andes.transport.network.mina.MinaNetworkHandler} - Exception caught by Mina java.io.IOException: Connection reset by peer
+	at java.base/sun.nio.ch.FileDispatcherImpl.read0(Native Method)
+	at java.base/sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:39)
+	at java.base/sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:276)
+	at java.base/sun.nio.ch.IOUtil.read(IOUtil.java:245)
+	at java.base/sun.nio.ch.IOUtil.read(IOUtil.java:223)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:356)
+	at org.wso2.org.apache.mina.transport.socket.nio.SocketIoProcessor.read(SocketIoProcessor.java:218)
+	at org.wso2.org.apache.mina.transport.socket.nio.SocketIoProcessor.process(SocketIoProcessor.java:198)
+	at org.wso2.org.apache.mina.transport.socket.nio.SocketIoProcessor.access$400(SocketIoProcessor.java:45)
+	at org.wso2.org.apache.mina.transport.socket.nio.SocketIoProcessor$Worker.run(SocketIoProcessor.java:485)
+	at org.wso2.org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:51)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+TID: [-1] [] [2023-01-12 23:02:39,856] ERROR {org.wso2.andes.server.protocol.MultiVersionProtocolEngine} - Error establishing session java.io.IOException: Connection reset by peer
+	at java.base/sun.nio.ch.FileDispatcherImpl.read0(Native Method)
+	at java.base/sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:39)
+	at java.base/sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:276)
+	at java.base/sun.nio.ch.IOUtil.read(IOUtil.java:245)
+	at java.base/sun.nio.ch.IOUtil.read(IOUtil.java:223)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:356)
+	at org.wso2.org.apache.mina.transport.socket.nio.SocketIoProcessor.read(SocketIoProcessor.java:218)
+	at org.wso2.org.apache.mina.transport.socket.nio.SocketIoProcessor.process(SocketIoProcessor.java:198)
+	at org.wso2.org.apache.mina.transport.socket.nio.SocketIoProcessor.access$400(SocketIoProcessor.java:45)
+	at org.wso2.org.apache.mina.transport.socket.nio.SocketIoProcessor$Worker.run(SocketIoProcessor.java:485)
+	at org.wso2.org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:51)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
